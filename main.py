@@ -31,22 +31,41 @@ MODEL_DIR = PROJECT_ROOT / 'models'
 
 
 def cmd_collect(args):
-    """Collect data from NBA API."""
-    from scrapers.nba_api_fetcher import NBADataFetcher
-    
+    """Collect data from NBA API or Basketball Reference."""
     logger.info(f"Collecting data for seasons: {args.seasons}")
-    
-    fetcher = NBADataFetcher(data_dir=str(RAW_DATA_DIR))
-    
-    if args.test:
-        # Test with just a few games
-        logger.info("Running in test mode - fetching limited data")
-        df = fetcher.fetch_season_data(args.seasons[0])
-        logger.info(f"Test collection complete: {len(df)} games")
+    logger.info(f"Source: {args.source}")
+
+    if args.source == 'bball_ref':
+        from scrapers.bball_ref_scraper import BasketballReferenceScraper
+
+        fetcher = BasketballReferenceScraper(
+            data_dir=str(RAW_DATA_DIR),
+            max_workers=args.workers,
+            requests_per_second=0.5
+        )
+
+        max_games = args.max_games if args.test else None
+
+        if args.test:
+            logger.info(f"Running in test mode - max {max_games} games")
+            df = fetcher.fetch_season_data(args.seasons[0], max_games=max_games)
+        else:
+            df = fetcher.fetch_multiple_seasons(args.seasons)
+
+        logger.info(f"Collection complete: {len(df)} games")
     else:
-        df = fetcher.fetch_multiple_seasons(args.seasons)
-        logger.info(f"Collection complete: {len(df)} total games")
-    
+        from scrapers.nba_api_fetcher import NBADataFetcher
+
+        fetcher = NBADataFetcher(data_dir=str(RAW_DATA_DIR))
+
+        if args.test:
+            logger.info("Running in test mode - fetching limited data")
+            df = fetcher.fetch_season_data(args.seasons[0])
+        else:
+            df = fetcher.fetch_multiple_seasons(args.seasons)
+
+        logger.info(f"Collection complete: {len(df)} games")
+
     return df
 
 
@@ -308,12 +327,30 @@ def main():
     subparsers = parser.add_subparsers(dest='command', help='Command to run')
     
     # Collect command
-    collect_parser = subparsers.add_parser('collect', help='Collect data from NBA API')
+    collect_parser = subparsers.add_parser('collect', help='Collect data from NBA API or Basketball Reference')
     collect_parser.add_argument(
-        '--seasons', 
-        nargs='+', 
+        '--seasons',
+        nargs='+',
         default=['2021-22', '2022-23', '2023-24', '2024-25'],
         help='Seasons to collect (e.g., 2023-24)'
+    )
+    collect_parser.add_argument(
+        '--source',
+        choices=['nba_api', 'bball_ref'],
+        default='bball_ref',
+        help='Data source (default: bball_ref)'
+    )
+    collect_parser.add_argument(
+        '--workers',
+        type=int,
+        default=3,
+        help='Number of parallel workers for scraping (max 5)'
+    )
+    collect_parser.add_argument(
+        '--max-games',
+        type=int,
+        default=10,
+        help='Max games to scrape in test mode'
     )
     collect_parser.add_argument(
         '--test',
