@@ -38,10 +38,11 @@ def cmd_collect(args):
     if args.source == 'bball_ref':
         from scrapers.bball_ref_scraper import BasketballReferenceScraper
 
+        # Use conservative rate limiting to avoid getting blocked
         fetcher = BasketballReferenceScraper(
             data_dir=str(RAW_DATA_DIR),
             max_workers=args.workers,
-            requests_per_second=0.5
+            requests_per_second=0.2  # 1 request per 5 seconds base rate
         )
 
         max_games = args.max_games if args.test else None
@@ -343,8 +344,8 @@ def main():
     collect_parser.add_argument(
         '--workers',
         type=int,
-        default=3,
-        help='Number of parallel workers for scraping (max 5)'
+        default=2,
+        help='Number of parallel workers for scraping (max 5, lower is safer)'
     )
     collect_parser.add_argument(
         '--max-games',

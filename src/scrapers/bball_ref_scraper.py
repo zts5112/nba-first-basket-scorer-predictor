@@ -60,6 +60,10 @@ class BasketballReferenceScraper:
     - Schedule: https://www.basketball-reference.com/leagues/NBA_2024_games-october.html
     - Box score: https://www.basketball-reference.com/boxscores/202310240BOS.html
     - Play-by-play: https://www.basketball-reference.com/boxscores/pbp/202310240BOS.html
+
+    Features:
+    - Checkpointing: Saves progress every N games to allow resuming after failures
+    - Resume capability: Automatically skips already-scraped games on restart
     """
 
     BASE_URL = "https://www.basketball-reference.com"
@@ -75,12 +79,13 @@ class BasketballReferenceScraper:
               'march', 'april', 'may', 'june']
 
     def __init__(self, data_dir: str = "data/raw", max_workers: int = 5,
-                 requests_per_second: float = 1.0):
+                 requests_per_second: float = 1.0, checkpoint_interval: int = 25):
         """
         Args:
             data_dir: Directory to save raw data
             max_workers: Maximum parallel workers (keep <= 5 to be nice)
             requests_per_second: Rate limit for requests
+            checkpoint_interval: Save progress every N games
         """
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(parents=True, exist_ok=True)
@@ -88,6 +93,8 @@ class BasketballReferenceScraper:
         self.rate_limiter = RateLimiter(requests_per_second)
         self.session = self._create_session()
         self.request_semaphore = Semaphore(max_workers)
+        self.checkpoint_interval = checkpoint_interval
+        self.checkpoint_lock = Lock()
 
     def _create_session(self):
         """Create a session with appropriate headers, using cloudscraper if available."""
@@ -114,30 +121,98 @@ class BasketballReferenceScraper:
         })
         return session
 
-    def _make_request(self, url: str, retries: int = 3) -> Optional[str]:
-        """Make a rate-limited request with retries."""
+    def _get_checkpoint_path(self, season: str) -> Path:
+        """Get path for checkpoint file for a season."""
+        return self.data_dir / f"checkpoint_{season.replace('-', '_')}.parquet"
+
+    def _get_completed_games_path(self, season: str) -> Path:
+        """Get path for completed games list."""
+        return self.data_dir / f"completed_games_{season.replace('-', '_')}.txt"
+
+    def _load_completed_games(self, season: str) -> set:
+        """Load set of already-scraped game IDs."""
+        completed_path = self._get_completed_games_path(season)
+        if completed_path.exists():
+            with open(completed_path, 'r') as f:
+                return set(line.strip() for line in f if line.strip())
+        return set()
+
+    def _save_completed_game(self, season: str, game_id: str):
+        """Append a completed game ID to the tracking file."""
+        with self.checkpoint_lock:
+            completed_path = self._get_completed_games_path(season)
+            with open(completed_path, 'a') as f:
+                f.write(f"{game_id}\n")
+
+    def _save_checkpoint(self, season: str, results: List[Dict]):
+        """Save current results to checkpoint file."""
+        with self.checkpoint_lock:
+            if not results:
+                return
+            checkpoint_path = self._get_checkpoint_path(season)
+            df = pd.DataFrame(results)
+            df.to_parquet(checkpoint_path, index=False)
+            logger.info(f"Checkpoint saved: {len(results)} games to {checkpoint_path}")
+
+    def _load_checkpoint(self, season: str) -> List[Dict]:
+        """Load results from checkpoint file."""
+        checkpoint_path = self._get_checkpoint_path(season)
+        if checkpoint_path.exists():
+            df = pd.read_parquet(checkpoint_path)
+            logger.info(f"Loaded checkpoint: {len(df)} games from {checkpoint_path}")
+            return df.to_dict('records')
+        return []
+
+    def _finalize_season(self, season: str, results: List[Dict]) -> pd.DataFrame:
+        """Finalize season data - save final file and clean up checkpoints."""
+        df = pd.DataFrame(results)
+
+        if not df.empty:
+            # Save final output
+            output_path = self.data_dir / f"bball_ref_{season.replace('-', '_')}.parquet"
+            df.to_parquet(output_path, index=False)
+            logger.info(f"Saved final data: {len(df)} games to {output_path}")
+
+            # Clean up checkpoint files
+            checkpoint_path = self._get_checkpoint_path(season)
+            completed_path = self._get_completed_games_path(season)
+
+            if checkpoint_path.exists():
+                checkpoint_path.unlink()
+                logger.info(f"Removed checkpoint file: {checkpoint_path}")
+            if completed_path.exists():
+                completed_path.unlink()
+                logger.info(f"Removed completed games file: {completed_path}")
+
+        return df
+
+    def _make_request(self, url: str, retries: int = 5) -> Optional[str]:
+        """Make a rate-limited request with retries and exponential backoff."""
         for attempt in range(retries):
             try:
                 with self.request_semaphore:
                     self.rate_limiter.wait()
+                    # Add extra random delay to avoid detection
+                    time.sleep(random.uniform(1.0, 2.0))
                     response = self.session.get(url, timeout=30)
 
                     if response.status_code == 200:
                         return response.text
                     elif response.status_code == 429:
-                        # Rate limited - back off
-                        wait_time = (attempt + 1) * 30
-                        logger.warning(f"Rate limited, waiting {wait_time}s...")
+                        # Rate limited - exponential backoff
+                        wait_time = min(60 * (2 ** attempt), 300)  # Max 5 minutes
+                        logger.warning(f"Rate limited, waiting {wait_time}s (attempt {attempt + 1}/{retries})...")
                         time.sleep(wait_time)
                     elif response.status_code == 404:
                         logger.debug(f"Page not found: {url}")
                         return None
                     else:
                         logger.warning(f"HTTP {response.status_code} for {url}")
+                        time.sleep(10 * (attempt + 1))
 
             except requests.RequestException as e:
                 logger.warning(f"Request error (attempt {attempt + 1}): {e}")
-                time.sleep(5 * (attempt + 1))
+                time.sleep(10 * (attempt + 1))
 
         return None
 
@@ -520,31 +595,43 @@ class BasketballReferenceScraper:
 
         return result
 
-    def scrape_games_parallel(self, games: List[Dict],
+    def scrape_games_parallel(self, games: List[Dict], season: str,
                               progress_callback=None) -> List[Dict]:
         """
-        Scrape multiple games in parallel.
+        Scrape multiple games in parallel with checkpointing.
 
         Args:
             games: List of game info dicts
+            season: Season string for checkpoint naming
             progress_callback: Optional callback(completed, total) for progress
 
         Returns:
             List of successfully scraped game results
         """
-        results = []
+        # Load any existing checkpoint data
+        results = self._load_checkpoint(season)
+        completed_games = self._load_completed_games(season)
+
+        # Filter out already-completed games
+        remaining_games = [g for g in games if g['game_id'] not in completed_games]
+
+        if len(remaining_games) < len(games):
+            logger.info(f"Resuming: {len(games) - len(remaining_games)} games already completed, {len(remaining_games)} remaining")
+
         total = len(games)
-        completed = 0
+        completed = len(games) - len(remaining_games)
+        games_since_checkpoint = 0
 
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             future_to_game = {
                 executor.submit(self.scrape_game, game): game
-                for game in games
+                for game in remaining_games
             }
 
             for future in as_completed(future_to_game):
                 game = future_to_game[future]
                 completed += 1
+                games_since_checkpoint += 1
 
                 try:
                     result = future.result()
@@ -553,27 +640,51 @@ class BasketballReferenceScraper:
                         logger.info(f"[{completed}/{total}] Scraped {game['game_id']}")
                     else:
                         logger.debug(f"[{completed}/{total}] No data for {game['game_id']}")
+
+                    # Mark game as completed (even if no data - don't retry)
+                    self._save_completed_game(season, game['game_id'])
+
+                    # Checkpoint every N games
+                    if games_since_checkpoint >= self.checkpoint_interval:
+                        self._save_checkpoint(season, results)
+                        games_since_checkpoint = 0
+
                 except Exception as e:
                     logger.error(f"[{completed}/{total}] Error scraping {game['game_id']}: {e}")
+                    # Still mark as completed to avoid infinite retry loops
+                    self._save_completed_game(season, game['game_id'])
 
                 if progress_callback:
                     progress_callback(completed, total)
 
+        # Final checkpoint
+        if games_since_checkpoint > 0:
+            self._save_checkpoint(season, results)
+
         return results
 
     def fetch_season_data(self, season: str, save: bool = True,
-                          max_games: Optional[int] = None) -> pd.DataFrame:
+                          max_games: Optional[int] = None,
+                          resume: bool = True) -> pd.DataFrame:
         """
         Fetch all jump ball and first scorer data for a season.
+
+        Supports resuming from checkpoints if the scrape was interrupted.
 
         Args:
             season: Season string like "2023-24"
             save: Whether to save results to disk
             max_games: Optional limit on number of games (for testing)
+            resume: Whether to resume from checkpoint (default True)
 
         Returns:
             DataFrame with game data
         """
+        # Check for existing checkpoint
+        checkpoint_path = self._get_checkpoint_path(season)
+        if resume and checkpoint_path.exists():
+            logger.info(f"Found checkpoint for {season}, will resume from where we left off")
+
         logger.info(f"Fetching schedule for {season}...")
         schedule = self.get_season_schedule(season)
 
@@ -582,21 +693,22 @@ class BasketballReferenceScraper:
             return pd.DataFrame()
 
         games = schedule.to_dict('records')
+        total_games = len(games)
 
         if max_games:
             games = games[:max_games]
             logger.info(f"Limited to {max_games} games for testing")
 
-        logger.info(f"Scraping {len(games)} games with {self.max_workers} workers...")
-        results = self.scrape_games_parallel(games)
+        logger.info(f"Scraping {len(games)} games with {self.max_workers} workers (checkpointing every {self.checkpoint_interval} games)...")
+        results = self.scrape_games_parallel(games, season)
 
-        df = pd.DataFrame(results)
+        # Finalize - save final output and clean up checkpoints
+        if save and results:
+            df = self._finalize_season(season, results)
+        else:
+            df = pd.DataFrame(results)
 
-        if save and not df.empty:
-            output_path = self.data_dir / f"bball_ref_{season.replace('-', '_')}.parquet"
-            df.to_parquet(output_path, index=False)
-            logger.info(f"Saved {len(df)} games to {output_path}")
-
+        logger.info(f"Season {season} complete: {len(df)} games collected out of {total_games} total")
         return df
 
     def fetch_multiple_seasons(self, seasons: List[str],
