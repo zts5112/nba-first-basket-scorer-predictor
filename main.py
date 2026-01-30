@@ -36,22 +36,41 @@ def cmd_collect(args):
     logger.info(f"Source: {args.source}")
 
     if args.source == 'bball_ref':
-        from scrapers.bball_ref_scraper import BasketballReferenceScraper
-
-        # Use conservative rate limiting to avoid getting blocked
-        fetcher = BasketballReferenceScraper(
-            data_dir=str(RAW_DATA_DIR),
-            max_workers=args.workers,
-            requests_per_second=0.2  # 1 request per 5 seconds base rate
-        )
-
         max_games = args.max_games if args.test else None
 
-        if args.test:
-            logger.info(f"Running in test mode - max {max_games} games")
-            df = fetcher.fetch_season_data(args.seasons[0], max_games=max_games)
+        if args.use_selenium:
+            # Use Selenium with real Chrome browser
+            from scrapers.bball_ref_selenium import SeleniumBasketballReferenceScraper
+
+            logger.info("Using Selenium (real Chrome browser) for scraping")
+
+            with SeleniumBasketballReferenceScraper(
+                data_dir=str(RAW_DATA_DIR),
+                headless=not args.show_browser,
+                delay_between_requests=3.0,
+                checkpoint_interval=25
+            ) as fetcher:
+                if args.test:
+                    logger.info(f"Running in test mode - max {max_games} games")
+                    df = fetcher.fetch_season_data(args.seasons[0], max_games=max_games)
+                else:
+                    df = fetcher.fetch_multiple_seasons(args.seasons)
         else:
-            df = fetcher.fetch_multiple_seasons(args.seasons)
+            # Use requests-based scraper
+            from scrapers.bball_ref_scraper import BasketballReferenceScraper
+
+            fetcher = BasketballReferenceScraper(
+                data_dir=str(RAW_DATA_DIR),
+                max_workers=args.workers,
+                requests_per_second=0.2,
+                use_browser_cookies=args.use_cookies
+            )
+
+            if args.test:
+                logger.info(f"Running in test mode - max {max_games} games")
+                df = fetcher.fetch_season_data(args.seasons[0], max_games=max_games)
+            else:
+                df = fetcher.fetch_multiple_seasons(args.seasons)
 
         logger.info(f"Collection complete: {len(df)} games")
     else:
@@ -358,7 +377,22 @@ def main():
         action='store_true',
         help='Run in test mode with limited data'
     )
-    
+    collect_parser.add_argument(
+        '--use-cookies',
+        action='store_true',
+        help='Use browser cookies to bypass rate limits (requires visiting basketball-reference.com first)'
+    )
+    collect_parser.add_argument(
+        '--use-selenium',
+        action='store_true',
+        help='Use Selenium with real Chrome browser (recommended for bypassing rate limits)'
+    )
+    collect_parser.add_argument(
+        '--show-browser',
+        action='store_true',
+        help='Show the Chrome browser window (only with --use-selenium, useful for debugging)'
+    )
+
     # Process command
     subparsers.add_parser('process', help='Process raw data into features')
     

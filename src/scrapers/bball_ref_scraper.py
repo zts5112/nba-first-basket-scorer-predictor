@@ -29,6 +29,12 @@ try:
 except ImportError:
     CLOUDSCRAPER_AVAILABLE = False
 
+try:
+    import browser_cookie3
+    BROWSER_COOKIES_AVAILABLE = True
+except ImportError:
+    BROWSER_COOKIES_AVAILABLE = False
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -79,18 +85,21 @@ class BasketballReferenceScraper:
               'march', 'april', 'may', 'june']
 
     def __init__(self, data_dir: str = "data/raw", max_workers: int = 5,
-                 requests_per_second: float = 1.0, checkpoint_interval: int = 25):
+                 requests_per_second: float = 1.0, checkpoint_interval: int = 25,
+                 use_browser_cookies: bool = False):
         """
         Args:
             data_dir: Directory to save raw data
             max_workers: Maximum parallel workers (keep <= 5 to be nice)
             requests_per_second: Rate limit for requests
             checkpoint_interval: Save progress every N games
+            use_browser_cookies: Use cookies from Chrome/Firefox to bypass rate limits
         """
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(parents=True, exist_ok=True)
         self.max_workers = min(max_workers, 5)  # Cap at 5 to be respectful
         self.rate_limiter = RateLimiter(requests_per_second)
+        self.use_browser_cookies = use_browser_cookies
         self.session = self._create_session()
         self.request_semaphore = Semaphore(max_workers)
         self.checkpoint_interval = checkpoint_interval
@@ -119,7 +128,58 @@ class BasketballReferenceScraper:
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
         })
+
+        # Load browser cookies if requested
+        if self.use_browser_cookies:
+            self._load_browser_cookies(session)
+
         return session
+
+    def _load_browser_cookies(self, session):
+        """Load cookies from Chrome or Firefox browser."""
+        if not BROWSER_COOKIES_AVAILABLE:
+            logger.warning("browser-cookie3 not installed. Run: pip install browser-cookie3")
+            return
+
+        cookies_loaded = False
+
+        # Try Chrome first
+        try:
+            chrome_cookies = browser_cookie3.chrome(domain_name='.basketball-reference.com')
+            session.cookies.update(chrome_cookies)
+            cookie_count = len([c for c in chrome_cookies if 'basketball-reference' in c.domain])
+            if cookie_count > 0:
+                logger.info(f"Loaded {cookie_count} cookies from Chrome")
+                cookies_loaded = True
+        except Exception as e:
+            logger.debug(f"Could not load Chrome cookies: {e}")
+
+        # Try Firefox if Chrome didn't work
+        if not cookies_loaded:
+            try:
+                firefox_cookies = browser_cookie3.firefox(domain_name='.basketball-reference.com')
+                session.cookies.update(firefox_cookies)
+                cookie_count = len([c for c in firefox_cookies if 'basketball-reference' in c.domain])
+                if cookie_count > 0:
+                    logger.info(f"Loaded {cookie_count} cookies from Firefox")
+                    cookies_loaded = True
+            except Exception as e:
+                logger.debug(f"Could not load Firefox cookies: {e}")
+
+        # Try Safari
+        if not cookies_loaded:
+            try:
+                safari_cookies = browser_cookie3.safari(domain_name='.basketball-reference.com')
+                session.cookies.update(safari_cookies)
+                cookie_count = len([c for c in safari_cookies if 'basketball-reference' in c.domain])
+                if cookie_count > 0:
+                    logger.info(f"Loaded {cookie_count} cookies from Safari")
+                    cookies_loaded = True
+            except Exception as e:
+                logger.debug(f"Could not load Safari cookies: {e}")
+
+        if not cookies_loaded:
+            logger.warning("Could not load cookies from any browser. Make sure you've visited basketball-reference.com recently.")
 
     def _get_checkpoint_path(self, season: str) -> Path:
         """Get path for checkpoint file for a season."""
