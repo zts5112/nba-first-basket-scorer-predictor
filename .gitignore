@@ -34,8 +34,9 @@ env/
 *~
 
 # Data files (large, regeneratable)
-data/raw/*.parquet
-data/processed/*.parquet
+data/raw/
+data/processed/
+data/player_stats/
 
 # Models (large, regeneratable)
 models/*.joblib
@@ -44,6 +45,10 @@ models/*.pkl
 # Logs
 *.log
 logs/
+scrape_log.txt
+
+# Scripts (local/personal)
+start_*.sh
 
 # OS
 .DS_Store
