@@ -19,7 +19,7 @@ from dataclasses import dataclass
 from collections import defaultdict
 
 # Import model classes so pickle can find them
-from src.data.train_models_v4 import JumpBallModelV4, PlayerFirstScorerModelV4
+from src.data.train_models_v6 import JumpBallModelV6, PlayerFirstScorerModelV6
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -117,9 +117,9 @@ class FirstScorerPredictor:
 
     def _load_models(self):
         """Load trained models."""
-        self.jb_model = joblib.load(self.model_dir / "jump_ball_model_v4.joblib")
-        self.player_model = joblib.load(self.model_dir / "player_first_scorer_model_v4.joblib")
-        logger.info("V4 models loaded successfully")
+        self.jb_model = joblib.load(self.model_dir / "jump_ball_model_v6.joblib")
+        self.player_model = joblib.load(self.model_dir / "player_first_scorer_model_v6.joblib")
+        logger.info("V6 models (XGBoost, no is_jb bias) loaded successfully")
 
     def _load_tokenizers(self):
         """Load player and team tokenizers."""
@@ -456,7 +456,7 @@ class FirstScorerPredictor:
         features['home_jb_fs_rate'] = home_jb_fs_stats['fs_rate']
         features['away_jb_fs_rate'] = away_jb_fs_stats['fs_rate']
 
-        # Per-starter features (including NBA API stats for V4)
+        # Per-starter features (including NBA API stats for V5)
         for i, pid in enumerate(home_ids):
             prefix = f'home_{i}'
             features[f'{prefix}_token'] = self._encode_player(pid)
@@ -466,12 +466,16 @@ class FirstScorerPredictor:
             features[f'{prefix}_recent_fs_rate'] = stats['fs_rate']  # Approximate with overall
             features[f'{prefix}_is_jb'] = int(pid == home_jb_id)
 
-            # V4: NBA API stats
+            # API stats
             api_stats = self._get_player_api_stats(pid)
             features[f'{prefix}_ppg'] = api_stats['ppg']
             features[f'{prefix}_fg_pct'] = api_stats['fg_pct']
             features[f'{prefix}_fg3_pct'] = api_stats['fg3_pct']
             features[f'{prefix}_usage'] = api_stats['est_usage']
+
+            # V5: Composite features
+            features[f'{prefix}_ppg_x_fgpct'] = api_stats['ppg'] * api_stats['fg_pct'] / 100
+            features[f'{prefix}_ppg_x_usage'] = api_stats['ppg'] * api_stats['est_usage'] / 100
 
         for i, pid in enumerate(away_ids):
             prefix = f'away_{i}'
@@ -482,36 +486,44 @@ class FirstScorerPredictor:
             features[f'{prefix}_recent_fs_rate'] = stats['fs_rate']
             features[f'{prefix}_is_jb'] = int(pid == away_jb_id)
 
-            # V4: NBA API stats
+            # API stats
             api_stats = self._get_player_api_stats(pid)
             features[f'{prefix}_ppg'] = api_stats['ppg']
             features[f'{prefix}_fg_pct'] = api_stats['fg_pct']
             features[f'{prefix}_fg3_pct'] = api_stats['fg3_pct']
             features[f'{prefix}_usage'] = api_stats['est_usage']
 
+            # V5: Composite features
+            features[f'{prefix}_ppg_x_fgpct'] = api_stats['ppg'] * api_stats['fg_pct'] / 100
+            features[f'{prefix}_ppg_x_usage'] = api_stats['ppg'] * api_stats['est_usage'] / 100
+
         # Aggregates
         features['home_total_fs_rate'] = sum(features[f'home_{i}_fs_rate'] for i in range(5))
         features['away_total_fs_rate'] = sum(features[f'away_{i}_fs_rate'] for i in range(5))
 
-        # V4: PPG and FG% aggregates
+        # PPG and FG% aggregates
         features['home_total_ppg'] = sum(features[f'home_{i}_ppg'] for i in range(5))
         features['away_total_ppg'] = sum(features[f'away_{i}_ppg'] for i in range(5))
         features['home_avg_fg_pct'] = np.mean([features[f'home_{i}_fg_pct'] for i in range(5)])
         features['away_avg_fg_pct'] = np.mean([features[f'away_{i}_fg_pct'] for i in range(5)])
 
-        # V4: Best scorer by PPG
+        # Best scorer by PPG
         home_ppgs = [features[f'home_{i}_ppg'] for i in range(5)]
         away_ppgs = [features[f'away_{i}_ppg'] for i in range(5)]
         features['home_max_ppg'] = max(home_ppgs) if home_ppgs else 0.0
         features['away_max_ppg'] = max(away_ppgs) if away_ppgs else 0.0
 
-        # V4: JB player API stats
+        # JB player API stats
         home_jb_api = self._get_player_api_stats(home_jb_id)
         away_jb_api = self._get_player_api_stats(away_jb_id)
         features['home_jb_ppg'] = home_jb_api['ppg']
         features['away_jb_ppg'] = away_jb_api['ppg']
         features['home_jb_fg_pct'] = home_jb_api['fg_pct']
         features['away_jb_fg_pct'] = away_jb_api['fg_pct']
+
+        # V5: Team-level diffs
+        features['ppg_diff'] = features['home_total_ppg'] - features['away_total_ppg']
+        features['fg_pct_diff'] = features['home_avg_fg_pct'] - features['away_avg_fg_pct']
 
         return features
 
