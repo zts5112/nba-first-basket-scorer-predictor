@@ -204,9 +204,13 @@ def create_matchup_training_data(game_data):
 def cmd_predict(args):
     """Generate predictions for a game."""
     from models.first_scorer_model import FirstScorerPredictor
-    
+    from data.train_models_v6 import JumpBallModelV6, PlayerFirstScorerModelV6
+    import __main__
+    __main__.JumpBallModelV6 = JumpBallModelV6
+    __main__.PlayerFirstScorerModelV6 = PlayerFirstScorerModelV6
+
     logger.info(f"Generating predictions for {args.home} vs {args.away}")
-    
+
     predictor = FirstScorerPredictor()
     predictor.load(str(MODEL_DIR))
     
@@ -434,6 +438,13 @@ def _print_odds_table(away: str, home: str, odds: dict):
 
 def _run_prediction_with_odds(args, market_odds: dict):
     """Run prediction pipeline with live odds."""
+    # Models were pickled from __main__, so pickle looks for the classes there.
+    # Import them and inject into the current __main__ module.
+    from data.train_models_v6 import JumpBallModelV6, PlayerFirstScorerModelV6
+    import __main__
+    __main__.JumpBallModelV6 = JumpBallModelV6
+    __main__.PlayerFirstScorerModelV6 = PlayerFirstScorerModelV6
+
     from inference.predict import FirstScorerPredictor
     from betting.alternative_strategies import print_strategy_analysis
     from scrapers.player_name_matcher import PlayerNameMatcher
