@@ -475,13 +475,23 @@ def _run_prediction_with_odds(args, market_odds: dict):
         for p in prediction.player_probabilities
     }
 
-    # Build player_ppg from predictor's stats
+    # Build player stats from predictor's API stats
     player_ppg = {}
+    player_teams = {}
+    player_fg_pct = {}
+    player_fg3_rate = {}
     for p in prediction.player_probabilities:
         name = p['player_name']
+        team = args.home if p['team'] == 'home' else args.away
+        player_teams[name] = team
         stats = predictor._get_player_api_stats(name)
-        if stats and stats.get('ppg', 0) > 0:
-            player_ppg[name] = stats['ppg']
+        if stats:
+            if stats.get('ppg', 0) > 0:
+                player_ppg[name] = stats['ppg']
+            if stats.get('fg_pct', 0) > 0:
+                player_fg_pct[name] = stats['fg_pct'] / 100.0
+            if stats.get('fg3_rate', 0) > 0:
+                player_fg3_rate[name] = stats['fg3_rate']
 
     # Run strategy analysis
     budget = getattr(args, 'budget', 30.0)
@@ -493,7 +503,44 @@ def _run_prediction_with_odds(args, market_odds: dict):
         away_team=args.away,
         home_jb_win_prob=prediction.home_wins_tip_prob,
         budget=budget,
+        player_teams=player_teams,
+        player_fg_pct=player_fg_pct,
+        player_fg3_rate=player_fg3_rate,
     )
+
+
+def cmd_backtest(args):
+    """Backtest betting strategies on historical data."""
+    from data.train_models_v6 import JumpBallModelV6, PlayerFirstScorerModelV6
+    import __main__
+    __main__.JumpBallModelV6 = JumpBallModelV6
+    __main__.PlayerFirstScorerModelV6 = PlayerFirstScorerModelV6
+
+    from betting.backtest import StrategyBacktester
+
+    logger.info("Running strategy backtests...")
+    backtester = StrategyBacktester(vig=args.vig)
+    test_df = backtester.load_test_data()
+
+    # Edge analysis
+    edge_df = backtester.run_edge_analysis(test_df)
+
+    if args.strategy == 'all':
+        results = backtester.backtest_all(test_df)
+        backtester.print_comparison_report(results)
+    else:
+        import numpy as np
+        np.random.seed(42)
+        strategy_map = {
+            'value': backtester.backtest_value_bet,
+            'team_first': backtester.backtest_team_first_scorer,
+            'hedge': lambda df: backtester.backtest_multi_player_hedge(df, n_picks=3),
+            'score_type': backtester.backtest_score_type_filter,
+            'parlay': backtester.backtest_correlated_parlay,
+        }
+        func = strategy_map[args.strategy]
+        result = func(test_df)
+        backtester.print_comparison_report([result])
 
 
 def main():
@@ -585,6 +632,14 @@ def main():
     odds_parser.add_argument('--budget', type=float, default=30.0,
                              help='Betting budget for recommendations (default: $30)')
 
+    # Backtest command
+    backtest_parser = subparsers.add_parser('backtest', help='Backtest betting strategies on historical data')
+    backtest_parser.add_argument('--strategy', choices=[
+        'all', 'value', 'team_first', 'hedge', 'score_type', 'parlay'
+    ], default='all', help='Strategy to backtest (default: all)')
+    backtest_parser.add_argument('--vig', type=float, default=0.08,
+                                  help='Simulated sportsbook vig (default: 8%%)')
+
     # Analyze command
     subparsers.add_parser('analyze', help='Analyze data for predictability')
     
@@ -608,6 +663,8 @@ def main():
         cmd_ui(args)
     elif args.command == 'odds':
         cmd_odds(args)
+    elif args.command == 'backtest':
+        cmd_backtest(args)
     elif args.command == 'analyze':
         cmd_analyze(args)
     else:
