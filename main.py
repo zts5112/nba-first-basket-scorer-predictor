@@ -7,6 +7,7 @@ Usage:
     python main.py process
     python main.py train
     python main.py predict --home LAL --away BOS
+    python main.py odds --home NYK --away MIL --show-browser
     python main.py ui
 """
 
@@ -91,34 +92,55 @@ def cmd_collect(args):
 
 def cmd_process(args):
     """Process raw data into features."""
+    from data.clean_data import DataCleaner
     from utils.data_processing import JumpBallAggregator, FirstScorerAggregator
-    
+
     logger.info("Processing raw data...")
-    
-    # Jump ball stats
-    jb_agg = JumpBallAggregator(data_path=str(RAW_DATA_DIR))
-    jb_agg.load_data()
-    
+
+    # Step 1: Clean data
+    logger.info("Step 1: Cleaning raw data...")
+    cleaner = DataCleaner(raw_data_path=str(RAW_DATA_DIR), output_path=str(PROCESSED_DATA_DIR))
+    cleaner.load_all_seasons()
+    cleaner.clean_data()
+    cleaner.save_cleaned_data()
+    stats = cleaner.get_summary_stats()
+    logger.info(f"Cleaned {stats['total_games']} games across {len(stats['seasons'])} seasons")
+
+    # Column mapping from cleaned data to what aggregators expect
+    col_renames = {
+        'jump_ball_winner_name': 'jump_ball_winner',
+        'jump_ball_loser_name': 'jump_ball_loser',
+        'first_scorer_name': 'first_scorer',
+        'jump_ball_player1_name': 'jump_ball_player1',
+        'jump_ball_player2_name': 'jump_ball_player2',
+    }
+
+    # Step 2: Aggregate jump ball stats using cleaned data
+    logger.info("Step 2: Aggregating jump ball stats...")
+    jb_agg = JumpBallAggregator()
+    jb_agg.raw_data = cleaner.cleaned_data.rename(columns=col_renames)
+
     player_stats = jb_agg.compute_player_jump_ball_stats()
     player_stats.to_parquet(PROCESSED_DATA_DIR / 'player_jump_ball_stats.parquet')
     logger.info(f"Saved jump ball stats for {len(player_stats)} players")
-    
+
     matchup_stats = jb_agg.compute_matchup_stats()
     matchup_stats.to_parquet(PROCESSED_DATA_DIR / 'matchup_stats.parquet')
     logger.info(f"Saved {len(matchup_stats)} head-to-head matchups")
-    
-    # First scorer stats
-    fs_agg = FirstScorerAggregator(data_path=str(RAW_DATA_DIR))
-    fs_agg.load_data()
-    
+
+    # Step 3: Aggregate first scorer stats
+    logger.info("Step 3: Aggregating first scorer stats...")
+    fs_agg = FirstScorerAggregator()
+    fs_agg.raw_data = cleaner.cleaned_data.rename(columns=col_renames)
+
     fs_rates = fs_agg.compute_first_scorer_rates()
     fs_rates.to_parquet(PROCESSED_DATA_DIR / 'first_scorer_rates.parquet')
     logger.info(f"Saved first scorer rates for {len(fs_rates)} players")
-    
+
     # Tip to first score analysis
     tip_stats = fs_agg.compute_tip_to_first_score_rate()
     logger.info(f"Tip winner scores first: {tip_stats['tip_winner_first_score_rate']:.1%}")
-    
+
     return player_stats, matchup_stats, fs_rates
 
 
@@ -342,6 +364,127 @@ def cmd_analyze(args):
     print("3. Compare model predictions to betting lines")
 
 
+def cmd_odds(args):
+    """Fetch first basket scorer odds."""
+    import os
+
+    logger.info("Fetching first basket scorer odds...")
+
+    # Determine API key
+    api_key = getattr(args, 'api_key', None) or os.environ.get('ODDS_API_KEY', '')
+
+    if not api_key:
+        print("\nNo API key provided. To use The Odds API (recommended):")
+        print("  1. Get a free key at https://the-odds-api.com/")
+        print("  2. Run: export ODDS_API_KEY=your_key_here")
+        print("  3. Or: python main.py odds --api-key your_key_here")
+        print("\n  Free tier: 500 credits/month (more than enough for daily use)")
+        return
+
+    from scrapers.odds_api import OddsAPIFetcher
+
+    bookmaker = getattr(args, 'bookmaker', 'fanduel')
+    fetcher = OddsAPIFetcher(
+        api_key=api_key,
+        bookmaker=bookmaker,
+        cache_dir=str(DATA_DIR / 'odds_cache'),
+    )
+
+    if getattr(args, 'no_cache', False):
+        fetcher.cache_ttl = 0
+
+    if args.home and args.away:
+        # Fetch odds for a specific game
+        odds = fetcher.get_odds_for_game(args.home, args.away)
+        if not odds:
+            logger.error(f"Could not find first basket scorer odds for {args.away} @ {args.home}")
+            return
+
+        _print_odds_table(args.away, args.home, odds)
+
+        # Optionally run predictions + betting analysis
+        if args.predict:
+            if not (args.home_starters and args.away_starters and args.home_center and args.away_center):
+                logger.error("--predict requires --home-starters, --away-starters, --home-center, --away-center")
+                return
+            _run_prediction_with_odds(args, odds)
+    else:
+        # Fetch odds for all today's games
+        all_odds = fetcher.get_all_games_odds()
+        if not all_odds:
+            logger.error("No NBA games or odds found")
+            return
+
+        for game_key, odds in all_odds.items():
+            parts = game_key.split(" @ ")
+            away = parts[0] if len(parts) == 2 else game_key
+            home = parts[1] if len(parts) == 2 else ""
+            _print_odds_table(away, home, odds)
+            print()
+
+
+def _print_odds_table(away: str, home: str, odds: dict):
+    """Pretty-print fetched odds."""
+    print(f"\nFirst Basket Scorer Odds: {away} @ {home}")
+    print("-" * 50)
+    for player, american in sorted(odds.items(), key=lambda x: x[1]):
+        print(f"  {player:<30} {american:+d}")
+    print(f"\n  ({len(odds)} players)")
+
+
+def _run_prediction_with_odds(args, market_odds: dict):
+    """Run prediction pipeline with live odds."""
+    from inference.predict import FirstScorerPredictor
+    from betting.alternative_strategies import print_strategy_analysis
+    from scrapers.player_name_matcher import PlayerNameMatcher
+
+    logger.info("Running prediction model...")
+
+    predictor = FirstScorerPredictor()
+    prediction = predictor.predict(
+        home_team=args.home,
+        away_team=args.away,
+        home_starters=args.home_starters,
+        away_starters=args.away_starters,
+        home_center=args.home_center,
+        away_center=args.away_center,
+    )
+    prediction.print_prediction()
+
+    # Match FanDuel names to model names
+    matcher = PlayerNameMatcher()
+    matched_odds, unmatched = matcher.match_odds_dict(market_odds)
+
+    if unmatched:
+        print(f"\nNote: Could not match {len(unmatched)} FanDuel names: {unmatched}")
+
+    # Build model_probs dict
+    model_probs = {
+        p['player_name']: p['probability']
+        for p in prediction.player_probabilities
+    }
+
+    # Build player_ppg from predictor's stats
+    player_ppg = {}
+    for p in prediction.player_probabilities:
+        name = p['player_name']
+        stats = predictor._get_player_api_stats(name)
+        if stats and stats.get('ppg', 0) > 0:
+            player_ppg[name] = stats['ppg']
+
+    # Run strategy analysis
+    budget = getattr(args, 'budget', 30.0)
+    print_strategy_analysis(
+        model_probs=model_probs,
+        market_odds=matched_odds,
+        player_ppg=player_ppg,
+        home_team=args.home,
+        away_team=args.away,
+        home_jb_win_prob=prediction.home_wins_tip_prob,
+        budget=budget,
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description='NBA First Scorer Prediction Pipeline')
     subparsers = parser.add_subparsers(dest='command', help='Command to run')
@@ -411,6 +554,26 @@ def main():
     # UI command
     subparsers.add_parser('ui', help='Launch Streamlit UI')
     
+    # Odds command
+    odds_parser = subparsers.add_parser('odds', help='Fetch first basket scorer odds from The Odds API')
+    odds_parser.add_argument('--home', help='Home team abbreviation (e.g., NYK)')
+    odds_parser.add_argument('--away', help='Away team abbreviation (e.g., MIL)')
+    odds_parser.add_argument('--api-key', help='The Odds API key (or set ODDS_API_KEY env var)')
+    odds_parser.add_argument('--bookmaker', default='fanduel',
+                             help='Sportsbook to get odds from (default: fanduel)')
+    odds_parser.add_argument('--no-cache', action='store_true',
+                             help='Force fresh fetch, ignore cached odds')
+    odds_parser.add_argument('--predict', action='store_true',
+                             help='Also run prediction model and show value bets')
+    odds_parser.add_argument('--home-starters', nargs=5,
+                             help='Home starting lineup (5 names, required with --predict)')
+    odds_parser.add_argument('--away-starters', nargs=5,
+                             help='Away starting lineup (5 names, required with --predict)')
+    odds_parser.add_argument('--home-center', help='Home jump ball player (required with --predict)')
+    odds_parser.add_argument('--away-center', help='Away jump ball player (required with --predict)')
+    odds_parser.add_argument('--budget', type=float, default=30.0,
+                             help='Betting budget for recommendations (default: $30)')
+
     # Analyze command
     subparsers.add_parser('analyze', help='Analyze data for predictability')
     
@@ -432,6 +595,8 @@ def main():
         cmd_predict(args)
     elif args.command == 'ui':
         cmd_ui(args)
+    elif args.command == 'odds':
+        cmd_odds(args)
     elif args.command == 'analyze':
         cmd_analyze(args)
     else:

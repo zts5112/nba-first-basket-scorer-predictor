@@ -119,23 +119,47 @@ class SeleniumBasketballReferenceScraper:
             self.driver = self._create_driver()
 
     def _get_page(self, url: str, retries: int = 3) -> Optional[str]:
-        """Get page content with retries."""
+        """Get page content with retries and Cloudflare handling."""
         self._ensure_driver()
+
+        # Set page load timeout to avoid indefinite hangs
+        self.driver.set_page_load_timeout(30)
 
         for attempt in range(retries):
             try:
                 # Random delay to appear more human
                 time.sleep(self.delay + random.uniform(0.5, 1.5))
 
-                self.driver.get(url)
+                try:
+                    self.driver.get(url)
+                except TimeoutException:
+                    logger.warning(f"Page load timeout for {url}, checking if Cloudflare challenge...")
 
-                # Wait for page to load
-                WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((By.TAG_NAME, "body"))
-                )
+                # Wait for body
+                try:
+                    WebDriverWait(self.driver, 10).until(
+                        EC.presence_of_element_located((By.TAG_NAME, "body"))
+                    )
+                except TimeoutException:
+                    pass
+
+                page_source = self.driver.page_source
+
+                # Handle Cloudflare challenge
+                if "just a moment" in page_source.lower() or "cf-challenge" in page_source.lower():
+                    logger.warning(f"Cloudflare challenge detected, waiting for it to resolve (attempt {attempt + 1}/{retries})...")
+                    # Wait up to 15 seconds for Cloudflare to auto-resolve
+                    for _ in range(15):
+                        time.sleep(1)
+                        page_source = self.driver.page_source
+                        if "just a moment" not in page_source.lower():
+                            break
+                    else:
+                        logger.warning(f"Cloudflare challenge not resolved after 15s, retrying...")
+                        time.sleep(5)
+                        continue
 
                 # Check for rate limiting page
-                page_source = self.driver.page_source
                 if "rate limit" in page_source.lower() or "too many requests" in page_source.lower():
                     wait_time = 30 * (attempt + 1)
                     logger.warning(f"Rate limited, waiting {wait_time}s (attempt {attempt + 1}/{retries})")
@@ -152,6 +176,7 @@ class SeleniumBasketballReferenceScraper:
                 # Recreate driver on error
                 self.close()
                 self._ensure_driver()
+                self.driver.set_page_load_timeout(30)
                 time.sleep(5)
 
         return None
