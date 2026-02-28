@@ -21,18 +21,22 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Dict, List
 
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import (
-    TimeoutException,
-    WebDriverException,
-    NoSuchElementException,
-    ElementClickInterceptedException,
-)
+try:
+    from selenium import webdriver
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.common.exceptions import (
+        TimeoutException,
+        WebDriverException,
+        NoSuchElementException,
+        ElementClickInterceptedException,
+    )
+    SELENIUM_AVAILABLE = True
+except ImportError:
+    SELENIUM_AVAILABLE = False
 
 try:
     from webdriver_manager.chrome import ChromeDriverManager
@@ -118,6 +122,8 @@ class FanDuelOddsScraper:
         cache_dir: str = "data/odds_cache",
         cache_ttl_minutes: int = 30,
     ):
+        if not SELENIUM_AVAILABLE:
+            raise ImportError("selenium is required for FanDuelOddsScraper. Install with: pip install selenium")
         self.headless = headless
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
