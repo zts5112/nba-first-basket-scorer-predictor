@@ -12,6 +12,7 @@ Usage:
         games = scraper.get_todays_games()
         odds = scraper.get_first_basket_odds(games[0]['game_url'])
 """
+from __future__ import annotations
 
 import json
 import time
