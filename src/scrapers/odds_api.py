@@ -324,15 +324,17 @@ class OddsAPIFetcher:
     def _team_matches(api_name: str, abbrev: str, full_name: str) -> bool:
         """Check if an API team name matches an abbreviation or full name."""
         api_lower = api_name.lower()
-        if full_name.lower() == api_lower:
+        full_lower = full_name.lower()
+        # Exact match
+        if full_lower == api_lower:
             return True
-        if full_name.lower() in api_lower or api_lower in full_name.lower():
+        # Substring match (e.g., "LA Clippers" in "Los Angeles Clippers")
+        if full_lower in api_lower or api_lower in full_lower:
             return True
-        # Check last word (e.g., "Knicks")
-        for name in [full_name, api_name]:
-            parts = name.split()
-            if parts and parts[-1].lower() in api_lower:
-                return True
+        # Last word of our full name in API name (e.g., "Bucks" in "Milwaukee Bucks")
+        full_parts = full_name.split()
+        if full_parts and full_parts[-1].lower() == api_name.split()[-1].lower():
+            return True
         return False
 
     def _cache_odds(self, home_abbrev: str, away_abbrev: str, odds: Dict[str, int]):
