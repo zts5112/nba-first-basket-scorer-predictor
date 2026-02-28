@@ -1,0 +1,5721 @@
+{
+  "player_to_token": {
+    "jokicni01": 2,
+    "goberru01": 3,
+    "zubaciv01": 4,
+    "vucevni01": 5,
+    "adebaba01": 6,
+    "allenja01": 7,
+    "turnemy01": 8,
+    "sabondo01": 9,
+    "aytonde01": 10,
+    "jacksja02": 11,
+    "lopezbr01": 12,
+    "townska01": 13,
+    "claxtni01": 14,
+    "valanjo01": 15,
+    "poeltja01": 16,
+    "capelca01": 17,
+    "sengual01": 18,
+    "nurkiju01": 19,
+    "embiijo01": 20,
+    "davisan02": 21,
+    "porzikr01": 22,
+    "cartewe01": 23,
+    "barnesc01": 24,
+    "looneke01": 25,
+    "gaffoda01": 26,
+    "bridgmi01": 27,
+    "brownja02": 28,
+    "horfoal01": 29,
+    "durenja01": 30,
+    "siakapa01": 31,
+    "greendr01": 32,
+    "edwaran01": 33,
+    "mobleev01": 34,
+    "brunsja01": 35,
+    "harrito02": 36,
+    "tatumja01": 37,
+    "barneha02": 38,
+    "holmgch01": 39,
+    "gilgesh01": 40,
+    "randlju01": 41,
+    "mitchdo01": 42,
+    "derozde01": 43,
+    "antetgi01": 44,
+    "whitede01": 45,
+    "doncilu01": 46,
+    "hardeja01": 47,
+    "bookede01": 48,
+    "caldwke01": 49,
+    "dortlu01": 50,
+    "mcdanja02": 51,
+    "gordoaa01": 52,
+    "curryst01": 53,
+    "robinmi01": 54,
+    "wagnefr01": 55,
+    "wiggian01": 56,
+    "butleji01": 57,
+    "jamesle01": 58,
+    "holidjr01": 59,
+    "banede01": 60,
+    "foxde01": 61,
+    "plumlma01": 62,
+    "brookdi01": 63,
+    "conlemi01": 64,
+    "giddejo01": 65,
+    "greenja05": 66,
+    "poweldw01": 67,
+    "garlada01": 68,
+    "duranke01": 69,
+    "maxeyty01": 70,
+    "portemi01": 71,
+    "collijo01": 72,
+    "barrerj01": 73,
+    "youngtr01": 74,
+    "mccolcj01": 75,
+    "anunoog01": 76,
+    "kuzmaky01": 77,
+    "halibty01": 78,
+    "markkla01": 79,
+    "murraja01": 80,
+    "thompkl01": 81,
+    "smithja05": 82,
+    "lavinza01": 83,
+    "wembavi01": 84,
+    "russeda01": 85,
+    "vanvlfr01": 86,
+    "bridgmi02": 87,
+    "washipj01": 88,
+    "willija06": 89,
+    "adamsst01": 90,
+    "stewais01": 91,
+    "finnedo01": 92,
+    "hartjo01": 93,
+    "cunnica01": 94,
+    "joneshe01": 95,
+    "ingrabr01": 96,
+    "murrade01": 97,
+    "harteis01": 98,
+    "murrake02": 99,
+    "huertke01": 100,
+    "georgpa01": 101,
+    "banchpa01": 102,
+    "kesslwa01": 103,
+    "nembhan01": 104,
+    "allengr01": 105,
+    "poolejo01": 106,
+    "grantje01": 107,
+    "paulch01": 108,
+    "willima07": 109,
+    "lillada01": 110,
+    "irvinky01": 111,
+    "smartma01": 112,
+    "moranja01": 113,
+    "avdijde01": 114,
+    "vassede01": 115,
+    "ballla01": 116,
+    "strusma01": 117,
+    "roziete01": 118,
+    "reaveau01": 119,
+    "okorois01": 120,
+    "okongon01": 121,
+    "onealro01": 122,
+    "dinwisp01": 123,
+    "simonan01": 124,
+    "herroty01": 125,
+    "sarral01": 126,
+    "suggsja01": 127,
+    "huntede01": 128,
+    "beysa01": 129,
+    "richani01": 130,
+    "middlkh01": 131,
+    "leonaka01": 132,
+    "williro04": 133,
+    "whiteco01": 134,
+    "mannte01": 135,
+    "johnsca02": 136,
+    "nesmiaa01": 137,
+    "oubreke01": 138,
+    "bealbr01": 139,
+    "westbru01": 140,
+    "schrode01": 141,
+    "murphtr02": 142,
+    "robindu01": 143,
+    "trentga02": 144,
+    "lowryky01": 145,
+    "drumman01": 146,
+    "hieldbu01": 147,
+    "jonesty01": 148,
+    "bitadgo01": 149,
+    "tuckepj01": 150,
+    "bambamo01": 151,
+    "camarto01": 152,
+    "portibo01": 153,
+    "powelno01": 154,
+    "johnske04": 155,
+    "iveyja01": 156,
+    "bogdabo02": 157,
+    "olynyke01": 158,
+    "vandeja01": 159,
+    "hardati02": 160,
+    "divindo01": 161,
+    "woodch01": 162,
+    "jonesde02": 163,
+    "sochaje01": 164,
+    "willizi01": 165,
+    "livelde01": 166,
+    "dosunay01": 167,
+    "daniedy01": 168,
+    "eubandr01": 169,
+    "hachiru01": 170,
+    "clingdo01": 171,
+    "willipa01": 172,
+    "gordoer01": 173,
+    "porteke02": 174,
+    "sextoco01": 175,
+    "johnsja05": 176,
+    "jonestr01": 177,
+    "brownbr01": 178,
+    "quickim01": 179,
+    "missiyv01": 180,
+    "baglema01": 181,
+    "dunnkr01": 182,
+    "beaslma01": 183,
+    "beverpa01": 184,
+    "princta02": 185,
+    "jacksre01": 186,
+    "edeyza01": 187,
+    "morrima03": 188,
+    "thompau01": 189,
+    "morrimo01": 190,
+    "grimequ01": 191,
+    "hayesja02": 192,
+    "wareke01": 193,
+    "haywago01": 194,
+    "millebr02": 195,
+    "hayeski01": 196,
+    "sharpsh01": 197,
+    "achiupr01": 198,
+    "georgke01": 199,
+    "champju02": 200,
+    "colliza01": 201,
+    "wadede01": 202,
+    "greenjo02": 203,
+    "wellsja01": 204,
+    "batumni01": 205,
+    "martica02": 206,
+    "kuminjo01": 207,
+    "thompam01": 208,
+    "carusal01": 209,
+    "crowdja01": 210,
+    "mitchda01": 211,
+    "risacza01": 212,
+    "braunch01": 213,
+    "bullore01": 214,
+    "mathube01": 215,
+    "biyombi01": 216,
+    "meltode01": 217,
+    "vincega01": 218,
+    "robinje02": 219,
+    "harriga01": 220,
+    "coulibi01": 221,
+    "holmeri01": 222,
+    "agbajoc01": 223,
+    "jackstr02": 224,
+    "willizi02": 225,
+    "willija07": 226,
+    "willigr01": 227,
+    "quetane01": 228,
+    "kispeco01": 229,
+    "thybuma01": 230,
+    "alexani01": 231,
+    "tateja01": 232,
+    "curryse01": 233,
+    "moodymo01": 234,
+    "craigto01": 235,
+    "postqu01": 236,
+    "leverca01": 237,
+    "wallaca01": 238,
+    "wiggiaa01": 239,
+    "bryanth01": 240,
+    "thomaca02": 241,
+    "simmobe01": 242,
+    "anthoco01": 243,
+    "fournev01": 244,
+    "clarkjo01": 245,
+    "castlst01": 246,
+    "podzibr01": 247,
+    "greenje02": 248,
+    "bolbo01": 249,
+    "kornelu01": 250,
+    "aldamsa01": 251,
+    "smithja04": 252,
+    "jacksis01": 253,
+    "bartowi01": 254,
+    "monkma01": 255,
+    "chrisma02": 256,
+    "marshna01": 257,
+    "buzelma01": 258,
+    "okogijo01": 259,
+    "highsha01": 260,
+    "fultzma01": 261,
+    "georgky01": 262,
+    "reidna01": 263,
+    "carrica01": 264,
+    "holidju01": 265,
+    "anderky01": 266,
+    "jordade01": 267,
+    "greenja02": 268,
+    "bogdabo01": 269,
+    "martike04": 270,
+    "dickgr01": 271,
+    "simsje01": 272,
+    "brogdma01": 273,
+    "theisda01": 274,
+    "grahade01": 275,
+    "griffbl01": 276,
+    "tillmxa01": 277,
+    "reedpa01": 278,
+    "burksal01": 279,
+    "mykhasv01": 280,
+    "blackan01": 281,
+    "yabusgu01": 282,
+    "johnske07": 283,
+    "filipky01": 284,
+    "queende01": 285,
+    "duartch01": 286,
+    "branhma01": 287,
+    "kennalu01": 288,
+    "bateske01": 289,
+    "loveke01": 290,
+    "reddica01": 291,
+    "browntr01": 292,
+    "coffeam01": 293,
+    "jovicni01": 294,
+    "rolliry01": 295,
+    "clownno01": 296,
+    "connapa01": 297,
+    "watsope01": 298,
+    "mcderdo01": 299,
+    "hausesa01": 300,
+    "pritcpa01": 301,
+    "josepco01": 302,
+    "robyis01": 303,
+    "bazleda01": 304,
+    "konchjo01": 305,
+    "pokusal01": 306,
+    "balllo01": 307,
+    "millspa02": 308,
+    "diabamo01": 309,
+    "manntr01": 310,
+    "dunnry01": 311,
+    "huffja01": 312,
+    "greenaj01": 313,
+    "howardw01": 314,
+    "walkelo01": 315,
+    "jacksan01": 316,
+    "toppiob01": 317,
+    "kalkbry01": 318,
+    "fontesi01": 319,
+    "mcgeeja01": 320,
+    "wisemja01": 321,
+    "hortota01": 322,
+    "willivi01": 323,
+    "elliske01": 324,
+    "colliis01": 325,
+    "knuepko01": 326,
+    "dasiltr01": 327,
+    "edwarke02": 328,
+    "covinro01": 329,
+    "harrijo01": 330,
+    "bradlav01": 331,
+    "mcbrimi01": 332,
+    "fearsje01": 333,
+    "barlodo01": 334,
+    "raynama01": 335,
+    "klebima01": 336,
+    "kolokch01": 337,
+    "payneca01": 338,
+    "flaggco01": 339,
+    "martico01": 340,
+    "carteje01": 341,
+    "krejcvi01": 342,
+    "murrakr01": 343,
+    "stevela01": 344,
+    "walkeke02": 345,
+    "jaqueja01": 346,
+    "champju01": 347,
+    "edgecvj01": 348,
+    "mathega01": 349,
+    "reathdu01": 350,
+    "greenda02": 351,
+    "hendesc01": 352,
+    "yurtsom01": 353,
+    "landajo01": 354,
+    "gueyemo02": 355,
+    "okekech01": 356,
+    "pippesc02": 357,
+    "lenal01": 358,
+    "gilleco01": 359,
+    "gibsota01": 360,
+    "birchkh01": 361,
+    "sharpda01": 362,
+    "joeis01": 363,
+    "alvarjo01": 364,
+    "larsspe01": 365,
+    "shamela01": 366,
+    "favorde01": 367,
+    "watfotr01": 368,
+    "demineg01": 369,
+    "dedmode01": 370,
+    "jonesda03": 371,
+    "easonta01": 372,
+    "mamuksa01": 373,
+    "littlna01": 374,
+    "willibr03": 375,
+    "liveris01": 376,
+    "sensabr01": 377,
+    "robinor01": 378,
+    "clarkbr01": 379,
+    "diallha01": 380,
+    "micicva01": 381,
+    "willico04": 382,
+    "tysonja01": 383,
+    "cowarce01": 384,
+    "baileac01": 385,
+    "jonessp01": 386,
+    "paytoga02": 387,
+    "brissos01": 388,
+    "mcgowbr01": 389,
+    "noelne01": 390,
+    "saricda01": 391,
+    "mogbojo01": 392,
+    "holidaa01": 393,
+    "mcdanja01": 394,
+    "exumda01": 395,
+    "laravja01": 396,
+    "wrighde01": 397,
+    "lylestr01": 398,
+    "metuch01": 399,
+    "bledser01": 400,
+    "riverau01": 401,
+    "johnsst04": 402,
+    "walteja01": 403,
+    "smithni01": 404,
+    "wagnemo01": 405,
+    "langfro01": 406,
+    "matthwe02": 407,
+    "edwarju01": 408,
+    "brownmo01": 409,
+    "bonaad01": 410,
+    "hendrta01": 411,
+    "nworajo01": 412,
+    "ellebcj01": 413,
+    "lopezro01": 414,
+    "aldrila01": 415,
+    "ighodos01": 416,
+    "walkeja01": 417,
+    "winslju01": 418,
+    "roddyda01": 419,
+    "goodwjo01": 420,
+    "sheppbe01": 421,
+    "muscami01": 422,
+    "walkeja02": 423,
+    "richajo01": 424,
+    "cissosi01": 425,
+    "wilsoja03": 426,
+    "porteot01": 427,
+    "houstca01": 428,
+    "walshjo01": 429,
+    "hernawi01": 430,
+    "willike04": 431,
+    "bembrde01": 432,
+    "korkmfu01": 433,
+    "jeffrda01": 434,
+    "harklma01": 435,
+    "gallida01": 436,
+    "merrisa01": 437,
+    "harremo01": 438,
+    "nancela02": 439,
+    "mccontj01": 440,
+    "youngth01": 441,
+    "luwawti01": 442,
+    "hardyja02": 443,
+    "niangge01": 444,
+    "hawkijo01": 445,
+    "smithde03": 446,
+    "johnstr03": 447,
+    "bradlto01": 448,
+    "ibakase01": 449,
+    "knoxke01": 450,
+    "murraco01": 451,
+    "hernaju01": 452,
+    "miltosh01": 453,
+    "jacksgg01": 454,
+    "simpskj01": 455,
+    "juzanjo01": 456,
+    "sheadja01": 457,
+    "pickeja02": 458,
+    "hillge01": 459,
+    "butleja02": 460,
+    "azubuud01": 461,
+    "jemistr01": 462,
+    "primojo01": 463,
+    "nembhry01": 464,
+    "hamptrj01": 465,
+    "jamessi01": 466,
+    "bouchch01": 467,
+    "pottemi01": 468,
+    "daviste02": 469,
+    "mayssk01": 470,
+    "martity01": 471,
+    "templga01": 472,
+    "bantoda01": 473,
+    "netora01": 474,
+    "knechda01": 475,
+    "greenja01": 476,
+    "whiteha01": 477,
+    "nnajize01": 478,
+    "matkoka01": 479,
+    "houseda01": 480,
+    "gilyaja01": 481,
+    "inglejo01": 482,
+    "jacksqu01": 483,
+    "furphjo01": 484,
+    "maledth01": 485,
+    "richawi02": 486,
+    "couside01": 487,
+    "fernabr01": 488,
+    "hylanbo01": 489,
+    "satorto01": 490,
+    "sumneed01": 491,
+    "mcgruro01": 492,
+    "beaucma01": 493,
+    "toscaju01": 494,
+    "spencca01": 495,
+    "holmeda01": 496,
+    "battlja01": 497,
+    "thomptr01": 498,
+    "garzalu01": 499,
+    "rubiori01": 500,
+    "brookar01": 501,
+    "sykeske01": 502,
+    "leeda03": 503,
+    "bostobr01": 504,
+    "waterli01": 505,
+    "bazemke01": 506,
+    "snellto01": 507,
+    "griffaj01": 508,
+    "taylote01": 509,
+    "ntilila01": 510,
+    "johnsja01": 511,
+    "cancavl01": 512,
+    "jeromty01": 513,
+    "johnsaj01": 514,
+    "minotjo01": 515,
+    "mitchaj01": 516,
+    "rosede01": 517,
+    "councri01": 518,
+    "joneska01": 519,
+    "hukpoar01": 520,
+    "gillan01": 521,
+    "forretr01": 522,
+    "rosste01": 523,
+    "washidu02": 524,
+    "arizatr01": 525,
+    "thorjt01": 526,
+    "salauti01": 527,
+    "antetth01": 528,
+    "gabriwe01": 529,
+    "dragigo01": 530,
+    "evbuoto01": 531,
+    "sheppre01": 532,
+    "sandeko01": 533,
+    "ellinwa01": 534,
+    "paytoel01": 535,
+    "mccaija01": 536,
+    "poweldr01": 537,
+    "diakima01": 538,
+    "omorueu01": 539,
+    "jacksfr01": 540,
+    "nixda01": 541,
+    "phillju01": 542,
+    "osmande01": 543,
+    "portecr01": 544,
+    "morrima02": 545,
+    "castlco01": 546,
+    "vukcetr01": 547,
+    "prospol01": 548,
+    "anderju01": 549,
+    "browngr01": 550,
+    "diawamo01": 551,
+    "dukeda01": 552,
+    "sassema01": 553,
+    "wallake01": 554,
+    "hollaro01": 555,
+    "jenkida01": 556,
+    "jakucka01": 557,
+    "dienggo01": 558,
+    "garubus01": 559,
+    "bassech01": 560,
+    "sarrol01": 561,
+    "hoardja01": 562,
+    "chrisjo01": 563,
+    "smithis01": 564,
+    "reedda01": 565,
+    "flynnma01": 566,
+    "mclembe01": 567,
+    "davisjo06": 568,
+    "samanlu01": 569,
+    "terryda01": 570,
+    "ruperra01": 571,
+    "santogu01": 572,
+    "cliffni01": 573,
+    "davised01": 574,
+    "pascher01": 575,
+    "timmedr01": 576,
+    "oladivi01": 577,
+    "watanyu01": 578,
+    "sprinja01": 579,
+    "portejo01": 580,
+    "strawju01": 581,
+    "brookke02": 582,
+    "reevean01": 583,
+    "scheiba01": 584,
+    "sarafbe01": 585,
+    "thompet01": 586,
+    "wolfda01": 587,
+    "leoname01": 588,
+    "hallpj01": 589,
+    "carlsbr01": 590,
+    "knighna01": 591,
+    "zelleco01": 592,
+    "kelleky01": 593,
+    "william01": 594,
+    "isaacjo01": 595,
+    "nwabada01": 596,
+    "campafa01": 597,
+    "hugheel01": 598,
+    "nowelja01": 599,
+    "simpsza01": 600,
+    "kalaige01": 601,
+    "lamban01": 602,
+    "arcidry01": 603,
+    "willije02": 604,
+    "whitmca01": 605,
+    "freemja01": 606,
+    "clarkja02": 607,
+    "tysonhu01": 608,
+    "beekmre01": 609,
+    "baglema02": 610,
+    "spencpa01": 611,
+    "gillefr01": 612,
+    "cissemo01": 613,
+    "caulewi01": 614,
+    "brownch05": 615,
+    "forbebr01": 616,
+    "queentr01": 617,
+    "dowtije01": 618,
+    "pendano01": 619,
+    "jacksjo02": 620,
+    "anthoca01": 621,
+    "muldemy01": 622,
+    "brownst02": 623,
+    "graveha01": 624,
+    "waltode01": 625,
+    "mclaujo01": 626,
+    "watsopa01": 627,
+    "fraziti01": 628,
+    "pangoke01": 629,
+    "tilliki02": 630,
+    "mckinal01": 631,
+    "goodwbr01": 632,
+    "okpalkz01": 633,
+    "moorewe01": 634,
+    "smithdr01": 635,
+    "walljo01": 636,
+    "blackle01": 637,
+    "baldwpa01": 638,
+    "jonesdi01": 639,
+    "tomlina01": 640,
+    "careyve01": 641,
+    "fallta01": 642,
+    "wilsodj01": 643,
+    "perryre01": 644,
+    "nancepe01": 645,
+    "kanteen01": 646,
+    "millspa01": 647,
+    "vonleno01": 648,
+    "hasleud01": 649,
+    "toddis01": 650,
+    "loftoke01": 651,
+    "badjiib01": 652,
+    "willima11": 653,
+    "freemen01": 654,
+    "livinch01": 655,
+    "yangha01": 656,
+    "martike03": 657,
+    "culveja01": 658,
+    "lewisma05": 659,
+    "bouyeja01": 660,
+    "proctty01": 661,
+    "bolmale01": 662,
+    "augusdj01": 663,
+    "wanambr01": 664,
+    "brownch02": 665,
+    "cookty01": 666,
+    "nunnke01": 667,
+    "wainris01": 668,
+    "weslebl01": 669,
+    "washity02": 670,
+    "bertada01": 671,
+    "diengou01": 672,
+    "umudest01": 673,
+    "lawsoaj01": 674,
+    "baughda01": 675,
+    "rhodeja01": 676,
+    "jamesbr02": 677,
+    "gonzahu01": 678,
+    "watkija01": 679,
+    "hillso01": 680,
+    "chiozch01": 681,
+    "smartja01": 682,
+    "thomais02": 683,
+    "laymaja01": 684,
+    "schofad01": 685,
+    "clarkga01": 686,
+    "iwundwe01": 687,
+    "stanlca01": 688,
+    "gayru01": 689,
+    "stephla01": 690,
+    "rondora01": 691,
+    "blevike01": 692,
+    "louzama01": 693,
+    "wrighmc01": 694,
+    "butlejo01": 695,
+    "wiggili01": 696,
+    "pinsoth01": 697,
+    "cooksxa01": 698,
+    "leesa01": 699,
+    "ryanma01": 700,
+    "cainja01": 701,
+    "haganas01": 702,
+    "ramseja01": 703,
+    "dilliro01": 704,
+    "shannte01": 705,
+    "peterdr01": 706,
+    "tshieos01": 707,
+    "jonesis01": 708,
+    "cardwdy01": 709,
+    "peavymi01": 710,
+    "kolekty01": 711,
+    "loveca01": 712,
+    "rileywi01": 713,
+    "traorno01": 714
+  },
+  "token_to_player": {
+    "2": "jokicni01",
+    "3": "goberru01",
+    "4": "zubaciv01",
+    "5": "vucevni01",
+    "6": "adebaba01",
+    "7": "allenja01",
+    "8": "turnemy01",
+    "9": "sabondo01",
+    "10": "aytonde01",
+    "11": "jacksja02",
+    "12": "lopezbr01",
+    "13": "townska01",
+    "14": "claxtni01",
+    "15": "valanjo01",
+    "16": "poeltja01",
+    "17": "capelca01",
+    "18": "sengual01",
+    "19": "nurkiju01",
+    "20": "embiijo01",
+    "21": "davisan02",
+    "22": "porzikr01",
+    "23": "cartewe01",
+    "24": "barnesc01",
+    "25": "looneke01",
+    "26": "gaffoda01",
+    "27": "bridgmi01",
+    "28": "brownja02",
+    "29": "horfoal01",
+    "30": "durenja01",
+    "31": "siakapa01",
+    "32": "greendr01",
+    "33": "edwaran01",
+    "34": "mobleev01",
+    "35": "brunsja01",
+    "36": "harrito02",
+    "37": "tatumja01",
+    "38": "barneha02",
+    "39": "holmgch01",
+    "40": "gilgesh01",
+    "41": "randlju01",
+    "42": "mitchdo01",
+    "43": "derozde01",
+    "44": "antetgi01",
+    "45": "whitede01",
+    "46": "doncilu01",
+    "47": "hardeja01",
+    "48": "bookede01",
+    "49": "caldwke01",
+    "50": "dortlu01",
+    "51": "mcdanja02",
+    "52": "gordoaa01",
+    "53": "curryst01",
+    "54": "robinmi01",
+    "55": "wagnefr01",
+    "56": "wiggian01",
+    "57": "butleji01",
+    "58": "jamesle01",
+    "59": "holidjr01",
+    "60": "banede01",
+    "61": "foxde01",
+    "62": "plumlma01",
+    "63": "brookdi01",
+    "64": "conlemi01",
+    "65": "giddejo01",
+    "66": "greenja05",
+    "67": "poweldw01",
+    "68": "garlada01",
+    "69": "duranke01",
+    "70": "maxeyty01",
+    "71": "portemi01",
+    "72": "collijo01",
+    "73": "barrerj01",
+    "74": "youngtr01",
+    "75": "mccolcj01",
+    "76": "anunoog01",
+    "77": "kuzmaky01",
+    "78": "halibty01",
+    "79": "markkla01",
+    "80": "murraja01",
+    "81": "thompkl01",
+    "82": "smithja05",
+    "83": "lavinza01",
+    "84": "wembavi01",
+    "85": "russeda01",
+    "86": "vanvlfr01",
+    "87": "bridgmi02",
+    "88": "washipj01",
+    "89": "willija06",
+    "90": "adamsst01",
+    "91": "stewais01",
+    "92": "finnedo01",
+    "93": "hartjo01",
+    "94": "cunnica01",
+    "95": "joneshe01",
+    "96": "ingrabr01",
+    "97": "murrade01",
+    "98": "harteis01",
+    "99": "murrake02",
+    "100": "huertke01",
+    "101": "georgpa01",
+    "102": "banchpa01",
+    "103": "kesslwa01",
+    "104": "nembhan01",
+    "105": "allengr01",
+    "106": "poolejo01",
+    "107": "grantje01",
+    "108": "paulch01",
+    "109": "willima07",
+    "110": "lillada01",
+    "111": "irvinky01",
+    "112": "smartma01",
+    "113": "moranja01",
+    "114": "avdijde01",
+    "115": "vassede01",
+    "116": "ballla01",
+    "117": "strusma01",
+    "118": "roziete01",
+    "119": "reaveau01",
+    "120": "okorois01",
+    "121": "okongon01",
+    "122": "onealro01",
+    "123": "dinwisp01",
+    "124": "simonan01",
+    "125": "herroty01",
+    "126": "sarral01",
+    "127": "suggsja01",
+    "128": "huntede01",
+    "129": "beysa01",
+    "130": "richani01",
+    "131": "middlkh01",
+    "132": "leonaka01",
+    "133": "williro04",
+    "134": "whiteco01",
+    "135": "mannte01",
+    "136": "johnsca02",
+    "137": "nesmiaa01",
+    "138": "oubreke01",
+    "139": "bealbr01",
+    "140": "westbru01",
+    "141": "schrode01",
+    "142": "murphtr02",
+    "143": "robindu01",
+    "144": "trentga02",
+    "145": "lowryky01",
+    "146": "drumman01",
+    "147": "hieldbu01",
+    "148": "jonesty01",
+    "149": "bitadgo01",
+    "150": "tuckepj01",
+    "151": "bambamo01",
+    "152": "camarto01",
+    "153": "portibo01",
+    "154": "powelno01",
+    "155": "johnske04",
+    "156": "iveyja01",
+    "157": "bogdabo02",
+    "158": "olynyke01",
+    "159": "vandeja01",
+    "160": "hardati02",
+    "161": "divindo01",
+    "162": "woodch01",
+    "163": "jonesde02",
+    "164": "sochaje01",
+    "165": "willizi01",
+    "166": "livelde01",
+    "167": "dosunay01",
+    "168": "daniedy01",
+    "169": "eubandr01",
+    "170": "hachiru01",
+    "171": "clingdo01",
+    "172": "willipa01",
+    "173": "gordoer01",
+    "174": "porteke02",
+    "175": "sextoco01",
+    "176": "johnsja05",
+    "177": "jonestr01",
+    "178": "brownbr01",
+    "179": "quickim01",
+    "180": "missiyv01",
+    "181": "baglema01",
+    "182": "dunnkr01",
+    "183": "beaslma01",
+    "184": "beverpa01",
+    "185": "princta02",
+    "186": "jacksre01",
+    "187": "edeyza01",
+    "188": "morrima03",
+    "189": "thompau01",
+    "190": "morrimo01",
+    "191": "grimequ01",
+    "192": "hayesja02",
+    "193": "wareke01",
+    "194": "haywago01",
+    "195": "millebr02",
+    "196": "hayeski01",
+    "197": "sharpsh01",
+    "198": "achiupr01",
+    "199": "georgke01",
+    "200": "champju02",
+    "201": "colliza01",
+    "202": "wadede01",
+    "203": "greenjo02",
+    "204": "wellsja01",
+    "205": "batumni01",
+    "206": "martica02",
+    "207": "kuminjo01",
+    "208": "thompam01",
+    "209": "carusal01",
+    "210": "crowdja01",
+    "211": "mitchda01",
+    "212": "risacza01",
+    "213": "braunch01",
+    "214": "bullore01",
+    "215": "mathube01",
+    "216": "biyombi01",
+    "217": "meltode01",
+    "218": "vincega01",
+    "219": "robinje02",
+    "220": "harriga01",
+    "221": "coulibi01",
+    "222": "holmeri01",
+    "223": "agbajoc01",
+    "224": "jackstr02",
+    "225": "willizi02",
+    "226": "willija07",
+    "227": "willigr01",
+    "228": "quetane01",
+    "229": "kispeco01",
+    "230": "thybuma01",
+    "231": "alexani01",
+    "232": "tateja01",
+    "233": "curryse01",
+    "234": "moodymo01",
+    "235": "craigto01",
+    "236": "postqu01",
+    "237": "leverca01",
+    "238": "wallaca01",
+    "239": "wiggiaa01",
+    "240": "bryanth01",
+    "241": "thomaca02",
+    "242": "simmobe01",
+    "243": "anthoco01",
+    "244": "fournev01",
+    "245": "clarkjo01",
+    "246": "castlst01",
+    "247": "podzibr01",
+    "248": "greenje02",
+    "249": "bolbo01",
+    "250": "kornelu01",
+    "251": "aldamsa01",
+    "252": "smithja04",
+    "253": "jacksis01",
+    "254": "bartowi01",
+    "255": "monkma01",
+    "256": "chrisma02",
+    "257": "marshna01",
+    "258": "buzelma01",
+    "259": "okogijo01",
+    "260": "highsha01",
+    "261": "fultzma01",
+    "262": "georgky01",
+    "263": "reidna01",
+    "264": "carrica01",
+    "265": "holidju01",
+    "266": "anderky01",
+    "267": "jordade01",
+    "268": "greenja02",
+    "269": "bogdabo01",
+    "270": "martike04",
+    "271": "dickgr01",
+    "272": "simsje01",
+    "273": "brogdma01",
+    "274": "theisda01",
+    "275": "grahade01",
+    "276": "griffbl01",
+    "277": "tillmxa01",
+    "278": "reedpa01",
+    "279": "burksal01",
+    "280": "mykhasv01",
+    "281": "blackan01",
+    "282": "yabusgu01",
+    "283": "johnske07",
+    "284": "filipky01",
+    "285": "queende01",
+    "286": "duartch01",
+    "287": "branhma01",
+    "288": "kennalu01",
+    "289": "bateske01",
+    "290": "loveke01",
+    "291": "reddica01",
+    "292": "browntr01",
+    "293": "coffeam01",
+    "294": "jovicni01",
+    "295": "rolliry01",
+    "296": "clownno01",
+    "297": "connapa01",
+    "298": "watsope01",
+    "299": "mcderdo01",
+    "300": "hausesa01",
+    "301": "pritcpa01",
+    "302": "josepco01",
+    "303": "robyis01",
+    "304": "bazleda01",
+    "305": "konchjo01",
+    "306": "pokusal01",
+    "307": "balllo01",
+    "308": "millspa02",
+    "309": "diabamo01",
+    "310": "manntr01",
+    "311": "dunnry01",
+    "312": "huffja01",
+    "313": "greenaj01",
+    "314": "howardw01",
+    "315": "walkelo01",
+    "316": "jacksan01",
+    "317": "toppiob01",
+    "318": "kalkbry01",
+    "319": "fontesi01",
+    "320": "mcgeeja01",
+    "321": "wisemja01",
+    "322": "hortota01",
+    "323": "willivi01",
+    "324": "elliske01",
+    "325": "colliis01",
+    "326": "knuepko01",
+    "327": "dasiltr01",
+    "328": "edwarke02",
+    "329": "covinro01",
+    "330": "harrijo01",
+    "331": "bradlav01",
+    "332": "mcbrimi01",
+    "333": "fearsje01",
+    "334": "barlodo01",
+    "335": "raynama01",
+    "336": "klebima01",
+    "337": "kolokch01",
+    "338": "payneca01",
+    "339": "flaggco01",
+    "340": "martico01",
+    "341": "carteje01",
+    "342": "krejcvi01",
+    "343": "murrakr01",
+    "344": "stevela01",
+    "345": "walkeke02",
+    "346": "jaqueja01",
+    "347": "champju01",
+    "348": "edgecvj01",
+    "349": "mathega01",
+    "350": "reathdu01",
+    "351": "greenda02",
+    "352": "hendesc01",
+    "353": "yurtsom01",
+    "354": "landajo01",
+    "355": "gueyemo02",
+    "356": "okekech01",
+    "357": "pippesc02",
+    "358": "lenal01",
+    "359": "gilleco01",
+    "360": "gibsota01",
+    "361": "birchkh01",
+    "362": "sharpda01",
+    "363": "joeis01",
+    "364": "alvarjo01",
+    "365": "larsspe01",
+    "366": "shamela01",
+    "367": "favorde01",
+    "368": "watfotr01",
+    "369": "demineg01",
+    "370": "dedmode01",
+    "371": "jonesda03",
+    "372": "easonta01",
+    "373": "mamuksa01",
+    "374": "littlna01",
+    "375": "willibr03",
+    "376": "liveris01",
+    "377": "sensabr01",
+    "378": "robinor01",
+    "379": "clarkbr01",
+    "380": "diallha01",
+    "381": "micicva01",
+    "382": "willico04",
+    "383": "tysonja01",
+    "384": "cowarce01",
+    "385": "baileac01",
+    "386": "jonessp01",
+    "387": "paytoga02",
+    "388": "brissos01",
+    "389": "mcgowbr01",
+    "390": "noelne01",
+    "391": "saricda01",
+    "392": "mogbojo01",
+    "393": "holidaa01",
+    "394": "mcdanja01",
+    "395": "exumda01",
+    "396": "laravja01",
+    "397": "wrighde01",
+    "398": "lylestr01",
+    "399": "metuch01",
+    "400": "bledser01",
+    "401": "riverau01",
+    "402": "johnsst04",
+    "403": "walteja01",
+    "404": "smithni01",
+    "405": "wagnemo01",
+    "406": "langfro01",
+    "407": "matthwe02",
+    "408": "edwarju01",
+    "409": "brownmo01",
+    "410": "bonaad01",
+    "411": "hendrta01",
+    "412": "nworajo01",
+    "413": "ellebcj01",
+    "414": "lopezro01",
+    "415": "aldrila01",
+    "416": "ighodos01",
+    "417": "walkeja01",
+    "418": "winslju01",
+    "419": "roddyda01",
+    "420": "goodwjo01",
+    "421": "sheppbe01",
+    "422": "muscami01",
+    "423": "walkeja02",
+    "424": "richajo01",
+    "425": "cissosi01",
+    "426": "wilsoja03",
+    "427": "porteot01",
+    "428": "houstca01",
+    "429": "walshjo01",
+    "430": "hernawi01",
+    "431": "willike04",
+    "432": "bembrde01",
+    "433": "korkmfu01",
+    "434": "jeffrda01",
+    "435": "harklma01",
+    "436": "gallida01",
+    "437": "merrisa01",
+    "438": "harremo01",
+    "439": "nancela02",
+    "440": "mccontj01",
+    "441": "youngth01",
+    "442": "luwawti01",
+    "443": "hardyja02",
+    "444": "niangge01",
+    "445": "hawkijo01",
+    "446": "smithde03",
+    "447": "johnstr03",
+    "448": "bradlto01",
+    "449": "ibakase01",
+    "450": "knoxke01",
+    "451": "murraco01",
+    "452": "hernaju01",
+    "453": "miltosh01",
+    "454": "jacksgg01",
+    "455": "simpskj01",
+    "456": "juzanjo01",
+    "457": "sheadja01",
+    "458": "pickeja02",
+    "459": "hillge01",
+    "460": "butleja02",
+    "461": "azubuud01",
+    "462": "jemistr01",
+    "463": "primojo01",
+    "464": "nembhry01",
+    "465": "hamptrj01",
+    "466": "jamessi01",
+    "467": "bouchch01",
+    "468": "pottemi01",
+    "469": "daviste02",
+    "470": "mayssk01",
+    "471": "martity01",
+    "472": "templga01",
+    "473": "bantoda01",
+    "474": "netora01",
+    "475": "knechda01",
+    "476": "greenja01",
+    "477": "whiteha01",
+    "478": "nnajize01",
+    "479": "matkoka01",
+    "480": "houseda01",
+    "481": "gilyaja01",
+    "482": "inglejo01",
+    "483": "jacksqu01",
+    "484": "furphjo01",
+    "485": "maledth01",
+    "486": "richawi02",
+    "487": "couside01",
+    "488": "fernabr01",
+    "489": "hylanbo01",
+    "490": "satorto01",
+    "491": "sumneed01",
+    "492": "mcgruro01",
+    "493": "beaucma01",
+    "494": "toscaju01",
+    "495": "spencca01",
+    "496": "holmeda01",
+    "497": "battlja01",
+    "498": "thomptr01",
+    "499": "garzalu01",
+    "500": "rubiori01",
+    "501": "brookar01",
+    "502": "sykeske01",
+    "503": "leeda03",
+    "504": "bostobr01",
+    "505": "waterli01",
+    "506": "bazemke01",
+    "507": "snellto01",
+    "508": "griffaj01",
+    "509": "taylote01",
+    "510": "ntilila01",
+    "511": "johnsja01",
+    "512": "cancavl01",
+    "513": "jeromty01",
+    "514": "johnsaj01",
+    "515": "minotjo01",
+    "516": "mitchaj01",
+    "517": "rosede01",
+    "518": "councri01",
+    "519": "joneska01",
+    "520": "hukpoar01",
+    "521": "gillan01",
+    "522": "forretr01",
+    "523": "rosste01",
+    "524": "washidu02",
+    "525": "arizatr01",
+    "526": "thorjt01",
+    "527": "salauti01",
+    "528": "antetth01",
+    "529": "gabriwe01",
+    "530": "dragigo01",
+    "531": "evbuoto01",
+    "532": "sheppre01",
+    "533": "sandeko01",
+    "534": "ellinwa01",
+    "535": "paytoel01",
+    "536": "mccaija01",
+    "537": "poweldr01",
+    "538": "diakima01",
+    "539": "omorueu01",
+    "540": "jacksfr01",
+    "541": "nixda01",
+    "542": "phillju01",
+    "543": "osmande01",
+    "544": "portecr01",
+    "545": "morrima02",
+    "546": "castlco01",
+    "547": "vukcetr01",
+    "548": "prospol01",
+    "549": "anderju01",
+    "550": "browngr01",
+    "551": "diawamo01",
+    "552": "dukeda01",
+    "553": "sassema01",
+    "554": "wallake01",
+    "555": "hollaro01",
+    "556": "jenkida01",
+    "557": "jakucka01",
+    "558": "dienggo01",
+    "559": "garubus01",
+    "560": "bassech01",
+    "561": "sarrol01",
+    "562": "hoardja01",
+    "563": "chrisjo01",
+    "564": "smithis01",
+    "565": "reedda01",
+    "566": "flynnma01",
+    "567": "mclembe01",
+    "568": "davisjo06",
+    "569": "samanlu01",
+    "570": "terryda01",
+    "571": "ruperra01",
+    "572": "santogu01",
+    "573": "cliffni01",
+    "574": "davised01",
+    "575": "pascher01",
+    "576": "timmedr01",
+    "577": "oladivi01",
+    "578": "watanyu01",
+    "579": "sprinja01",
+    "580": "portejo01",
+    "581": "strawju01",
+    "582": "brookke02",
+    "583": "reevean01",
+    "584": "scheiba01",
+    "585": "sarafbe01",
+    "586": "thompet01",
+    "587": "wolfda01",
+    "588": "leoname01",
+    "589": "hallpj01",
+    "590": "carlsbr01",
+    "591": "knighna01",
+    "592": "zelleco01",
+    "593": "kelleky01",
+    "594": "william01",
+    "595": "isaacjo01",
+    "596": "nwabada01",
+    "597": "campafa01",
+    "598": "hugheel01",
+    "599": "nowelja01",
+    "600": "simpsza01",
+    "601": "kalaige01",
+    "602": "lamban01",
+    "603": "arcidry01",
+    "604": "willije02",
+    "605": "whitmca01",
+    "606": "freemja01",
+    "607": "clarkja02",
+    "608": "tysonhu01",
+    "609": "beekmre01",
+    "610": "baglema02",
+    "611": "spencpa01",
+    "612": "gillefr01",
+    "613": "cissemo01",
+    "614": "caulewi01",
+    "615": "brownch05",
+    "616": "forbebr01",
+    "617": "queentr01",
+    "618": "dowtije01",
+    "619": "pendano01",
+    "620": "jacksjo02",
+    "621": "anthoca01",
+    "622": "muldemy01",
+    "623": "brownst02",
+    "624": "graveha01",
+    "625": "waltode01",
+    "626": "mclaujo01",
+    "627": "watsopa01",
+    "628": "fraziti01",
+    "629": "pangoke01",
+    "630": "tilliki02",
+    "631": "mckinal01",
+    "632": "goodwbr01",
+    "633": "okpalkz01",
+    "634": "moorewe01",
+    "635": "smithdr01",
+    "636": "walljo01",
+    "637": "blackle01",
+    "638": "baldwpa01",
+    "639": "jonesdi01",
+    "640": "tomlina01",
+    "641": "careyve01",
+    "642": "fallta01",
+    "643": "wilsodj01",
+    "644": "perryre01",
+    "645": "nancepe01",
+    "646": "kanteen01",
+    "647": "millspa01",
+    "648": "vonleno01",
+    "649": "hasleud01",
+    "650": "toddis01",
+    "651": "loftoke01",
+    "652": "badjiib01",
+    "653": "willima11",
+    "654": "freemen01",
+    "655": "livinch01",
+    "656": "yangha01",
+    "657": "martike03",
+    "658": "culveja01",
+    "659": "lewisma05",
+    "660": "bouyeja01",
+    "661": "proctty01",
+    "662": "bolmale01",
+    "663": "augusdj01",
+    "664": "wanambr01",
+    "665": "brownch02",
+    "666": "cookty01",
+    "667": "nunnke01",
+    "668": "wainris01",
+    "669": "weslebl01",
+    "670": "washity02",
+    "671": "bertada01",
+    "672": "diengou01",
+    "673": "umudest01",
+    "674": "lawsoaj01",
+    "675": "baughda01",
+    "676": "rhodeja01",
+    "677": "jamesbr02",
+    "678": "gonzahu01",
+    "679": "watkija01",
+    "680": "hillso01",
+    "681": "chiozch01",
+    "682": "smartja01",
+    "683": "thomais02",
+    "684": "laymaja01",
+    "685": "schofad01",
+    "686": "clarkga01",
+    "687": "iwundwe01",
+    "688": "stanlca01",
+    "689": "gayru01",
+    "690": "stephla01",
+    "691": "rondora01",
+    "692": "blevike01",
+    "693": "louzama01",
+    "694": "wrighmc01",
+    "695": "butlejo01",
+    "696": "wiggili01",
+    "697": "pinsoth01",
+    "698": "cooksxa01",
+    "699": "leesa01",
+    "700": "ryanma01",
+    "701": "cainja01",
+    "702": "haganas01",
+    "703": "ramseja01",
+    "704": "dilliro01",
+    "705": "shannte01",
+    "706": "peterdr01",
+    "707": "tshieos01",
+    "708": "jonesis01",
+    "709": "cardwdy01",
+    "710": "peavymi01",
+    "711": "kolekty01",
+    "712": "loveca01",
+    "713": "rileywi01",
+    "714": "traorno01"
+  },
+  "player_id_to_name": {
+    "jokicni01": "Nikola Joki\u0107",
+    "goberru01": "Rudy Gobert",
+    "zubaciv01": "Ivica Zubac",
+    "vucevni01": "Nikola Vu\u010devi\u0107",
+    "adebaba01": "Bam Adebayo",
+    "allenja01": "Jarrett Allen",
+    "turnemy01": "Myles Turner",
+    "sabondo01": "Domantas Sabonis",
+    "aytonde01": "Deandre Ayton",
+    "jacksja02": "Jaren Jackson Jr.",
+    "lopezbr01": "Brook Lopez",
+    "townska01": "Karl-Anthony Towns",
+    "claxtni01": "Nic Claxton",
+    "valanjo01": "Jonas Valan\u010di\u016bnas",
+    "poeltja01": "Jakob Poeltl",
+    "capelca01": "Clint Capela",
+    "sengual01": "Alperen \u015eeng\u00fcn",
+    "nurkiju01": "Jusuf Nurki\u0107",
+    "embiijo01": "Joel Embiid",
+    "davisan02": "Anthony Davis",
+    "porzikr01": "Kristaps Porzi\u0146\u0123is",
+    "cartewe01": "Wendell Carter Jr.",
+    "barnesc01": "Scottie Barnes",
+    "looneke01": "Kevon Looney",
+    "gaffoda01": "Daniel Gafford",
+    "bridgmi01": "Mikal Bridges",
+    "brownja02": "Jaylen Brown",
+    "horfoal01": "Al Horford",
+    "durenja01": "Jalen Duren",
+    "siakapa01": "Pascal Siakam",
+    "greendr01": "Draymond Green",
+    "edwaran01": "Anthony Edwards",
+    "mobleev01": "Evan Mobley",
+    "brunsja01": "Jalen Brunson",
+    "harrito02": "Tobias Harris",
+    "tatumja01": "Jayson Tatum",
+    "barneha02": "Harrison Barnes",
+    "holmgch01": "Chet Holmgren",
+    "gilgesh01": "Shai Gilgeous-Alexander",
+    "randlju01": "Julius Randle",
+    "mitchdo01": "Donovan Mitchell",
+    "derozde01": "DeMar DeRozan",
+    "antetgi01": "Giannis Antetokounmpo",
+    "whitede01": "Derrick White",
+    "doncilu01": "Luka Don\u010di\u0107",
+    "hardeja01": "James Harden",
+    "bookede01": "Devin Booker",
+    "caldwke01": "Kentavious Caldwell-Pope",
+    "dortlu01": "Luguentz Dort",
+    "mcdanja02": "Jaden McDaniels",
+    "gordoaa01": "Aaron Gordon",
+    "curryst01": "Stephen Curry",
+    "robinmi01": "Mitchell Robinson",
+    "wagnefr01": "Franz Wagner",
+    "wiggian01": "Andrew Wiggins",
+    "butleji01": "Jimmy Butler",
+    "jamesle01": "LeBron James",
+    "holidjr01": "Jrue Holiday",
+    "banede01": "Desmond Bane",
+    "foxde01": "De'Aaron Fox",
+    "plumlma01": "Mason Plumlee",
+    "brookdi01": "Dillon Brooks",
+    "conlemi01": "Mike Conley",
+    "giddejo01": "Josh Giddey",
+    "greenja05": "Jalen Green",
+    "poweldw01": "Dwight Powell",
+    "garlada01": "Darius Garland",
+    "duranke01": "Kevin Durant",
+    "maxeyty01": "Tyrese Maxey",
+    "portemi01": "Michael Porter Jr.",
+    "collijo01": "John Collins",
+    "barrerj01": "RJ Barrett",
+    "youngtr01": "Trae Young",
+    "mccolcj01": "CJ McCollum",
+    "anunoog01": "OG Anunoby",
+    "kuzmaky01": "Kyle Kuzma",
+    "halibty01": "Tyrese Haliburton",
+    "markkla01": "Lauri Markkanen",
+    "murraja01": "Jamal Murray",
+    "thompkl01": "Klay Thompson",
+    "smithja05": "Jabari Smith Jr.",
+    "lavinza01": "Zach LaVine",
+    "wembavi01": "Victor Wembanyama",
+    "russeda01": "D'Angelo Russell",
+    "vanvlfr01": "Fred VanVleet",
+    "bridgmi02": "Miles Bridges",
+    "washipj01": "P.J. Washington",
+    "willija06": "Jalen Williams",
+    "adamsst01": "Steven Adams",
+    "stewais01": "Isaiah Stewart",
+    "finnedo01": "Dorian Finney-Smith",
+    "hartjo01": "Josh Hart",
+    "cunnica01": "Cade Cunningham",
+    "joneshe01": "Herbert Jones",
+    "ingrabr01": "Brandon Ingram",
+    "murrade01": "Dejounte Murray",
+    "harteis01": "Isaiah Hartenstein",
+    "murrake02": "Keegan Murray",
+    "huertke01": "Kevin Huerter",
+    "georgpa01": "Paul George",
+    "banchpa01": "Paolo Banchero",
+    "kesslwa01": "Walker Kessler",
+    "nembhan01": "Andrew Nembhard",
+    "allengr01": "Grayson Allen",
+    "poolejo01": "Jordan Poole",
+    "grantje01": "Jerami Grant",
+    "paulch01": "Chris Paul",
+    "willima07": "Mark Williams",
+    "lillada01": "Damian Lillard",
+    "irvinky01": "Kyrie Irving",
+    "smartma01": "Marcus Smart",
+    "moranja01": "Ja Morant",
+    "avdijde01": "Deni Avdija",
+    "vassede01": "Devin Vassell",
+    "ballla01": "LaMelo Ball",
+    "strusma01": "Max Strus",
+    "roziete01": "Terry Rozier",
+    "reaveau01": "Austin Reaves",
+    "okorois01": "Isaac Okoro",
+    "okongon01": "Onyeka Okongwu",
+    "onealro01": "Royce O'Neale",
+    "dinwisp01": "Spencer Dinwiddie",
+    "simonan01": "Anfernee Simons",
+    "herroty01": "Tyler Herro",
+    "sarral01": "Alex Sarr",
+    "suggsja01": "Jalen Suggs",
+    "huntede01": "De'Andre Hunter",
+    "beysa01": "Saddiq Bey",
+    "richani01": "Nick Richards",
+    "middlkh01": "Khris Middleton",
+    "leonaka01": "Kawhi Leonard",
+    "williro04": "Robert Williams",
+    "whiteco01": "Coby White",
+    "mannte01": "Terance Mann",
+    "johnsca02": "Cameron Johnson",
+    "nesmiaa01": "Aaron Nesmith",
+    "oubreke01": "Kelly Oubre Jr.",
+    "bealbr01": "Bradley Beal",
+    "westbru01": "Russell Westbrook",
+    "schrode01": "Dennis Schr\u00f6der",
+    "murphtr02": "Trey Murphy III",
+    "robindu01": "Duncan Robinson",
+    "trentga02": "Gary Trent Jr.",
+    "lowryky01": "Kyle Lowry",
+    "drumman01": "Andre Drummond",
+    "hieldbu01": "Buddy Hield",
+    "jonesty01": "Tyus Jones",
+    "bitadgo01": "Goga Bitadze",
+    "tuckepj01": "P.J. Tucker",
+    "bambamo01": "Mo Bamba",
+    "camarto01": "Toumani Camara",
+    "portibo01": "Bobby Portis",
+    "powelno01": "Norman Powell",
+    "johnske04": "Keldon Johnson",
+    "iveyja01": "Jaden Ivey",
+    "bogdabo02": "Bojan Bogdanovi\u0107",
+    "olynyke01": "Kelly Olynyk",
+    "vandeja01": "Jarred Vanderbilt",
+    "hardati02": "Tim Hardaway Jr.",
+    "divindo01": "Donte DiVincenzo",
+    "woodch01": "Christian Wood",
+    "jonesde02": "Derrick Jones Jr.",
+    "sochaje01": "Jeremy Sochan",
+    "willizi01": "Zion Williamson",
+    "livelde01": "Dereck Lively II",
+    "dosunay01": "Ayo Dosunmu",
+    "daniedy01": "Dyson Daniels",
+    "eubandr01": "Drew Eubanks",
+    "hachiru01": "Rui Hachimura",
+    "clingdo01": "Donovan Clingan",
+    "willipa01": "Patrick Williams",
+    "gordoer01": "Eric Gordon",
+    "porteke02": "Kevin Porter Jr.",
+    "sextoco01": "Collin Sexton",
+    "johnsja05": "Jalen Johnson",
+    "jonestr01": "Tre Jones",
+    "brownbr01": "Bruce Brown",
+    "quickim01": "Immanuel Quickley",
+    "missiyv01": "Yves Missi",
+    "baglema01": "Marvin Bagley III",
+    "dunnkr01": "Kris Dunn",
+    "beaslma01": "Malik Beasley",
+    "beverpa01": "Patrick Beverley",
+    "princta02": "Taurean Prince",
+    "jacksre01": "Reggie Jackson",
+    "edeyza01": "Zach Edey",
+    "morrima03": "Marcus Morris",
+    "thompau01": "Ausar Thompson",
+    "morrimo01": "Monte Morris",
+    "grimequ01": "Quentin Grimes",
+    "hayesja02": "Jaxson Hayes",
+    "wareke01": "Kel'el Ware",
+    "haywago01": "Gordon Hayward",
+    "millebr02": "Brandon Miller",
+    "hayeski01": "Killian Hayes",
+    "sharpsh01": "Shaedon Sharpe",
+    "achiupr01": "Precious Achiuwa",
+    "georgke01": "Keyonte George",
+    "champju02": "Julian Champagnie",
+    "colliza01": "Zach Collins",
+    "wadede01": "Dean Wade",
+    "greenjo02": "Josh Green",
+    "wellsja01": "Jaylen Wells",
+    "batumni01": "Nicolas Batum",
+    "martica02": "Caleb Martin",
+    "kuminjo01": "Jonathan Kuminga",
+    "thompam01": "Amen Thompson",
+    "carusal01": "Alex Caruso",
+    "crowdja01": "Jae Crowder",
+    "mitchda01": "Davion Mitchell",
+    "risacza01": "Zaccharie Risacher",
+    "braunch01": "Christian Braun",
+    "bullore01": "Reggie Bullock",
+    "mathube01": "Bennedict Mathurin",
+    "biyombi01": "Bismack Biyombo",
+    "meltode01": "De'Anthony Melton",
+    "vincega01": "Gabe Vincent",
+    "robinje02": "Jeremiah Robinson-Earl",
+    "harriga01": "Gary Harris",
+    "coulibi01": "Bilal Coulibaly",
+    "holmeri01": "Richaun Holmes",
+    "agbajoc01": "Ochai Agbaji",
+    "jackstr02": "Trayce Jackson-Davis",
+    "willizi02": "Ziaire Williams",
+    "willija07": "Jaylin Williams",
+    "willigr01": "Grant Williams",
+    "quetane01": "Neemias Queta",
+    "kispeco01": "Corey Kispert",
+    "thybuma01": "Matisse Thybulle",
+    "alexani01": "Nickeil Alexander-Walker",
+    "tateja01": "Jae'Sean Tate",
+    "curryse01": "Seth Curry",
+    "moodymo01": "Moses Moody",
+    "craigto01": "Torrey Craig",
+    "postqu01": "Quinten Post",
+    "leverca01": "Caris LeVert",
+    "wallaca01": "Cason Wallace",
+    "wiggiaa01": "Aaron Wiggins",
+    "bryanth01": "Thomas Bryant",
+    "thomaca02": "Cam Thomas",
+    "simmobe01": "Ben Simmons",
+    "anthoco01": "Cole Anthony",
+    "fournev01": "Evan Fournier",
+    "clarkjo01": "Jordan Clarkson",
+    "castlst01": "Stephon Castle",
+    "podzibr01": "Brandin Podziemski",
+    "greenje02": "Jeff Green",
+    "bolbo01": "Bol Bol",
+    "kornelu01": "Luke Kornet",
+    "aldamsa01": "Santi Aldama",
+    "smithja04": "Jalen Smith",
+    "jacksis01": "Isaiah Jackson",
+    "bartowi01": "Will Barton",
+    "monkma01": "Malik Monk",
+    "chrisma02": "Max Christie",
+    "marshna01": "Naji Marshall",
+    "buzelma01": "Matas Buzelis",
+    "okogijo01": "Josh Okogie",
+    "highsha01": "Haywood Highsmith",
+    "fultzma01": "Markelle Fultz",
+    "georgky01": "Kyshawn George",
+    "reidna01": "Naz Reid",
+    "carrica01": "Bub Carrington",
+    "holidju01": "Justin Holiday",
+    "anderky01": "Kyle Anderson",
+    "jordade01": "DeAndre Jordan",
+    "greenja02": "Javonte Green",
+    "bogdabo01": "Bogdan Bogdanovi\u0107",
+    "martike04": "KJ Martin",
+    "dickgr01": "Gradey Dick",
+    "simsje01": "Jericho Sims",
+    "brogdma01": "Malcolm Brogdon",
+    "theisda01": "Daniel Theis",
+    "grahade01": "Devonte' Graham",
+    "griffbl01": "Blake Griffin",
+    "tillmxa01": "Xavier Tillman Sr.",
+    "reedpa01": "Paul Reed",
+    "burksal01": "Alec Burks",
+    "mykhasv01": "Svi Mykhailiuk",
+    "blackan01": "Anthony Black",
+    "yabusgu01": "Guerschon Yabusele",
+    "johnske07": "Keon Johnson",
+    "filipky01": "Kyle Filipowski",
+    "queende01": "Derik Queen",
+    "duartch01": "Chris Duarte",
+    "branhma01": "Malaki Branham",
+    "kennalu01": "Luke Kennard",
+    "bateske01": "Keita Bates-Diop",
+    "loveke01": "Kevin Love",
+    "reddica01": "Cam Reddish",
+    "browntr01": "Troy Brown Jr.",
+    "coffeam01": "Amir Coffey",
+    "jovicni01": "Nikola Jovi\u0107",
+    "rolliry01": "Ryan Rollins",
+    "clownno01": "Noah Clowney",
+    "connapa01": "Pat Connaughton",
+    "watsope01": "Peyton Watson",
+    "mcderdo01": "Doug McDermott",
+    "hausesa01": "Sam Hauser",
+    "pritcpa01": "Payton Pritchard",
+    "josepco01": "Cory Joseph",
+    "robyis01": "Isaiah Roby",
+    "bazleda01": "Darius Bazley",
+    "konchjo01": "John Konchar",
+    "pokusal01": "Aleksej Pokusevski",
+    "balllo01": "Lonzo Ball",
+    "millspa02": "Patty Mills",
+    "diabamo01": "Moussa Diabat\u00e9",
+    "manntr01": "Tre Mann",
+    "dunnry01": "Ryan Dunn",
+    "huffja01": "Jay Huff",
+    "greenaj01": "A.J. Green",
+    "howardw01": "Dwight Howard",
+    "walkelo01": "Lonnie Walker IV",
+    "jacksan01": "Andre Jackson Jr.",
+    "toppiob01": "Obi Toppin",
+    "kalkbry01": "Ryan Kalkbrenner",
+    "fontesi01": "Simone Fontecchio",
+    "mcgeeja01": "JaVale McGee",
+    "wisemja01": "James Wiseman",
+    "hortota01": "Talen Horton-Tucker",
+    "willivi01": "Vince Williams Jr.",
+    "elliske01": "Keon Ellis",
+    "colliis01": "Isaiah Collier",
+    "knuepko01": "Kon Knueppel",
+    "dasiltr01": "Tristan Da Silva",
+    "edwarke02": "Kessler Edwards",
+    "covinro01": "Robert Covington",
+    "harrijo01": "Joe Harris",
+    "bradlav01": "Avery Bradley",
+    "mcbrimi01": "Miles McBride",
+    "fearsje01": "Jeremiah Fears",
+    "barlodo01": "Dominick Barlow",
+    "raynama01": "Maxime Raynaud",
+    "klebima01": "Maxi Kleber",
+    "kolokch01": "Christian Koloko",
+    "payneca01": "Cameron Payne",
+    "flaggco01": "Cooper Flagg",
+    "martico01": "Cody Martin",
+    "carteje01": "Jevon Carter",
+    "krejcvi01": "Vit Krejci",
+    "murrakr01": "Kris Murray",
+    "stevela01": "Lamar Stevens",
+    "walkeke02": "Kemba Walker",
+    "jaqueja01": "Jaime Jaquez Jr.",
+    "champju01": "Justin Champagnie",
+    "edgecvj01": "VJ Edgecombe",
+    "mathega01": "Garrison Mathews",
+    "reathdu01": "Duop Reath",
+    "greenda02": "Danny Green",
+    "hendesc01": "Scoot Henderson",
+    "yurtsom01": "Omer Yurtseven",
+    "landajo01": "Jock Landale",
+    "gueyemo02": "Mouhamed Gueye",
+    "okekech01": "Chuma Okeke",
+    "pippesc02": "Scotty Pippen Jr.",
+    "lenal01": "Alex Len",
+    "gilleco01": "Collin Gillespie",
+    "gibsota01": "Taj Gibson",
+    "birchkh01": "Khem Birch",
+    "sharpda01": "Day'Ron Sharpe",
+    "joeis01": "Isaiah Joe",
+    "alvarjo01": "Jose Alvarado",
+    "larsspe01": "Pelle Larsson",
+    "shamela01": "Landry Shamet",
+    "favorde01": "Derrick Favors",
+    "watfotr01": "Trendon Watford",
+    "demineg01": "Egor D\u0451min",
+    "dedmode01": "Dewayne Dedmon",
+    "jonesda03": "Damian Jones",
+    "easonta01": "Tari Eason",
+    "mamuksa01": "Sandro Mamukelashvili",
+    "littlna01": "Nassir Little",
+    "willibr03": "Brandon Williams",
+    "liveris01": "Isaiah Livers",
+    "sensabr01": "Brice Sensabaugh",
+    "robinor01": "Orlando Robinson",
+    "clarkbr01": "Brandon Clarke",
+    "diallha01": "Hamidou Diallo",
+    "micicva01": "Vasilije Mici\u0107",
+    "willico04": "Cody Williams",
+    "tysonja01": "Jaylon Tyson",
+    "cowarce01": "Cedric Coward",
+    "baileac01": "Ace Bailey",
+    "jonessp01": "Spencer Jones",
+    "paytoga02": "Gary Payton II",
+    "brissos01": "Oshae Brissett",
+    "mcgowbr01": "Bryce McGowens",
+    "noelne01": "Nerlens Noel",
+    "saricda01": "Dario \u0160ari\u0107",
+    "mogbojo01": "Jonathan Mogbo",
+    "holidaa01": "Aaron Holiday",
+    "mcdanja01": "Jalen McDaniels",
+    "exumda01": "Dante Exum",
+    "laravja01": "Jake LaRavia",
+    "wrighde01": "Delon Wright",
+    "lylestr01": "Trey Lyles",
+    "metuch01": "Chimezie Metu",
+    "bledser01": "Eric Bledsoe",
+    "riverau01": "Austin Rivers",
+    "johnsst04": "Stanley Johnson",
+    "walteja01": "Ja'Kobe Walter",
+    "smithni01": "Nick Smith Jr.",
+    "wagnemo01": "Moritz Wagner",
+    "langfro01": "Romeo Langford",
+    "matthwe02": "Wesley Matthews",
+    "edwarju01": "Justin Edwards",
+    "brownmo01": "Moses Brown",
+    "bonaad01": "Adem Bona",
+    "hendrta01": "Taylor Hendricks",
+    "nworajo01": "Jordan Nwora",
+    "ellebcj01": "CJ Elleby",
+    "lopezro01": "Robin Lopez",
+    "aldrila01": "LaMarcus Aldridge",
+    "ighodos01": "Oso Ighodaro",
+    "walkeja01": "Jabari Walker",
+    "winslju01": "Justise Winslow",
+    "roddyda01": "David Roddy",
+    "goodwjo01": "Jordan Goodwin",
+    "sheppbe01": "Ben Sheppard",
+    "muscami01": "Mike Muscala",
+    "walkeja02": "Jarace Walker",
+    "richajo01": "Josh Richardson",
+    "cissosi01": "Sidy Cissoko",
+    "wilsoja03": "Jalen Wilson",
+    "porteot01": "Otto Porter Jr.",
+    "houstca01": "Caleb Houstan",
+    "walshjo01": "Jordan Walsh",
+    "hernawi01": "Willy Hernang\u00f3mez",
+    "willike04": "Kenrich Williams",
+    "bembrde01": "DeAndre' Bembry",
+    "korkmfu01": "Furkan Korkmaz",
+    "jeffrda01": "DaQuan Jeffries",
+    "harklma01": "Maurice Harkless",
+    "gallida01": "Danilo Gallinari",
+    "merrisa01": "Sam Merrill",
+    "harremo01": "Montrezl Harrell",
+    "nancela02": "Larry Nance Jr.",
+    "mccontj01": "T.J. McConnell",
+    "youngth01": "Thaddeus Young",
+    "luwawti01": "Timoth\u00e9 Luwawu-Cabarrot",
+    "hardyja02": "Jaden Hardy",
+    "niangge01": "Georges Niang",
+    "hawkijo01": "Jordan Hawkins",
+    "smithde03": "Dennis Smith Jr.",
+    "johnstr03": "Tre Johnson",
+    "bradlto01": "Tony Bradley",
+    "ibakase01": "Serge Ibaka",
+    "knoxke01": "Kevin Knox",
+    "murraco01": "Collin Murray-Boyles",
+    "hernaju01": "Juancho Hernang\u00f3mez",
+    "miltosh01": "Shake Milton",
+    "jacksgg01": "GG Jackson II",
+    "simpskj01": "KJ Simpson",
+    "juzanjo01": "Johnny Juzang",
+    "sheadja01": "Jamal Shead",
+    "pickeja02": "Jalen Pickett",
+    "hillge01": "George Hill",
+    "butleja02": "Jared Butler",
+    "azubuud01": "Udoka Azubuike",
+    "jemistr01": "Trey Jemison",
+    "primojo01": "Joshua Primo",
+    "nembhry01": "Ryan Nembhard",
+    "hamptrj01": "R.J. Hampton",
+    "jamessi01": "Sion James",
+    "bouchch01": "Chris Boucher",
+    "pottemi01": "Micah Potter",
+    "daviste02": "Terence Davis",
+    "mayssk01": "Skylar Mays",
+    "martity01": "Tyrese Martin",
+    "templga01": "Garrett Temple",
+    "bantoda01": "Dalano Banton",
+    "netora01": "Raul Neto",
+    "knechda01": "Dalton Knecht",
+    "greenja01": "JaMychal Green",
+    "whiteha01": "Hassan Whiteside",
+    "nnajize01": "Zeke Nnaji",
+    "matkoka01": "Karlo Matkovi\u0107",
+    "houseda01": "Danuel House Jr.",
+    "gilyaja01": "Jacob Gilyard",
+    "inglejo01": "Joe Ingles",
+    "jacksqu01": "Quenton Jackson",
+    "furphjo01": "Johnny Furphy",
+    "maledth01": "Th\u00e9o Maledon",
+    "richawi02": "Will Richard",
+    "couside01": "DeMarcus Cousins",
+    "fernabr01": "Bruno Fernando",
+    "hylanbo01": "Bones Hyland",
+    "satorto01": "Tom\u00e1\u0161 Satoransk\u00fd",
+    "sumneed01": "Edmond Sumner",
+    "mcgruro01": "Rodney McGruder",
+    "beaucma01": "MarJon Beauchamp",
+    "toscaju01": "Juan Toscano-Anderson",
+    "spencca01": "Cam Spencer",
+    "holmeda01": "DaRon Holmes",
+    "battlja01": "Jamison Battle",
+    "thomptr01": "Tristan Thompson",
+    "garzalu01": "Luka Garza",
+    "rubiori01": "Ricky Rubio",
+    "brookar01": "Armoni Brooks",
+    "sykeske01": "Keifer Sykes",
+    "leeda03": "Damion Lee",
+    "bostobr01": "Brandon Boston Jr.",
+    "waterli01": "Lindy Waters III",
+    "bazemke01": "Kent Bazemore",
+    "snellto01": "Tony Snell",
+    "griffaj01": "AJ Griffin",
+    "taylote01": "Terry Taylor",
+    "ntilila01": "Frank Ntilikina",
+    "johnsja01": "James Johnson",
+    "cancavl01": "Vlatko \u010can\u010dar",
+    "jeromty01": "Ty Jerome",
+    "johnsaj01": "AJ Johnson",
+    "minotjo01": "Josh Minott",
+    "mitchaj01": "Ajay Mitchell",
+    "rosede01": "Derrick Rose",
+    "councri01": "Ricky Council IV",
+    "joneska01": "Kai Jones",
+    "hukpoar01": "Ariel Hukporti",
+    "gillan01": "Anthony Gill",
+    "forretr01": "Trent Forrest",
+    "rosste01": "Terrence Ross",
+    "washidu02": "Duane Washington Jr.",
+    "arizatr01": "Trevor Ariza",
+    "thorjt01": "JT Thor",
+    "salauti01": "Tidjane Sala\u00fcn",
+    "antetth01": "Thanasis Antetokounmpo",
+    "gabriwe01": "Wenyen Gabriel",
+    "dragigo01": "Goran Dragi\u0107",
+    "evbuoto01": "Tosan Evbuomwan",
+    "sheppre01": "Reed Sheppard",
+    "sandeko01": "Kobe Sanders",
+    "ellinwa01": "Wayne Ellington",
+    "paytoel01": "Elfrid Payton",
+    "mccaija01": "Jared McCain",
+    "poweldr01": "Drake Powell",
+    "diakima01": "Mamadi Diakite",
+    "omorueu01": "Eugene Omoruyi",
+    "jacksfr01": "Frank Jackson",
+    "nixda01": "Daishen Nix",
+    "phillju01": "Julian Phillips",
+    "osmande01": "Cedi Osman",
+    "portecr01": "Craig Porter Jr.",
+    "morrima02": "Markieff Morris",
+    "castlco01": "Colin Castleton",
+    "vukcetr01": "Tristan Vukcevic",
+    "prospol01": "Olivier-Maxence Prosper",
+    "anderju01": "Justin Anderson",
+    "browngr01": "Greg Brown III",
+    "diawamo01": "Mohamed Diawara",
+    "dukeda01": "David Duke Jr.",
+    "sassema01": "Marcus Sasser",
+    "wallake01": "Keaton Wallace",
+    "hollaro01": "Ron Holland",
+    "jenkida01": "Daniss Jenkins",
+    "jakucka01": "Kasparas Jaku\u010dionis",
+    "dienggo01": "Gorgui Dieng",
+    "garubus01": "Usman Garuba",
+    "bassech01": "Charles Bassey",
+    "sarrol01": "Olivier Sarr",
+    "hoardja01": "Jaylen Hoard",
+    "chrisjo01": "Josh Christopher",
+    "smithis01": "Ish Smith",
+    "reedda01": "Davon Reed",
+    "flynnma01": "Malachi Flynn",
+    "mclembe01": "Ben McLemore",
+    "davisjo06": "Johnny Davis",
+    "samanlu01": "Luka \u0160amani\u0107",
+    "terryda01": "Dalen Terry",
+    "ruperra01": "Rayan Rupert",
+    "santogu01": "Gui Santos",
+    "cliffni01": "Nique Clifford",
+    "davised01": "Ed Davis",
+    "pascher01": "Eric Paschall",
+    "timmedr01": "Drew Timme",
+    "oladivi01": "Victor Oladipo",
+    "watanyu01": "Yuta Watanabe",
+    "sprinja01": "Jaden Springer",
+    "portejo01": "Jontay Porter",
+    "strawju01": "Julian Strawther",
+    "brookke02": "Keion Brooks Jr.",
+    "reevean01": "Antonio Reeves",
+    "scheiba01": "Baylor Scheierman",
+    "sarafbe01": "Ben Saraf",
+    "thompet01": "Ethan Thompson",
+    "wolfda01": "Danny Wolf",
+    "leoname01": "Meyers Leonard",
+    "hallpj01": "PJ Hall",
+    "carlsbr01": "Branden Carlson",
+    "knighna01": "Nathan Knight",
+    "zelleco01": "Cody Zeller",
+    "kelleky01": "Kylor Kelley",
+    "william01": "Amari Williams",
+    "isaacjo01": "Jonathan Isaac",
+    "nwabada01": "David Nwaba",
+    "campafa01": "Facundo Campazzo",
+    "hugheel01": "Elijah Hughes",
+    "nowelja01": "Jaylen Nowell",
+    "simpsza01": "Zavier Simpson",
+    "kalaige01": "Georgios Kalaitzakis",
+    "lamban01": "Anthony Lamb",
+    "arcidry01": "Ryan Arcidiacono",
+    "willije02": "Jeenathan Williams",
+    "whitmca01": "Cam Whitmore",
+    "freemja01": "Javon Freeman-Liberty",
+    "clarkja02": "Jaylen Clark",
+    "tysonhu01": "Hunter Tyson",
+    "beekmre01": "Reece Beekman",
+    "baglema02": "Marcus Bagley",
+    "spencpa01": "Pat Spencer",
+    "gillefr01": "Freddie Gillespie",
+    "cissemo01": "Moussa Cisse",
+    "caulewi01": "Willie Cauley-Stein",
+    "brownch05": "Chaundee Brown Jr.",
+    "forbebr01": "Bryn Forbes",
+    "queentr01": "Trevelin Queen",
+    "dowtije01": "Jeff Dowtin Jr.",
+    "pendano01": "Noah Penda",
+    "jacksjo02": "Josh Jackson",
+    "anthoca01": "Carmelo Anthony",
+    "muldemy01": "Mychal Mulder",
+    "brownst02": "Sterling Brown",
+    "graveha01": "Hassani Gravett",
+    "waltode01": "Derrick Walton",
+    "mclaujo01": "Jordan McLaughlin",
+    "watsopa01": "Paul Watson",
+    "fraziti01": "Tim Frazier",
+    "pangoke01": "Kevin Pangos",
+    "tilliki02": "Killian Tillie",
+    "mckinal01": "Alfonzo McKinnie",
+    "goodwbr01": "Brandon Goodwin",
+    "okpalkz01": "KZ Okpala",
+    "moorewe01": "Wendell Moore Jr.",
+    "smithdr01": "Dru Smith",
+    "walljo01": "John Wall",
+    "blackle01": "Leaky Black",
+    "baldwpa01": "Patrick Baldwin Jr.",
+    "jonesdi01": "Dillon Jones",
+    "tomlina01": "Nae'Qwan Tomlin",
+    "careyve01": "Vernon Carey Jr.",
+    "fallta01": "Tacko Fall",
+    "wilsodj01": "D.J. Wilson",
+    "perryre01": "Reggie Perry",
+    "nancepe01": "Pete Nance",
+    "kanteen01": "Enes Freedom",
+    "millspa01": "Paul Millsap",
+    "vonleno01": "Noah Vonleh",
+    "hasleud01": "Udonis Haslem",
+    "toddis01": "Isaiah Todd",
+    "loftoke01": "Kenneth Lofton Jr.",
+    "badjiib01": "Ibou Badji",
+    "willima11": "Malik Williams",
+    "freemen01": "Enrique Freeman",
+    "livinch01": "Chris Livingston",
+    "yangha01": "Yang Hansen",
+    "martike03": "Kelan Martin",
+    "culveja01": "Jarrett Culver",
+    "lewisma05": "Maxwell Lewis",
+    "bouyeja01": "Jamaree Bouyea",
+    "proctty01": "Tyrese Proctor",
+    "bolmale01": "Leandro Bolmaro",
+    "augusdj01": "D.J. Augustin",
+    "wanambr01": "Brad Wanamaker",
+    "brownch02": "Charlie Brown Jr.",
+    "cookty01": "Tyler Cook",
+    "nunnke01": "Kendrick Nunn",
+    "wainris01": "Ish Wainright",
+    "weslebl01": "Blake Wesley",
+    "washity02": "TyTy Washington Jr.",
+    "bertada01": "D\u0101vis Bert\u0101ns",
+    "diengou01": "Ousmane Dieng",
+    "umudest01": "Stanley Umude",
+    "lawsoaj01": "A.J. Lawson",
+    "baughda01": "Damion Baugh",
+    "rhodeja01": "Jared Rhoden",
+    "jamesbr02": "Bronny James",
+    "gonzahu01": "Hugo Gonz\u00e1lez",
+    "watkija01": "Jamir Watkins",
+    "hillso01": "Solomon Hill",
+    "chiozch01": "Chris Chiozza",
+    "smartja01": "Javonte Smart",
+    "thomais02": "Isaiah Thomas",
+    "laymaja01": "Jake Layman",
+    "schofad01": "Admiral Schofield",
+    "clarkga01": "Gary Clark",
+    "iwundwe01": "Wes Iwundu",
+    "stanlca01": "Cassius Stanley",
+    "gayru01": "Rudy Gay",
+    "stephla01": "Lance Stephenson",
+    "rondora01": "Rajon Rondo",
+    "blevike01": "Keljin Blevins",
+    "louzama01": "Didi Louzada",
+    "wrighmc01": "McKinley Wright IV",
+    "butlejo01": "John Butler",
+    "wiggili01": "Lindell Wigginton",
+    "pinsoth01": "Theo Pinson",
+    "cooksxa01": "Xavier Cooks",
+    "leesa01": "Saben Lee",
+    "ryanma01": "Matt Ryan",
+    "cainja01": "Jamal Cain",
+    "haganas01": "Ashton Hagans",
+    "ramseja01": "Jahmi'us Ramsey",
+    "dilliro01": "Rob Dillingham",
+    "shannte01": "Terrence Shannon Jr.",
+    "peterdr01": "Drew Peterson",
+    "tshieos01": "Oscar Tshiebwe",
+    "jonesis01": "Isaac Jones",
+    "cardwdy01": "Dylan Cardwell",
+    "peavymi01": "Micah Peavy",
+    "kolekty01": "Tyler Kolek",
+    "loveca01": "Caleb Love",
+    "rileywi01": "Will Riley",
+    "traorno01": "Nolan Traor\u00e9"
+  },
+  "player_name_to_id": {
+    "Brook Lopez": "lopezbr01",
+    "DeAndre Jordan": "jordade01",
+    "Jarrett Allen": "allenja01",
+    "Myles Turner": "turnemy01",
+    "Isaiah Stewart": "stewais01",
+    "Precious Achiuwa": "achiupr01",
+    "Jakob Poeltl": "poeltja01",
+    "Mitchell Robinson": "robinmi01",
+    "Joel Embiid": "embiijo01",
+    "Rudy Gobert": "goberru01",
+    "Jusuf Nurki\u0107": "nurkiju01",
+    "Nikola Joki\u0107": "jokicni01",
+    "Christian Wood": "woodch01",
+    "Kristaps Porzi\u0146\u0123is": "porzikr01",
+    "Giannis Antetokounmpo": "antetgi01",
+    "Kevon Looney": "looneke01",
+    "Daniel Gafford": "gaffoda01",
+    "Mo Bamba": "bambamo01",
+    "Robert Williams": "williro04",
+    "Nikola Vu\u010devi\u0107": "vucevni01",
+    "Richaun Holmes": "holmeri01",
+    "Clint Capela": "capelca01",
+    "Bam Adebayo": "adebaba01",
+    "Steven Adams": "adamsst01",
+    "Deandre Ayton": "aytonde01",
+    "Karl-Anthony Towns": "townska01",
+    "Nic Claxton": "claxtni01",
+    "Mason Plumlee": "plumlma01",
+    "Ivica Zubac": "zubaciv01",
+    "Al Horford": "horfoal01",
+    "Blake Griffin": "griffbl01",
+    "Derrick Favors": "favorde01",
+    "JaVale McGee": "mcgeeja01",
+    "Jonas Valan\u010di\u016bnas": "valanjo01",
+    "Drew Eubanks": "eubandr01",
+    "Bobby Portis": "portibo01",
+    "Andre Drummond": "drumman01",
+    "JaMychal Green": "greenja01",
+    "Scottie Barnes": "barnesc01",
+    "Tony Bradley": "bradlto01",
+    "Anthony Davis": "davisan02",
+    "Jeremiah Robinson-Earl": "robinje02",
+    "Dewayne Dedmon": "dedmode01",
+    "Ed Davis": "davised01",
+    "Nerlens Noel": "noelne01",
+    "P.J. Washington": "washipj01",
+    "Nick Richards": "richani01",
+    "Jeff Green": "greenje02",
+    "Naz Reid": "reidna01",
+    "Dwight Howard": "howardw01",
+    "LaMarcus Aldridge": "aldrila01",
+    "Chris Boucher": "bouchch01",
+    "Taj Gibson": "gibsota01",
+    "Vernon Carey Jr.": "careyve01",
+    "Alex Len": "lenal01",
+    "Wendell Carter Jr.": "cartewe01",
+    "DeMarcus Cousins": "couside01",
+    "Robin Lopez": "lopezro01",
+    "Jaren Jackson Jr.": "jacksja02",
+    "Tristan Thompson": "thomptr01",
+    "John Collins": "collijo01",
+    "Tacko Fall": "fallta01",
+    "Trey Lyles": "lylestr01",
+    "Luka Garza": "garzalu01",
+    "Willy Hernang\u00f3mez": "hernawi01",
+    "D.J. Wilson": "wilsodj01",
+    "Omer Yurtseven": "yurtsom01",
+    "LeBron James": "jamesle01",
+    "Isaiah Roby": "robyis01",
+    "Freddie Gillespie": "gillefr01",
+    "Evan Mobley": "mobleev01",
+    "Khem Birch": "birchkh01",
+    "Daniel Theis": "theisda01",
+    "Obi Toppin": "toppiob01",
+    "Dwight Powell": "poweldw01",
+    "Jalen Smith": "smithja04",
+    "Serge Ibaka": "ibakase01",
+    "Damian Jones": "jonesda03",
+    "Udoka Azubuike": "azubuud01",
+    "Hassan Whiteside": "whiteha01",
+    "Royce O'Neale": "onealro01",
+    "Day'Ron Sharpe": "sharpda01",
+    "Gorgui Dieng": "dienggo01",
+    "Goga Bitadze": "bitadgo01",
+    "Bismack Biyombo": "biyombi01",
+    "Domantas Sabonis": "sabondo01",
+    "Isaiah Jackson": "jacksis01",
+    "Thomas Bryant": "bryanth01",
+    "Mamadi Diakite": "diakima01",
+    "Coby White": "whiteco01",
+    "Alperen \u015eeng\u00fcn": "sengual01",
+    "Zach Collins": "colliza01",
+    "Darius Bazley": "bazleda01",
+    "Marvin Bagley III": "baglema01",
+    "Eric Paschall": "pascher01",
+    "Moses Brown": "brownmo01",
+    "Usman Garuba": "garubus01",
+    "Jericho Sims": "simsje01",
+    "Reggie Perry": "perryre01",
+    "Onyeka Okongwu": "okongon01",
+    "Draymond Green": "greendr01",
+    "Kelly Olynyk": "olynyke01",
+    "Jabari Smith Jr.": "smithja05",
+    "Kevin Porter Jr.": "porteke02",
+    "Bol Bol": "bolbo01",
+    "Christian Koloko": "kolokch01",
+    "Jaden Ivey": "iveyja01",
+    "Isaiah Hartenstein": "harteis01",
+    "Aleksej Pokusevski": "pokusal01",
+    "Devin Vassell": "vassede01",
+    "Montrezl Harrell": "harremo01",
+    "Bruno Fernando": "fernabr01",
+    "Jalen Duren": "durenja01",
+    "Aaron Gordon": "gordoaa01",
+    "Walker Kessler": "kesslwa01",
+    "Jaxson Hayes": "hayesja02",
+    "Jaylin Williams": "willija07",
+    "Mike Muscala": "muscami01",
+    "Orlando Robinson": "robinor01",
+    "Zeke Nnaji": "nnajize01",
+    "Andrew Wiggins": "wiggian01",
+    "Larry Nance Jr.": "nancela02",
+    "Mark Williams": "willima07",
+    "James Wiseman": "wisemja01",
+    "Charles Bassey": "bassech01",
+    "Lauri Markkanen": "markkla01",
+    "Rui Hachimura": "hachiru01",
+    "Jonathan Kuminga": "kuminjo01",
+    "Paul Reed": "reedpa01",
+    "Meyers Leonard": "leoname01",
+    "Markieff Morris": "morrima02",
+    "Olivier Sarr": "sarrol01",
+    "Jock Landale": "landajo01",
+    "Victor Wembanyama": "wembavi01",
+    "Chet Holmgren": "holmgch01",
+    "Ben Simmons": "simmobe01",
+    "Dereck Lively II": "livelde01",
+    "Duop Reath": "reathdu01",
+    "Eric Gordon": "gordoer01",
+    "Derrick Jones Jr.": "jonesde02",
+    "Moritz Wagner": "wagnemo01",
+    "Xavier Tillman Sr.": "tillmxa01",
+    "Dominick Barlow": "barlodo01",
+    "Luke Kornet": "kornelu01",
+    "Maxi Kleber": "klebima01",
+    "Trey Jemison": "jemistr01",
+    "Santi Aldama": "aldamsa01",
+    "Kyle Kuzma": "kuzmaky01",
+    "Trayce Jackson-Davis": "jackstr02",
+    "Zach Edey": "edeyza01",
+    "Shai Gilgeous-Alexander": "gilgesh01",
+    "Alex Sarr": "sarral01",
+    "Yves Missi": "missiyv01",
+    "Harrison Barnes": "barneha02",
+    "Neemias Queta": "quetane01",
+    "Dario \u0160ari\u0107": "saricda01",
+    "Kyle Filipowski": "filipky01",
+    "Grant Williams": "willigr01",
+    "Jalen Williams": "willija06",
+    "Donovan Clingan": "clingdo01",
+    "Moussa Diabat\u00e9": "diabamo01",
+    "Guerschon Yabusele": "yabusgu01",
+    "Ziaire Williams": "willizi02",
+    "Oso Ighodaro": "ighodos01",
+    "Austin Reaves": "reaveau01",
+    "Jonathan Mogbo": "mogbojo01",
+    "Adem Bona": "bonaad01",
+    "Kel'el Ware": "wareke01",
+    "Quinten Post": "postqu01",
+    "Amen Thompson": "thompam01",
+    "Tari Eason": "easonta01",
+    "Jayson Tatum": "tatumja01",
+    "T.J. McConnell": "mccontj01",
+    "Paul George": "georgpa01",
+    "Jarred Vanderbilt": "vandeja01",
+    "Jay Huff": "huffja01",
+    "Kessler Edwards": "edwarke02",
+    "Colin Castleton": "castlco01",
+    "Jeremy Sochan": "sochaje01",
+    "Kai Jones": "joneska01",
+    "Drew Timme": "timmedr01",
+    "Pete Nance": "nancepe01",
+    "Trey Murphy III": "murphtr02",
+    "Mouhamed Gueye": "gueyemo02",
+    "Ryan Kalkbrenner": "kalkbry01",
+    "Cam Thomas": "thomaca02",
+    "Kelly Oubre Jr.": "oubreke01",
+    "Derik Queen": "queende01",
+    "Moussa Cisse": "cissemo01",
+    "Maxime Raynaud": "raynama01",
+    "Kris Murray": "murrakr01",
+    "PJ Hall": "hallpj01",
+    "Ariel Hukporti": "hukpoar01",
+    "DaRon Holmes": "holmeda01",
+    "Branden Carlson": "carlsbr01",
+    "Taylor Hendricks": "hendrta01",
+    "Jarace Walker": "walkeja02",
+    "Thanasis Antetokounmpo": "antetth01",
+    "Kevin Durant": "duranke01",
+    "Enes Freedom": "kanteen01",
+    "Nathan Knight": "knighna01",
+    "Pascal Siakam": "siakapa01",
+    "Chimezie Metu": "metuch01",
+    "Thaddeus Young": "youngth01",
+    "Terry Taylor": "taylote01",
+    "LaMelo Ball": "ballla01",
+    "Paul Millsap": "millspa01",
+    "Sandro Mamukelashvili": "mamuksa01",
+    "Wenyen Gabriel": "gabriwe01",
+    "Alex Caruso": "carusal01",
+    "Noah Vonleh": "vonleno01",
+    "Tobias Harris": "harrito02",
+    "Luguentz Dort": "dortlu01",
+    "Brandon Clarke": "clarkbr01",
+    "Anthony Gill": "gillan01",
+    "Nikola Jovi\u0107": "jovicni01",
+    "Udonis Haslem": "hasleud01",
+    "Kenrich Williams": "willike04",
+    "Eugene Omoruyi": "omorueu01",
+    "Cody Zeller": "zelleco01",
+    "Kevin Knox": "knoxke01",
+    "Isaiah Todd": "toddis01",
+    "Kenneth Lofton Jr.": "loftoke01",
+    "Deni Avdija": "avdijde01",
+    "Dorian Finney-Smith": "finnedo01",
+    "Marcus Morris": "morrima03",
+    "Lamar Stevens": "stevela01",
+    "Ibou Badji": "badjiib01",
+    "Jabari Walker": "walkeja01",
+    "Anthony Edwards": "edwaran01",
+    "Tristan Vukcevic": "vukcetr01",
+    "Malik Williams": "willima11",
+    "Jamal Murray": "murraja01",
+    "Noah Clowney": "clownno01",
+    "Keegan Murray": "murrake02",
+    "Enrique Freeman": "freemen01",
+    "Jerami Grant": "grantje01",
+    "Kevin Love": "loveke01",
+    "Kylor Kelley": "kelleky01",
+    "Chris Livingston": "livinch01",
+    "Olivier-Maxence Prosper": "prospol01",
+    "Jaden McDaniels": "mcdanja02",
+    "Karlo Matkovi\u0107": "matkoka01",
+    "Oshae Brissett": "brissos01",
+    "Toumani Camara": "camarto01",
+    "Keldon Johnson": "johnske04",
+    "Collin Murray-Boyles": "murraco01",
+    "Matas Buzelis": "buzelma01",
+    "Patrick Williams": "willipa01",
+    "Yang Hansen": "yangha01",
+    "Micah Potter": "pottemi01",
+    "Amari Williams": "william01",
+    "Zach LaVine": "lavinza01",
+    "Fred VanVleet": "vanvlfr01",
+    "Julius Randle": "randlju01",
+    "Robert Covington": "covinro01",
+    "Tim Hardaway Jr.": "hardati02",
+    "Stephen Curry": "curryst01",
+    "Aaron Holiday": "holidaa01",
+    "Seth Curry": "curryse01",
+    "Kemba Walker": "walkeke02",
+    "Lonzo Ball": "balllo01",
+    "Jae Crowder": "crowdja01",
+    "Will Barton": "bartowi01",
+    "Jae'Sean Tate": "tateja01",
+    "Ricky Rubio": "rubiori01",
+    "Duncan Robinson": "robindu01",
+    "OG Anunoby": "anunoog01",
+    "CJ McCollum": "mccolcj01",
+    "De'Anthony Melton": "meltode01",
+    "Jalen Suggs": "suggsja01",
+    "Kentavious Caldwell-Pope": "caldwke01",
+    "Nassir Little": "littlna01",
+    "Dennis Schr\u00f6der": "schrode01",
+    "RJ Barrett": "barrerj01",
+    "Donovan Mitchell": "mitchdo01",
+    "Jordan Poole": "poolejo01",
+    "De'Aaron Fox": "foxde01",
+    "Reggie Bullock": "bullore01",
+    "Chris Duarte": "duartch01",
+    "Lonnie Walker IV": "walkelo01",
+    "Collin Sexton": "sextoco01",
+    "Kyle Lowry": "lowryky01",
+    "Trae Young": "youngtr01",
+    "Jalen Green": "greenja05",
+    "Luka Don\u010di\u0107": "doncilu01",
+    "Franz Wagner": "wagnefr01",
+    "DeMar DeRozan": "derozde01",
+    "Jimmy Butler": "butleji01",
+    "Miles Bridges": "bridgmi02",
+    "Bruce Brown": "brownbr01",
+    "Tyrese Maxey": "maxeyty01",
+    "Russell Westbrook": "westbru01",
+    "Grayson Allen": "allengr01",
+    "Joe Harris": "harrijo01",
+    "Tyrese Haliburton": "halibty01",
+    "Eric Bledsoe": "bledser01",
+    "Norman Powell": "powelno01",
+    "Gary Trent Jr.": "trentga02",
+    "Damian Lillard": "lillada01",
+    "Dean Wade": "wadede01",
+    "Gordon Hayward": "haywago01",
+    "Devin Booker": "bookede01",
+    "Javonte Green": "greenja02",
+    "Reggie Jackson": "jacksre01",
+    "Killian Hayes": "hayeski01",
+    "James Harden": "hardeja01",
+    "Isaac Okoro": "okorois01",
+    "Desmond Bane": "banede01",
+    "Bojan Bogdanovi\u0107": "bogdabo02",
+    "Darius Garland": "garlada01",
+    "D'Angelo Russell": "russeda01",
+    "Devonte' Graham": "grahade01",
+    "P.J. Tucker": "tuckepj01",
+    "Nicolas Batum": "batumni01",
+    "Saddiq Bey": "beysa01",
+    "Austin Rivers": "riverau01",
+    "Brandon Ingram": "ingrabr01",
+    "Talen Horton-Tucker": "hortota01",
+    "Derrick White": "whitede01",
+    "Patty Mills": "millspa02",
+    "Kelan Martin": "martike03",
+    "Dillon Brooks": "brookdi01",
+    "Jrue Holiday": "holidjr01",
+    "Jalen Brunson": "brunsja01",
+    "Patrick Beverley": "beverpa01",
+    "Marcus Smart": "smartma01",
+    "Evan Fournier": "fournev01",
+    "Justin Holiday": "holidju01",
+    "Mike Conley": "conlemi01",
+    "Dejounte Murray": "murrade01",
+    "Josh Giddey": "giddejo01",
+    "Khris Middleton": "middlkh01",
+    "Willie Cauley-Stein": "caulewi01",
+    "Gary Harris": "harriga01",
+    "Malcolm Brogdon": "brogdma01",
+    "Timoth\u00e9 Luwawu-Cabarrot": "luwawti01",
+    "Tre Mann": "manntr01",
+    "Cade Cunningham": "cunnica01",
+    "DeAndre' Bembry": "bembrde01",
+    "Mikal Bridges": "bridgmi01",
+    "Doug McDermott": "mcderdo01",
+    "Bradley Beal": "bealbr01",
+    "Terance Mann": "mannte01",
+    "Armoni Brooks": "brookar01",
+    "Kevin Huerter": "huertke01",
+    "Josh Hart": "hartjo01",
+    "Cody Martin": "martico01",
+    "Luke Kennard": "kennalu01",
+    "Furkan Korkmaz": "korkmfu01",
+    "Jaylen Brown": "brownja02",
+    "Aaron Wiggins": "wiggiaa01",
+    "Herbert Jones": "joneshe01",
+    "George Hill": "hillge01",
+    "Hamidou Diallo": "diallha01",
+    "Cam Reddish": "reddica01",
+    "Pat Connaughton": "connapa01",
+    "Alec Burks": "burksal01",
+    "Frank Jackson": "jacksfr01",
+    "Romeo Langford": "langfro01",
+    "Frank Ntilikina": "ntilila01",
+    "Cameron Johnson": "johnsca02",
+    "Chaundee Brown Jr.": "brownch05",
+    "Tre Jones": "jonestr01",
+    "Otto Porter Jr.": "porteot01",
+    "Caleb Martin": "martica02",
+    "Jordan Nwora": "nworajo01",
+    "Keifer Sykes": "sykeske01",
+    "Wesley Matthews": "matthwe02",
+    "Avery Bradley": "bradlav01",
+    "Bogdan Bogdanovi\u0107": "bogdabo01",
+    "Stanley Johnson": "johnsst04",
+    "Spencer Dinwiddie": "dinwisp01",
+    "Monte Morris": "morrimo01",
+    "Klay Thompson": "thompkl01",
+    "Anfernee Simons": "simonan01",
+    "John Konchar": "konchjo01",
+    "Terence Davis": "daviste02",
+    "Cole Anthony": "anthoco01",
+    "Ja Morant": "moranja01",
+    "Davion Mitchell": "mitchda01",
+    "Moses Moody": "moodymo01",
+    "Damion Lee": "leeda03",
+    "Matisse Thybulle": "thybuma01",
+    "Danny Green": "greenda02",
+    "Chris Paul": "paulch01",
+    "Justise Winslow": "winslju01",
+    "Bones Hyland": "hylanbo01",
+    "De'Andre Hunter": "huntede01",
+    "Terry Rozier": "roziete01",
+    "Buddy Hield": "hieldbu01",
+    "Keita Bates-Diop": "bateske01",
+    "James Johnson": "johnsja01",
+    "Garrison Mathews": "mathega01",
+    "Goran Dragi\u0107": "dragigo01",
+    "Malik Monk": "monkma01",
+    "Brandon Williams": "willibr03",
+    "Josh Richardson": "richajo01",
+    "Justin Anderson": "anderju01",
+    "Kris Dunn": "dunnkr01",
+    "Joshua Primo": "primojo01",
+    "Keon Johnson": "johnske07",
+    "Juancho Hernang\u00f3mez": "hernaju01",
+    "Jaylen Hoard": "hoardja01",
+    "Greg Brown III": "browngr01",
+    "Caris LeVert": "leverca01",
+    "Tom\u00e1\u0161 Satoransk\u00fd": "satorto01",
+    "Trent Forrest": "forretr01",
+    "CJ Elleby": "ellebcj01",
+    "Victor Oladipo": "oladivi01",
+    "Bryn Forbes": "forbebr01",
+    "Kyrie Irving": "irvinky01",
+    "Max Strus": "strusma01",
+    "Gabe Vincent": "vincega01",
+    "Paolo Banchero": "banchpa01",
+    "Ayo Dosunmu": "dosunay01",
+    "Terrence Ross": "rosste01",
+    "Michael Porter Jr.": "portemi01",
+    "Aaron Nesmith": "nesmiaa01",
+    "Shaedon Sharpe": "sharpsh01",
+    "Zion Williamson": "willizi01",
+    "Troy Brown Jr.": "browntr01",
+    "Jordan Clarkson": "clarkjo01",
+    "Torrey Craig": "craigto01",
+    "Edmond Sumner": "sumneed01",
+    "Danuel House Jr.": "houseda01",
+    "Jevon Carter": "carteje01",
+    "Quentin Grimes": "grimequ01",
+    "Cameron Payne": "payneca01",
+    "Shake Milton": "miltosh01",
+    "Jarrett Culver": "culveja01",
+    "Trendon Watford": "watfotr01",
+    "Markelle Fultz": "fultzma01",
+    "Kawhi Leonard": "leonaka01",
+    "Kyle Anderson": "anderky01",
+    "Josh Okogie": "okogijo01",
+    "Haywood Highsmith": "highsha01",
+    "Malik Beasley": "beaslma01",
+    "KJ Martin": "martike04",
+    "Jalen McDaniels": "mcdanja01",
+    "Josh Christopher": "chrisjo01",
+    "Malaki Branham": "branhma01",
+    "Daishen Nix": "nixda01",
+    "Corey Kispert": "kispeco01",
+    "Sam Hauser": "hausesa01",
+    "Donte DiVincenzo": "divindo01",
+    "Vlatko \u010can\u010dar": "cancavl01",
+    "Tyler Herro": "herroty01",
+    "Rodney McGruder": "mcgruro01",
+    "David Roddy": "roddyda01",
+    "Immanuel Quickley": "quickim01",
+    "Simone Fontecchio": "fontesi01",
+    "Ochai Agbaji": "agbajoc01",
+    "Jaden Hardy": "hardyja02",
+    "Tyus Jones": "jonesty01",
+    "Andrew Nembhard": "nembhan01",
+    "Isaiah Livers": "liveris01",
+    "Skylar Mays": "mayssk01",
+    "MarJon Beauchamp": "beaucma01",
+    "Nickeil Alexander-Walker": "alexani01",
+    "Scoot Henderson": "hendesc01",
+    "Jalen Johnson": "johnsja05",
+    "Ausar Thompson": "thompau01",
+    "Dyson Daniels": "daniedy01",
+    "Bennedict Mathurin": "mathube01",
+    "Jacob Gilyard": "gilyaja01",
+    "Taurean Prince": "princta02",
+    "Julian Champagnie": "champju02",
+    "Cason Wallace": "wallaca01",
+    "Max Christie": "chrisma02",
+    "Bryce McGowens": "mcgowbr01",
+    "Brandon Miller": "millebr02",
+    "Jaime Jaquez Jr.": "jaqueja01",
+    "Chuma Okeke": "okekech01",
+    "Vince Williams Jr.": "willivi01",
+    "Josh Green": "greenjo02",
+    "Jonathan Isaac": "isaacjo01",
+    "Keyonte George": "georgke01",
+    "Jordan Goodwin": "goodwjo01",
+    "Vasilije Mici\u0107": "micicva01",
+    "Payton Pritchard": "pritcpa01",
+    "Keon Ellis": "elliske01",
+    "Georges Niang": "niangge01",
+    "Caleb Houstan": "houstca01",
+    "Scotty Pippen Jr.": "pippesc02",
+    "Miles McBride": "mcbrimi01",
+    "Tosan Evbuomwan": "evbuoto01",
+    "GG Jackson II": "jacksgg01",
+    "Zaccharie Risacher": "risacza01",
+    "Jaylen Wells": "wellsja01",
+    "Isaiah Joe": "joeis01",
+    "Gradey Dick": "dickgr01",
+    "Cody Williams": "willico04",
+    "Stephon Castle": "castlst01",
+    "Peyton Watson": "watsope01",
+    "Ryan Dunn": "dunnry01",
+    "Bilal Coulibaly": "coulibi01",
+    "Brandon Boston Jr.": "bostobr01",
+    "Ty Jerome": "jeromty01",
+    "Lindy Waters III": "waterli01",
+    "Christian Braun": "braunch01",
+    "Ja'Kobe Walter": "walteja01",
+    "Svi Mykhailiuk": "mykhasv01",
+    "Trevelin Queen": "queentr01",
+    "Justin Champagnie": "champju01",
+    "Julian Phillips": "phillju01",
+    "Andre Jackson Jr.": "jacksan01",
+    "Bub Carrington": "carrica01",
+    "Anthony Black": "blackan01",
+    "Nick Smith Jr.": "smithni01",
+    "Dante Exum": "exumda01",
+    "Kyshawn George": "georgky01",
+    "KJ Simpson": "simpskj01",
+    "Isaiah Collier": "colliis01",
+    "Jose Alvarado": "alvarjo01",
+    "Johnny Juzang": "juzanjo01",
+    "Pelle Larsson": "larsspe01",
+    "Jordan Hawkins": "hawkijo01",
+    "Jamal Shead": "sheadja01",
+    "Naji Marshall": "marshna01",
+    "Jeff Dowtin Jr.": "dowtije01",
+    "Cory Joseph": "josepco01",
+    "AJ Johnson": "johnsaj01",
+    "Brandin Podziemski": "podzibr01",
+    "DaQuan Jeffries": "jeffrda01",
+    "Ryan Rollins": "rolliry01",
+    "Jamison Battle": "battlja01",
+    "Maxwell Lewis": "lewisma05",
+    "Jared Butler": "butleja02",
+    "Reed Sheppard": "sheppre01",
+    "Collin Gillespie": "gilleco01",
+    "Jamaree Bouyea": "bouyeja01",
+    "A.J. Green": "greenaj01",
+    "Ben Sheppard": "sheppbe01",
+    "Josh Minott": "minotjo01",
+    "Jake LaRavia": "laravja01",
+    "Jeremiah Fears": "fearsje01",
+    "Jaylon Tyson": "tysonja01",
+    "Egor D\u0451min": "demineg01",
+    "Kon Knueppel": "knuepko01",
+    "Cedric Coward": "cowarce01",
+    "Landry Shamet": "shamela01",
+    "Sidy Cissoko": "cissosi01",
+    "Tyrese Martin": "martity01",
+    "Ace Bailey": "baileac01",
+    "Jordan Walsh": "walshjo01",
+    "Ryan Nembhard": "nembhry01",
+    "Mohamed Diawara": "diawamo01",
+    "Tyrese Proctor": "proctty01",
+    "Brice Sensabaugh": "sensabr01",
+    "Cooper Flagg": "flaggco01",
+    "Spencer Jones": "jonessp01",
+    "Kobe Sanders": "sandeko01",
+    "Ajay Mitchell": "mitchaj01",
+    "Noah Penda": "pendano01",
+    "Jalen Pickett": "pickeja02",
+    "Kent Bazemore": "bazemke01",
+    "Maurice Harkless": "harklma01",
+    "Josh Jackson": "jacksjo02",
+    "Joe Ingles": "inglejo01",
+    "Garrett Temple": "templga01",
+    "Derrick Rose": "rosede01",
+    "Solomon Hill": "hillso01",
+    "Wayne Ellington": "ellinwa01",
+    "Carmelo Anthony": "anthoca01",
+    "Amir Coffey": "coffeam01",
+    "Juan Toscano-Anderson": "toscaju01",
+    "Gary Payton II": "paytoga02",
+    "Mychal Mulder": "muldemy01",
+    "Tony Snell": "snellto01",
+    "Dennis Smith Jr.": "smithde03",
+    "Ish Smith": "smithis01",
+    "Leandro Bolmaro": "bolmale01",
+    "Davon Reed": "reedda01",
+    "D.J. Augustin": "augusdj01",
+    "David Duke Jr.": "dukeda01",
+    "R.J. Hampton": "hamptrj01",
+    "Brad Wanamaker": "wanambr01",
+    "Chris Chiozza": "chiozch01",
+    "Javonte Smart": "smartja01",
+    "Isaiah Thomas": "thomais02",
+    "Sterling Brown": "brownst02",
+    "Delon Wright": "wrighde01",
+    "Hassani Gravett": "graveha01",
+    "Jake Layman": "laymaja01",
+    "Derrick Walton": "waltode01",
+    "Yuta Watanabe": "watanyu01",
+    "Dalano Banton": "bantoda01",
+    "Admiral Schofield": "schofad01",
+    "David Nwaba": "nwabada01",
+    "Jordan McLaughlin": "mclaujo01",
+    "Malachi Flynn": "flynnma01",
+    "Gary Clark": "clarkga01",
+    "Facundo Campazzo": "campafa01",
+    "Paul Watson": "watsopa01",
+    "Tim Frazier": "fraziti01",
+    "Kevin Pangos": "pangoke01",
+    "Duane Washington Jr.": "washidu02",
+    "Wes Iwundu": "iwundwe01",
+    "Cassius Stanley": "stanlca01",
+    "Killian Tillie": "tilliki02",
+    "Trevor Ariza": "arizatr01",
+    "Danilo Gallinari": "gallida01",
+    "Elijah Hughes": "hugheel01",
+    "Ben McLemore": "mclembe01",
+    "Alfonzo McKinnie": "mckinal01",
+    "Charlie Brown Jr.": "brownch02",
+    "Tyler Cook": "cookty01",
+    "Rudy Gay": "gayru01",
+    "Jaylen Nowell": "nowelja01",
+    "Cedi Osman": "osmande01",
+    "Brandon Goodwin": "goodwbr01",
+    "Lance Stephenson": "stephla01",
+    "Raul Neto": "netora01",
+    "Rajon Rondo": "rondora01",
+    "Keljin Blevins": "blevike01",
+    "Th\u00e9o Maledon": "maledth01",
+    "Elfrid Payton": "paytoel01",
+    "Vit Krejci": "krejcvi01",
+    "Zavier Simpson": "simpsza01",
+    "Georgios Kalaitzakis": "kalaige01",
+    "Didi Louzada": "louzama01",
+    "KZ Okpala": "okpalkz01",
+    "Anthony Lamb": "lamban01",
+    "Kendrick Nunn": "nunnke01",
+    "AJ Griffin": "griffaj01",
+    "Wendell Moore Jr.": "moorewe01",
+    "Ish Wainright": "wainris01",
+    "Dru Smith": "smithdr01",
+    "John Wall": "walljo01",
+    "McKinley Wright IV": "wrighmc01",
+    "Blake Wesley": "weslebl01",
+    "Ryan Arcidiacono": "arcidry01",
+    "TyTy Washington Jr.": "washity02",
+    "JT Thor": "thorjt01",
+    "Johnny Davis": "davisjo06",
+    "Jeenathan Williams": "willije02",
+    "Luka \u0160amani\u0107": "samanlu01",
+    "John Butler": "butlejo01",
+    "Jaden Springer": "sprinja01",
+    "Lindell Wigginton": "wiggili01",
+    "Theo Pinson": "pinsoth01",
+    "D\u0101vis Bert\u0101ns": "bertada01",
+    "Xavier Cooks": "cooksxa01",
+    "Ousmane Dieng": "diengou01",
+    "Saben Lee": "leesa01",
+    "Matt Ryan": "ryanma01",
+    "Craig Porter Jr.": "portecr01",
+    "Jamal Cain": "cainja01",
+    "Dalen Terry": "terryda01",
+    "Jontay Porter": "portejo01",
+    "Cam Whitmore": "whitmca01",
+    "Leaky Black": "blackle01",
+    "Jalen Wilson": "wilsoja03",
+    "Ashton Hagans": "haganas01",
+    "Sam Merrill": "merrisa01",
+    "Patrick Baldwin Jr.": "baldwpa01",
+    "Marcus Sasser": "sassema01",
+    "Stanley Umude": "umudest01",
+    "Javon Freeman-Liberty": "freemja01",
+    "Jahmi'us Ramsey": "ramseja01",
+    "Rayan Rupert": "ruperra01",
+    "Tristan Da Silva": "dasiltr01",
+    "Dalton Knecht": "knechda01",
+    "Tidjane Sala\u00fcn": "salauti01",
+    "Keaton Wallace": "wallake01",
+    "Jared McCain": "mccaija01",
+    "Ron Holland": "hollaro01",
+    "Quenton Jackson": "jacksqu01",
+    "Ricky Council IV": "councri01",
+    "Gui Santos": "santogu01",
+    "Justin Edwards": "edwarju01",
+    "Julian Strawther": "strawju01",
+    "Rob Dillingham": "dilliro01",
+    "Jaylen Clark": "clarkja02",
+    "Terrence Shannon Jr.": "shannte01",
+    "Drew Peterson": "peterdr01",
+    "A.J. Lawson": "lawsoaj01",
+    "Damion Baugh": "baughda01",
+    "Jared Rhoden": "rhodeja01",
+    "Hunter Tyson": "tysonhu01",
+    "Dillon Jones": "jonesdi01",
+    "Keion Brooks Jr.": "brookke02",
+    "Oscar Tshiebwe": "tshieos01",
+    "Antonio Reeves": "reevean01",
+    "Reece Beekman": "beekmre01",
+    "Marcus Bagley": "baglema02",
+    "Baylor Scheierman": "scheiba01",
+    "Nae'Qwan Tomlin": "tomlina01",
+    "Cam Spencer": "spencca01",
+    "Bronny James": "jamesbr02",
+    "Ben Saraf": "sarafbe01",
+    "VJ Edgecombe": "edgecvj01",
+    "Nique Clifford": "cliffni01",
+    "Isaac Jones": "jonesis01",
+    "Hugo Gonz\u00e1lez": "gonzahu01",
+    "Sion James": "jamessi01",
+    "Dylan Cardwell": "cardwdy01",
+    "Will Richard": "richawi02",
+    "Tre Johnson": "johnstr03",
+    "Daniss Jenkins": "jenkida01",
+    "Micah Peavy": "peavymi01",
+    "Jamir Watkins": "watkija01",
+    "Pat Spencer": "spencpa01",
+    "Ethan Thompson": "thompet01",
+    "Kasparas Jaku\u010dionis": "jakucka01",
+    "Tyler Kolek": "kolekty01",
+    "Johnny Furphy": "furphjo01",
+    "Danny Wolf": "wolfda01",
+    "Drake Powell": "poweldr01",
+    "Caleb Love": "loveca01",
+    "Will Riley": "rileywi01",
+    "Nolan Traor\u00e9": "traorno01"
+  },
+  "player_stats": {
+    "jokicni01": {
+      "appearances": 777,
+      "name": "Nikola Joki\u0107"
+    },
+    "goberru01": {
+      "appearances": 762,
+      "name": "Rudy Gobert"
+    },
+    "zubaciv01": {
+      "appearances": 744,
+      "name": "Ivica Zubac"
+    },
+    "vucevni01": {
+      "appearances": 730,
+      "name": "Nikola Vu\u010devi\u0107"
+    },
+    "adebaba01": {
+      "appearances": 730,
+      "name": "Bam Adebayo"
+    },
+    "allenja01": {
+      "appearances": 695,
+      "name": "Jarrett Allen"
+    },
+    "turnemy01": {
+      "appearances": 677,
+      "name": "Myles Turner"
+    },
+    "sabondo01": {
+      "appearances": 615,
+      "name": "Domantas Sabonis"
+    },
+    "aytonde01": {
+      "appearances": 591,
+      "name": "Deandre Ayton"
+    },
+    "jacksja02": {
+      "appearances": 573,
+      "name": "Jaren Jackson Jr."
+    },
+    "lopezbr01": {
+      "appearances": 569,
+      "name": "Brook Lopez"
+    },
+    "townska01": {
+      "appearances": 569,
+      "name": "Karl-Anthony Towns"
+    },
+    "claxtni01": {
+      "appearances": 567,
+      "name": "Nic Claxton"
+    },
+    "valanjo01": {
+      "appearances": 561,
+      "name": "Jonas Valan\u010di\u016bnas"
+    },
+    "poeltja01": {
+      "appearances": 558,
+      "name": "Jakob Poeltl"
+    },
+    "capelca01": {
+      "appearances": 532,
+      "name": "Clint Capela"
+    },
+    "sengual01": {
+      "appearances": 530,
+      "name": "Alperen \u015eeng\u00fcn"
+    },
+    "nurkiju01": {
+      "appearances": 527,
+      "name": "Jusuf Nurki\u0107"
+    },
+    "embiijo01": {
+      "appearances": 520,
+      "name": "Joel Embiid"
+    },
+    "davisan02": {
+      "appearances": 513,
+      "name": "Anthony Davis"
+    },
+    "porzikr01": {
+      "appearances": 505,
+      "name": "Kristaps Porzi\u0146\u0123is"
+    },
+    "cartewe01": {
+      "appearances": 479,
+      "name": "Wendell Carter Jr."
+    },
+    "barnesc01": {
+      "appearances": 476,
+      "name": "Scottie Barnes"
+    },
+    "looneke01": {
+      "appearances": 456,
+      "name": "Kevon Looney"
+    },
+    "gaffoda01": {
+      "appearances": 455,
+      "name": "Daniel Gafford"
+    },
+    "bridgmi01": {
+      "appearances": 446,
+      "name": "Mikal Bridges"
+    },
+    "brownja02": {
+      "appearances": 441,
+      "name": "Jaylen Brown"
+    },
+    "horfoal01": {
+      "appearances": 440,
+      "name": "Al Horford"
+    },
+    "durenja01": {
+      "appearances": 438,
+      "name": "Jalen Duren"
+    },
+    "siakapa01": {
+      "appearances": 426,
+      "name": "Pascal Siakam"
+    },
+    "greendr01": {
+      "appearances": 423,
+      "name": "Draymond Green"
+    },
+    "edwaran01": {
+      "appearances": 423,
+      "name": "Anthony Edwards"
+    },
+    "mobleev01": {
+      "appearances": 419,
+      "name": "Evan Mobley"
+    },
+    "brunsja01": {
+      "appearances": 416,
+      "name": "Jalen Brunson"
+    },
+    "harrito02": {
+      "appearances": 396,
+      "name": "Tobias Harris"
+    },
+    "tatumja01": {
+      "appearances": 395,
+      "name": "Jayson Tatum"
+    },
+    "barneha02": {
+      "appearances": 390,
+      "name": "Harrison Barnes"
+    },
+    "holmgch01": {
+      "appearances": 388,
+      "name": "Chet Holmgren"
+    },
+    "gilgesh01": {
+      "appearances": 381,
+      "name": "Shai Gilgeous-Alexander"
+    },
+    "randlju01": {
+      "appearances": 379,
+      "name": "Julius Randle"
+    },
+    "mitchdo01": {
+      "appearances": 377,
+      "name": "Donovan Mitchell"
+    },
+    "derozde01": {
+      "appearances": 377,
+      "name": "DeMar DeRozan"
+    },
+    "antetgi01": {
+      "appearances": 376,
+      "name": "Giannis Antetokounmpo"
+    },
+    "whitede01": {
+      "appearances": 374,
+      "name": "Derrick White"
+    },
+    "doncilu01": {
+      "appearances": 371,
+      "name": "Luka Don\u010di\u0107"
+    },
+    "hardeja01": {
+      "appearances": 367,
+      "name": "James Harden"
+    },
+    "bookede01": {
+      "appearances": 366,
+      "name": "Devin Booker"
+    },
+    "caldwke01": {
+      "appearances": 363,
+      "name": "Kentavious Caldwell-Pope"
+    },
+    "dortlu01": {
+      "appearances": 360,
+      "name": "Luguentz Dort"
+    },
+    "mcdanja02": {
+      "appearances": 360,
+      "name": "Jaden McDaniels"
+    },
+    "gordoaa01": {
+      "appearances": 359,
+      "name": "Aaron Gordon"
+    },
+    "curryst01": {
+      "appearances": 357,
+      "name": "Stephen Curry"
+    },
+    "robinmi01": {
+      "appearances": 353,
+      "name": "Mitchell Robinson"
+    },
+    "wagnefr01": {
+      "appearances": 353,
+      "name": "Franz Wagner"
+    },
+    "wiggian01": {
+      "appearances": 352,
+      "name": "Andrew Wiggins"
+    },
+    "butleji01": {
+      "appearances": 350,
+      "name": "Jimmy Butler"
+    },
+    "jamesle01": {
+      "appearances": 349,
+      "name": "LeBron James"
+    },
+    "holidjr01": {
+      "appearances": 346,
+      "name": "Jrue Holiday"
+    },
+    "banede01": {
+      "appearances": 345,
+      "name": "Desmond Bane"
+    },
+    "foxde01": {
+      "appearances": 343,
+      "name": "De'Aaron Fox"
+    },
+    "plumlma01": {
+      "appearances": 342,
+      "name": "Mason Plumlee"
+    },
+    "brookdi01": {
+      "appearances": 341,
+      "name": "Dillon Brooks"
+    },
+    "conlemi01": {
+      "appearances": 339,
+      "name": "Mike Conley"
+    },
+    "giddejo01": {
+      "appearances": 338,
+      "name": "Josh Giddey"
+    },
+    "greenja05": {
+      "appearances": 337,
+      "name": "Jalen Green"
+    },
+    "poweldw01": {
+      "appearances": 334,
+      "name": "Dwight Powell"
+    },
+    "garlada01": {
+      "appearances": 333,
+      "name": "Darius Garland"
+    },
+    "duranke01": {
+      "appearances": 332,
+      "name": "Kevin Durant"
+    },
+    "maxeyty01": {
+      "appearances": 332,
+      "name": "Tyrese Maxey"
+    },
+    "portemi01": {
+      "appearances": 331,
+      "name": "Michael Porter Jr."
+    },
+    "collijo01": {
+      "appearances": 328,
+      "name": "John Collins"
+    },
+    "barrerj01": {
+      "appearances": 326,
+      "name": "RJ Barrett"
+    },
+    "youngtr01": {
+      "appearances": 326,
+      "name": "Trae Young"
+    },
+    "mccolcj01": {
+      "appearances": 321,
+      "name": "CJ McCollum"
+    },
+    "anunoog01": {
+      "appearances": 320,
+      "name": "OG Anunoby"
+    },
+    "kuzmaky01": {
+      "appearances": 316,
+      "name": "Kyle Kuzma"
+    },
+    "halibty01": {
+      "appearances": 312,
+      "name": "Tyrese Haliburton"
+    },
+    "markkla01": {
+      "appearances": 310,
+      "name": "Lauri Markkanen"
+    },
+    "murraja01": {
+      "appearances": 307,
+      "name": "Jamal Murray"
+    },
+    "thompkl01": {
+      "appearances": 305,
+      "name": "Klay Thompson"
+    },
+    "smithja05": {
+      "appearances": 301,
+      "name": "Jabari Smith Jr."
+    },
+    "lavinza01": {
+      "appearances": 300,
+      "name": "Zach LaVine"
+    },
+    "wembavi01": {
+      "appearances": 298,
+      "name": "Victor Wembanyama"
+    },
+    "russeda01": {
+      "appearances": 291,
+      "name": "D'Angelo Russell"
+    },
+    "vanvlfr01": {
+      "appearances": 290,
+      "name": "Fred VanVleet"
+    },
+    "bridgmi02": {
+      "appearances": 285,
+      "name": "Miles Bridges"
+    },
+    "washipj01": {
+      "appearances": 281,
+      "name": "P.J. Washington"
+    },
+    "willija06": {
+      "appearances": 280,
+      "name": "Jalen Williams"
+    },
+    "adamsst01": {
+      "appearances": 279,
+      "name": "Steven Adams"
+    },
+    "stewais01": {
+      "appearances": 278,
+      "name": "Isaiah Stewart"
+    },
+    "finnedo01": {
+      "appearances": 278,
+      "name": "Dorian Finney-Smith"
+    },
+    "hartjo01": {
+      "appearances": 277,
+      "name": "Josh Hart"
+    },
+    "cunnica01": {
+      "appearances": 276,
+      "name": "Cade Cunningham"
+    },
+    "joneshe01": {
+      "appearances": 276,
+      "name": "Herbert Jones"
+    },
+    "ingrabr01": {
+      "appearances": 274,
+      "name": "Brandon Ingram"
+    },
+    "murrade01": {
+      "appearances": 274,
+      "name": "Dejounte Murray"
+    },
+    "harteis01": {
+      "appearances": 270,
+      "name": "Isaiah Hartenstein"
+    },
+    "murrake02": {
+      "appearances": 270,
+      "name": "Keegan Murray"
+    },
+    "huertke01": {
+      "appearances": 265,
+      "name": "Kevin Huerter"
+    },
+    "georgpa01": {
+      "appearances": 263,
+      "name": "Paul George"
+    },
+    "banchpa01": {
+      "appearances": 263,
+      "name": "Paolo Banchero"
+    },
+    "kesslwa01": {
+      "appearances": 261,
+      "name": "Walker Kessler"
+    },
+    "nembhan01": {
+      "appearances": 261,
+      "name": "Andrew Nembhard"
+    },
+    "allengr01": {
+      "appearances": 260,
+      "name": "Grayson Allen"
+    },
+    "poolejo01": {
+      "appearances": 257,
+      "name": "Jordan Poole"
+    },
+    "grantje01": {
+      "appearances": 251,
+      "name": "Jerami Grant"
+    },
+    "paulch01": {
+      "appearances": 247,
+      "name": "Chris Paul"
+    },
+    "willima07": {
+      "appearances": 244,
+      "name": "Mark Williams"
+    },
+    "lillada01": {
+      "appearances": 244,
+      "name": "Damian Lillard"
+    },
+    "irvinky01": {
+      "appearances": 242,
+      "name": "Kyrie Irving"
+    },
+    "smartma01": {
+      "appearances": 241,
+      "name": "Marcus Smart"
+    },
+    "moranja01": {
+      "appearances": 240,
+      "name": "Ja Morant"
+    },
+    "avdijde01": {
+      "appearances": 239,
+      "name": "Deni Avdija"
+    },
+    "vassede01": {
+      "appearances": 235,
+      "name": "Devin Vassell"
+    },
+    "ballla01": {
+      "appearances": 231,
+      "name": "LaMelo Ball"
+    },
+    "strusma01": {
+      "appearances": 231,
+      "name": "Max Strus"
+    },
+    "roziete01": {
+      "appearances": 230,
+      "name": "Terry Rozier"
+    },
+    "reaveau01": {
+      "appearances": 229,
+      "name": "Austin Reaves"
+    },
+    "okorois01": {
+      "appearances": 229,
+      "name": "Isaac Okoro"
+    },
+    "okongon01": {
+      "appearances": 227,
+      "name": "Onyeka Okongwu"
+    },
+    "onealro01": {
+      "appearances": 226,
+      "name": "Royce O'Neale"
+    },
+    "dinwisp01": {
+      "appearances": 225,
+      "name": "Spencer Dinwiddie"
+    },
+    "simonan01": {
+      "appearances": 220,
+      "name": "Anfernee Simons"
+    },
+    "herroty01": {
+      "appearances": 220,
+      "name": "Tyler Herro"
+    },
+    "sarral01": {
+      "appearances": 217,
+      "name": "Alex Sarr"
+    },
+    "suggsja01": {
+      "appearances": 217,
+      "name": "Jalen Suggs"
+    },
+    "huntede01": {
+      "appearances": 217,
+      "name": "De'Andre Hunter"
+    },
+    "beysa01": {
+      "appearances": 216,
+      "name": "Saddiq Bey"
+    },
+    "richani01": {
+      "appearances": 214,
+      "name": "Nick Richards"
+    },
+    "middlkh01": {
+      "appearances": 214,
+      "name": "Khris Middleton"
+    },
+    "leonaka01": {
+      "appearances": 214,
+      "name": "Kawhi Leonard"
+    },
+    "williro04": {
+      "appearances": 212,
+      "name": "Robert Williams"
+    },
+    "whiteco01": {
+      "appearances": 207,
+      "name": "Coby White"
+    },
+    "mannte01": {
+      "appearances": 206,
+      "name": "Terance Mann"
+    },
+    "johnsca02": {
+      "appearances": 206,
+      "name": "Cameron Johnson"
+    },
+    "nesmiaa01": {
+      "appearances": 206,
+      "name": "Aaron Nesmith"
+    },
+    "oubreke01": {
+      "appearances": 204,
+      "name": "Kelly Oubre Jr."
+    },
+    "bealbr01": {
+      "appearances": 204,
+      "name": "Bradley Beal"
+    },
+    "westbru01": {
+      "appearances": 203,
+      "name": "Russell Westbrook"
+    },
+    "schrode01": {
+      "appearances": 200,
+      "name": "Dennis Schr\u00f6der"
+    },
+    "murphtr02": {
+      "appearances": 199,
+      "name": "Trey Murphy III"
+    },
+    "robindu01": {
+      "appearances": 197,
+      "name": "Duncan Robinson"
+    },
+    "trentga02": {
+      "appearances": 197,
+      "name": "Gary Trent Jr."
+    },
+    "lowryky01": {
+      "appearances": 194,
+      "name": "Kyle Lowry"
+    },
+    "drumman01": {
+      "appearances": 191,
+      "name": "Andre Drummond"
+    },
+    "hieldbu01": {
+      "appearances": 190,
+      "name": "Buddy Hield"
+    },
+    "jonesty01": {
+      "appearances": 190,
+      "name": "Tyus Jones"
+    },
+    "bitadgo01": {
+      "appearances": 189,
+      "name": "Goga Bitadze"
+    },
+    "tuckepj01": {
+      "appearances": 189,
+      "name": "P.J. Tucker"
+    },
+    "bambamo01": {
+      "appearances": 188,
+      "name": "Mo Bamba"
+    },
+    "camarto01": {
+      "appearances": 186,
+      "name": "Toumani Camara"
+    },
+    "portibo01": {
+      "appearances": 182,
+      "name": "Bobby Portis"
+    },
+    "powelno01": {
+      "appearances": 182,
+      "name": "Norman Powell"
+    },
+    "johnske04": {
+      "appearances": 180,
+      "name": "Keldon Johnson"
+    },
+    "iveyja01": {
+      "appearances": 179,
+      "name": "Jaden Ivey"
+    },
+    "bogdabo02": {
+      "appearances": 177,
+      "name": "Bojan Bogdanovi\u0107"
+    },
+    "olynyke01": {
+      "appearances": 175,
+      "name": "Kelly Olynyk"
+    },
+    "vandeja01": {
+      "appearances": 174,
+      "name": "Jarred Vanderbilt"
+    },
+    "hardati02": {
+      "appearances": 174,
+      "name": "Tim Hardaway Jr."
+    },
+    "divindo01": {
+      "appearances": 173,
+      "name": "Donte DiVincenzo"
+    },
+    "woodch01": {
+      "appearances": 172,
+      "name": "Christian Wood"
+    },
+    "jonesde02": {
+      "appearances": 170,
+      "name": "Derrick Jones Jr."
+    },
+    "sochaje01": {
+      "appearances": 168,
+      "name": "Jeremy Sochan"
+    },
+    "willizi01": {
+      "appearances": 166,
+      "name": "Zion Williamson"
+    },
+    "livelde01": {
+      "appearances": 165,
+      "name": "Dereck Lively II"
+    },
+    "dosunay01": {
+      "appearances": 165,
+      "name": "Ayo Dosunmu"
+    },
+    "daniedy01": {
+      "appearances": 165,
+      "name": "Dyson Daniels"
+    },
+    "eubandr01": {
+      "appearances": 164,
+      "name": "Drew Eubanks"
+    },
+    "hachiru01": {
+      "appearances": 164,
+      "name": "Rui Hachimura"
+    },
+    "clingdo01": {
+      "appearances": 163,
+      "name": "Donovan Clingan"
+    },
+    "willipa01": {
+      "appearances": 161,
+      "name": "Patrick Williams"
+    },
+    "gordoer01": {
+      "appearances": 158,
+      "name": "Eric Gordon"
+    },
+    "porteke02": {
+      "appearances": 157,
+      "name": "Kevin Porter Jr."
+    },
+    "sextoco01": {
+      "appearances": 156,
+      "name": "Collin Sexton"
+    },
+    "johnsja05": {
+      "appearances": 156,
+      "name": "Jalen Johnson"
+    },
+    "jonestr01": {
+      "appearances": 154,
+      "name": "Tre Jones"
+    },
+    "brownbr01": {
+      "appearances": 153,
+      "name": "Bruce Brown"
+    },
+    "quickim01": {
+      "appearances": 152,
+      "name": "Immanuel Quickley"
+    },
+    "missiyv01": {
+      "appearances": 151,
+      "name": "Yves Missi"
+    },
+    "baglema01": {
+      "appearances": 150,
+      "name": "Marvin Bagley III"
+    },
+    "dunnkr01": {
+      "appearances": 150,
+      "name": "Kris Dunn"
+    },
+    "beaslma01": {
+      "appearances": 150,
+      "name": "Malik Beasley"
+    },
+    "beverpa01": {
+      "appearances": 149,
+      "name": "Patrick Beverley"
+    },
+    "princta02": {
+      "appearances": 148,
+      "name": "Taurean Prince"
+    },
+    "jacksre01": {
+      "appearances": 147,
+      "name": "Reggie Jackson"
+    },
+    "edeyza01": {
+      "appearances": 146,
+      "name": "Zach Edey"
+    },
+    "morrima03": {
+      "appearances": 146,
+      "name": "Marcus Morris"
+    },
+    "thompau01": {
+      "appearances": 145,
+      "name": "Ausar Thompson"
+    },
+    "morrimo01": {
+      "appearances": 143,
+      "name": "Monte Morris"
+    },
+    "grimequ01": {
+      "appearances": 143,
+      "name": "Quentin Grimes"
+    },
+    "hayesja02": {
+      "appearances": 142,
+      "name": "Jaxson Hayes"
+    },
+    "wareke01": {
+      "appearances": 140,
+      "name": "Kel'el Ware"
+    },
+    "haywago01": {
+      "appearances": 139,
+      "name": "Gordon Hayward"
+    },
+    "millebr02": {
+      "appearances": 138,
+      "name": "Brandon Miller"
+    },
+    "hayeski01": {
+      "appearances": 137,
+      "name": "Killian Hayes"
+    },
+    "sharpsh01": {
+      "appearances": 137,
+      "name": "Shaedon Sharpe"
+    },
+    "achiupr01": {
+      "appearances": 135,
+      "name": "Precious Achiuwa"
+    },
+    "georgke01": {
+      "appearances": 132,
+      "name": "Keyonte George"
+    },
+    "champju02": {
+      "appearances": 131,
+      "name": "Julian Champagnie"
+    },
+    "colliza01": {
+      "appearances": 129,
+      "name": "Zach Collins"
+    },
+    "wadede01": {
+      "appearances": 128,
+      "name": "Dean Wade"
+    },
+    "greenjo02": {
+      "appearances": 128,
+      "name": "Josh Green"
+    },
+    "wellsja01": {
+      "appearances": 128,
+      "name": "Jaylen Wells"
+    },
+    "batumni01": {
+      "appearances": 127,
+      "name": "Nicolas Batum"
+    },
+    "martica02": {
+      "appearances": 122,
+      "name": "Caleb Martin"
+    },
+    "kuminjo01": {
+      "appearances": 121,
+      "name": "Jonathan Kuminga"
+    },
+    "thompam01": {
+      "appearances": 121,
+      "name": "Amen Thompson"
+    },
+    "carusal01": {
+      "appearances": 121,
+      "name": "Alex Caruso"
+    },
+    "crowdja01": {
+      "appearances": 121,
+      "name": "Jae Crowder"
+    },
+    "mitchda01": {
+      "appearances": 121,
+      "name": "Davion Mitchell"
+    },
+    "risacza01": {
+      "appearances": 120,
+      "name": "Zaccharie Risacher"
+    },
+    "braunch01": {
+      "appearances": 119,
+      "name": "Christian Braun"
+    },
+    "bullore01": {
+      "appearances": 117,
+      "name": "Reggie Bullock"
+    },
+    "mathube01": {
+      "appearances": 117,
+      "name": "Bennedict Mathurin"
+    },
+    "biyombi01": {
+      "appearances": 116,
+      "name": "Bismack Biyombo"
+    },
+    "meltode01": {
+      "appearances": 116,
+      "name": "De'Anthony Melton"
+    },
+    "vincega01": {
+      "appearances": 115,
+      "name": "Gabe Vincent"
+    },
+    "robinje02": {
+      "appearances": 113,
+      "name": "Jeremiah Robinson-Earl"
+    },
+    "harriga01": {
+      "appearances": 113,
+      "name": "Gary Harris"
+    },
+    "coulibi01": {
+      "appearances": 112,
+      "name": "Bilal Coulibaly"
+    },
+    "holmeri01": {
+      "appearances": 109,
+      "name": "Richaun Holmes"
+    },
+    "agbajoc01": {
+      "appearances": 109,
+      "name": "Ochai Agbaji"
+    },
+    "jackstr02": {
+      "appearances": 108,
+      "name": "Trayce Jackson-Davis"
+    },
+    "willizi02": {
+      "appearances": 108,
+      "name": "Ziaire Williams"
+    },
+    "willija07": {
+      "appearances": 107,
+      "name": "Jaylin Williams"
+    },
+    "willigr01": {
+      "appearances": 107,
+      "name": "Grant Williams"
+    },
+    "quetane01": {
+      "appearances": 106,
+      "name": "Neemias Queta"
+    },
+    "kispeco01": {
+      "appearances": 106,
+      "name": "Corey Kispert"
+    },
+    "thybuma01": {
+      "appearances": 105,
+      "name": "Matisse Thybulle"
+    },
+    "alexani01": {
+      "appearances": 105,
+      "name": "Nickeil Alexander-Walker"
+    },
+    "tateja01": {
+      "appearances": 104,
+      "name": "Jae'Sean Tate"
+    },
+    "curryse01": {
+      "appearances": 102,
+      "name": "Seth Curry"
+    },
+    "moodymo01": {
+      "appearances": 102,
+      "name": "Moses Moody"
+    },
+    "craigto01": {
+      "appearances": 102,
+      "name": "Torrey Craig"
+    },
+    "postqu01": {
+      "appearances": 101,
+      "name": "Quinten Post"
+    },
+    "leverca01": {
+      "appearances": 100,
+      "name": "Caris LeVert"
+    },
+    "wallaca01": {
+      "appearances": 99,
+      "name": "Cason Wallace"
+    },
+    "wiggiaa01": {
+      "appearances": 97,
+      "name": "Aaron Wiggins"
+    },
+    "bryanth01": {
+      "appearances": 96,
+      "name": "Thomas Bryant"
+    },
+    "thomaca02": {
+      "appearances": 95,
+      "name": "Cam Thomas"
+    },
+    "simmobe01": {
+      "appearances": 94,
+      "name": "Ben Simmons"
+    },
+    "anthoco01": {
+      "appearances": 94,
+      "name": "Cole Anthony"
+    },
+    "fournev01": {
+      "appearances": 92,
+      "name": "Evan Fournier"
+    },
+    "clarkjo01": {
+      "appearances": 92,
+      "name": "Jordan Clarkson"
+    },
+    "castlst01": {
+      "appearances": 92,
+      "name": "Stephon Castle"
+    },
+    "podzibr01": {
+      "appearances": 92,
+      "name": "Brandin Podziemski"
+    },
+    "greenje02": {
+      "appearances": 91,
+      "name": "Jeff Green"
+    },
+    "bolbo01": {
+      "appearances": 91,
+      "name": "Bol Bol"
+    },
+    "kornelu01": {
+      "appearances": 91,
+      "name": "Luke Kornet"
+    },
+    "aldamsa01": {
+      "appearances": 91,
+      "name": "Santi Aldama"
+    },
+    "smithja04": {
+      "appearances": 88,
+      "name": "Jalen Smith"
+    },
+    "jacksis01": {
+      "appearances": 87,
+      "name": "Isaiah Jackson"
+    },
+    "bartowi01": {
+      "appearances": 87,
+      "name": "Will Barton"
+    },
+    "monkma01": {
+      "appearances": 86,
+      "name": "Malik Monk"
+    },
+    "chrisma02": {
+      "appearances": 86,
+      "name": "Max Christie"
+    },
+    "marshna01": {
+      "appearances": 86,
+      "name": "Naji Marshall"
+    },
+    "buzelma01": {
+      "appearances": 85,
+      "name": "Matas Buzelis"
+    },
+    "okogijo01": {
+      "appearances": 85,
+      "name": "Josh Okogie"
+    },
+    "highsha01": {
+      "appearances": 84,
+      "name": "Haywood Highsmith"
+    },
+    "fultzma01": {
+      "appearances": 83,
+      "name": "Markelle Fultz"
+    },
+    "georgky01": {
+      "appearances": 81,
+      "name": "Kyshawn George"
+    },
+    "reidna01": {
+      "appearances": 80,
+      "name": "Naz Reid"
+    },
+    "carrica01": {
+      "appearances": 79,
+      "name": "Bub Carrington"
+    },
+    "holidju01": {
+      "appearances": 78,
+      "name": "Justin Holiday"
+    },
+    "anderky01": {
+      "appearances": 78,
+      "name": "Kyle Anderson"
+    },
+    "jordade01": {
+      "appearances": 77,
+      "name": "DeAndre Jordan"
+    },
+    "greenja02": {
+      "appearances": 77,
+      "name": "Javonte Green"
+    },
+    "bogdabo01": {
+      "appearances": 77,
+      "name": "Bogdan Bogdanovi\u0107"
+    },
+    "martike04": {
+      "appearances": 77,
+      "name": "KJ Martin"
+    },
+    "dickgr01": {
+      "appearances": 77,
+      "name": "Gradey Dick"
+    },
+    "simsje01": {
+      "appearances": 76,
+      "name": "Jericho Sims"
+    },
+    "brogdma01": {
+      "appearances": 76,
+      "name": "Malcolm Brogdon"
+    },
+    "theisda01": {
+      "appearances": 75,
+      "name": "Daniel Theis"
+    },
+    "grahade01": {
+      "appearances": 75,
+      "name": "Devonte' Graham"
+    },
+    "griffbl01": {
+      "appearances": 74,
+      "name": "Blake Griffin"
+    },
+    "tillmxa01": {
+      "appearances": 74,
+      "name": "Xavier Tillman Sr."
+    },
+    "reedpa01": {
+      "appearances": 73,
+      "name": "Paul Reed"
+    },
+    "burksal01": {
+      "appearances": 72,
+      "name": "Alec Burks"
+    },
+    "mykhasv01": {
+      "appearances": 72,
+      "name": "Svi Mykhailiuk"
+    },
+    "blackan01": {
+      "appearances": 72,
+      "name": "Anthony Black"
+    },
+    "yabusgu01": {
+      "appearances": 71,
+      "name": "Guerschon Yabusele"
+    },
+    "johnske07": {
+      "appearances": 70,
+      "name": "Keon Johnson"
+    },
+    "filipky01": {
+      "appearances": 69,
+      "name": "Kyle Filipowski"
+    },
+    "queende01": {
+      "appearances": 69,
+      "name": "Derik Queen"
+    },
+    "duartch01": {
+      "appearances": 67,
+      "name": "Chris Duarte"
+    },
+    "branhma01": {
+      "appearances": 66,
+      "name": "Malaki Branham"
+    },
+    "kennalu01": {
+      "appearances": 65,
+      "name": "Luke Kennard"
+    },
+    "bateske01": {
+      "appearances": 65,
+      "name": "Keita Bates-Diop"
+    },
+    "loveke01": {
+      "appearances": 64,
+      "name": "Kevin Love"
+    },
+    "reddica01": {
+      "appearances": 64,
+      "name": "Cam Reddish"
+    },
+    "browntr01": {
+      "appearances": 64,
+      "name": "Troy Brown Jr."
+    },
+    "coffeam01": {
+      "appearances": 64,
+      "name": "Amir Coffey"
+    },
+    "jovicni01": {
+      "appearances": 63,
+      "name": "Nikola Jovi\u0107"
+    },
+    "rolliry01": {
+      "appearances": 63,
+      "name": "Ryan Rollins"
+    },
+    "clownno01": {
+      "appearances": 61,
+      "name": "Noah Clowney"
+    },
+    "connapa01": {
+      "appearances": 61,
+      "name": "Pat Connaughton"
+    },
+    "watsope01": {
+      "appearances": 61,
+      "name": "Peyton Watson"
+    },
+    "mcderdo01": {
+      "appearances": 60,
+      "name": "Doug McDermott"
+    },
+    "hausesa01": {
+      "appearances": 60,
+      "name": "Sam Hauser"
+    },
+    "pritcpa01": {
+      "appearances": 60,
+      "name": "Payton Pritchard"
+    },
+    "josepco01": {
+      "appearances": 60,
+      "name": "Cory Joseph"
+    },
+    "robyis01": {
+      "appearances": 59,
+      "name": "Isaiah Roby"
+    },
+    "bazleda01": {
+      "appearances": 59,
+      "name": "Darius Bazley"
+    },
+    "konchjo01": {
+      "appearances": 59,
+      "name": "John Konchar"
+    },
+    "pokusal01": {
+      "appearances": 58,
+      "name": "Aleksej Pokusevski"
+    },
+    "balllo01": {
+      "appearances": 58,
+      "name": "Lonzo Ball"
+    },
+    "millspa02": {
+      "appearances": 58,
+      "name": "Patty Mills"
+    },
+    "diabamo01": {
+      "appearances": 57,
+      "name": "Moussa Diabat\u00e9"
+    },
+    "manntr01": {
+      "appearances": 57,
+      "name": "Tre Mann"
+    },
+    "dunnry01": {
+      "appearances": 57,
+      "name": "Ryan Dunn"
+    },
+    "huffja01": {
+      "appearances": 56,
+      "name": "Jay Huff"
+    },
+    "greenaj01": {
+      "appearances": 56,
+      "name": "A.J. Green"
+    },
+    "howardw01": {
+      "appearances": 55,
+      "name": "Dwight Howard"
+    },
+    "walkelo01": {
+      "appearances": 55,
+      "name": "Lonnie Walker IV"
+    },
+    "jacksan01": {
+      "appearances": 55,
+      "name": "Andre Jackson Jr."
+    },
+    "toppiob01": {
+      "appearances": 54,
+      "name": "Obi Toppin"
+    },
+    "kalkbry01": {
+      "appearances": 53,
+      "name": "Ryan Kalkbrenner"
+    },
+    "fontesi01": {
+      "appearances": 53,
+      "name": "Simone Fontecchio"
+    },
+    "mcgeeja01": {
+      "appearances": 52,
+      "name": "JaVale McGee"
+    },
+    "wisemja01": {
+      "appearances": 52,
+      "name": "James Wiseman"
+    },
+    "hortota01": {
+      "appearances": 52,
+      "name": "Talen Horton-Tucker"
+    },
+    "willivi01": {
+      "appearances": 52,
+      "name": "Vince Williams Jr."
+    },
+    "elliske01": {
+      "appearances": 52,
+      "name": "Keon Ellis"
+    },
+    "colliis01": {
+      "appearances": 52,
+      "name": "Isaiah Collier"
+    },
+    "knuepko01": {
+      "appearances": 52,
+      "name": "Kon Knueppel"
+    },
+    "dasiltr01": {
+      "appearances": 52,
+      "name": "Tristan Da Silva"
+    },
+    "edwarke02": {
+      "appearances": 51,
+      "name": "Kessler Edwards"
+    },
+    "covinro01": {
+      "appearances": 51,
+      "name": "Robert Covington"
+    },
+    "harrijo01": {
+      "appearances": 49,
+      "name": "Joe Harris"
+    },
+    "bradlav01": {
+      "appearances": 49,
+      "name": "Avery Bradley"
+    },
+    "mcbrimi01": {
+      "appearances": 49,
+      "name": "Miles McBride"
+    },
+    "fearsje01": {
+      "appearances": 49,
+      "name": "Jeremiah Fears"
+    },
+    "barlodo01": {
+      "appearances": 48,
+      "name": "Dominick Barlow"
+    },
+    "raynama01": {
+      "appearances": 48,
+      "name": "Maxime Raynaud"
+    },
+    "klebima01": {
+      "appearances": 47,
+      "name": "Maxi Kleber"
+    },
+    "kolokch01": {
+      "appearances": 46,
+      "name": "Christian Koloko"
+    },
+    "payneca01": {
+      "appearances": 46,
+      "name": "Cameron Payne"
+    },
+    "flaggco01": {
+      "appearances": 46,
+      "name": "Cooper Flagg"
+    },
+    "martico01": {
+      "appearances": 45,
+      "name": "Cody Martin"
+    },
+    "carteje01": {
+      "appearances": 45,
+      "name": "Jevon Carter"
+    },
+    "krejcvi01": {
+      "appearances": 45,
+      "name": "Vit Krejci"
+    },
+    "murrakr01": {
+      "appearances": 44,
+      "name": "Kris Murray"
+    },
+    "stevela01": {
+      "appearances": 44,
+      "name": "Lamar Stevens"
+    },
+    "walkeke02": {
+      "appearances": 44,
+      "name": "Kemba Walker"
+    },
+    "jaqueja01": {
+      "appearances": 43,
+      "name": "Jaime Jaquez Jr."
+    },
+    "champju01": {
+      "appearances": 43,
+      "name": "Justin Champagnie"
+    },
+    "edgecvj01": {
+      "appearances": 43,
+      "name": "VJ Edgecombe"
+    },
+    "mathega01": {
+      "appearances": 42,
+      "name": "Garrison Mathews"
+    },
+    "reathdu01": {
+      "appearances": 41,
+      "name": "Duop Reath"
+    },
+    "greenda02": {
+      "appearances": 41,
+      "name": "Danny Green"
+    },
+    "hendesc01": {
+      "appearances": 41,
+      "name": "Scoot Henderson"
+    },
+    "yurtsom01": {
+      "appearances": 40,
+      "name": "Omer Yurtseven"
+    },
+    "landajo01": {
+      "appearances": 40,
+      "name": "Jock Landale"
+    },
+    "gueyemo02": {
+      "appearances": 40,
+      "name": "Mouhamed Gueye"
+    },
+    "okekech01": {
+      "appearances": 40,
+      "name": "Chuma Okeke"
+    },
+    "pippesc02": {
+      "appearances": 40,
+      "name": "Scotty Pippen Jr."
+    },
+    "lenal01": {
+      "appearances": 39,
+      "name": "Alex Len"
+    },
+    "gilleco01": {
+      "appearances": 39,
+      "name": "Collin Gillespie"
+    },
+    "gibsota01": {
+      "appearances": 37,
+      "name": "Taj Gibson"
+    },
+    "birchkh01": {
+      "appearances": 37,
+      "name": "Khem Birch"
+    },
+    "sharpda01": {
+      "appearances": 37,
+      "name": "Day'Ron Sharpe"
+    },
+    "joeis01": {
+      "appearances": 36,
+      "name": "Isaiah Joe"
+    },
+    "alvarjo01": {
+      "appearances": 36,
+      "name": "Jose Alvarado"
+    },
+    "larsspe01": {
+      "appearances": 36,
+      "name": "Pelle Larsson"
+    },
+    "shamela01": {
+      "appearances": 36,
+      "name": "Landry Shamet"
+    },
+    "favorde01": {
+      "appearances": 35,
+      "name": "Derrick Favors"
+    },
+    "watfotr01": {
+      "appearances": 35,
+      "name": "Trendon Watford"
+    },
+    "demineg01": {
+      "appearances": 35,
+      "name": "Egor D\u0451min"
+    },
+    "dedmode01": {
+      "appearances": 34,
+      "name": "Dewayne Dedmon"
+    },
+    "jonesda03": {
+      "appearances": 34,
+      "name": "Damian Jones"
+    },
+    "easonta01": {
+      "appearances": 34,
+      "name": "Tari Eason"
+    },
+    "mamuksa01": {
+      "appearances": 34,
+      "name": "Sandro Mamukelashvili"
+    },
+    "littlna01": {
+      "appearances": 34,
+      "name": "Nassir Little"
+    },
+    "willibr03": {
+      "appearances": 34,
+      "name": "Brandon Williams"
+    },
+    "liveris01": {
+      "appearances": 34,
+      "name": "Isaiah Livers"
+    },
+    "sensabr01": {
+      "appearances": 34,
+      "name": "Brice Sensabaugh"
+    },
+    "robinor01": {
+      "appearances": 33,
+      "name": "Orlando Robinson"
+    },
+    "clarkbr01": {
+      "appearances": 33,
+      "name": "Brandon Clarke"
+    },
+    "diallha01": {
+      "appearances": 33,
+      "name": "Hamidou Diallo"
+    },
+    "micicva01": {
+      "appearances": 33,
+      "name": "Vasilije Mici\u0107"
+    },
+    "willico04": {
+      "appearances": 33,
+      "name": "Cody Williams"
+    },
+    "tysonja01": {
+      "appearances": 33,
+      "name": "Jaylon Tyson"
+    },
+    "cowarce01": {
+      "appearances": 33,
+      "name": "Cedric Coward"
+    },
+    "baileac01": {
+      "appearances": 33,
+      "name": "Ace Bailey"
+    },
+    "jonessp01": {
+      "appearances": 33,
+      "name": "Spencer Jones"
+    },
+    "paytoga02": {
+      "appearances": 33,
+      "name": "Gary Payton II"
+    },
+    "brissos01": {
+      "appearances": 32,
+      "name": "Oshae Brissett"
+    },
+    "mcgowbr01": {
+      "appearances": 32,
+      "name": "Bryce McGowens"
+    },
+    "noelne01": {
+      "appearances": 31,
+      "name": "Nerlens Noel"
+    },
+    "saricda01": {
+      "appearances": 31,
+      "name": "Dario \u0160ari\u0107"
+    },
+    "mogbojo01": {
+      "appearances": 31,
+      "name": "Jonathan Mogbo"
+    },
+    "holidaa01": {
+      "appearances": 31,
+      "name": "Aaron Holiday"
+    },
+    "mcdanja01": {
+      "appearances": 31,
+      "name": "Jalen McDaniels"
+    },
+    "exumda01": {
+      "appearances": 31,
+      "name": "Dante Exum"
+    },
+    "laravja01": {
+      "appearances": 31,
+      "name": "Jake LaRavia"
+    },
+    "wrighde01": {
+      "appearances": 31,
+      "name": "Delon Wright"
+    },
+    "lylestr01": {
+      "appearances": 30,
+      "name": "Trey Lyles"
+    },
+    "metuch01": {
+      "appearances": 30,
+      "name": "Chimezie Metu"
+    },
+    "bledser01": {
+      "appearances": 30,
+      "name": "Eric Bledsoe"
+    },
+    "riverau01": {
+      "appearances": 30,
+      "name": "Austin Rivers"
+    },
+    "johnsst04": {
+      "appearances": 30,
+      "name": "Stanley Johnson"
+    },
+    "walteja01": {
+      "appearances": 30,
+      "name": "Ja'Kobe Walter"
+    },
+    "smithni01": {
+      "appearances": 30,
+      "name": "Nick Smith Jr."
+    },
+    "wagnemo01": {
+      "appearances": 29,
+      "name": "Moritz Wagner"
+    },
+    "langfro01": {
+      "appearances": 29,
+      "name": "Romeo Langford"
+    },
+    "matthwe02": {
+      "appearances": 29,
+      "name": "Wesley Matthews"
+    },
+    "edwarju01": {
+      "appearances": 29,
+      "name": "Justin Edwards"
+    },
+    "brownmo01": {
+      "appearances": 28,
+      "name": "Moses Brown"
+    },
+    "bonaad01": {
+      "appearances": 28,
+      "name": "Adem Bona"
+    },
+    "hendrta01": {
+      "appearances": 28,
+      "name": "Taylor Hendricks"
+    },
+    "nworajo01": {
+      "appearances": 28,
+      "name": "Jordan Nwora"
+    },
+    "ellebcj01": {
+      "appearances": 28,
+      "name": "CJ Elleby"
+    },
+    "lopezro01": {
+      "appearances": 27,
+      "name": "Robin Lopez"
+    },
+    "aldrila01": {
+      "appearances": 26,
+      "name": "LaMarcus Aldridge"
+    },
+    "ighodos01": {
+      "appearances": 26,
+      "name": "Oso Ighodaro"
+    },
+    "walkeja01": {
+      "appearances": 26,
+      "name": "Jabari Walker"
+    },
+    "winslju01": {
+      "appearances": 25,
+      "name": "Justise Winslow"
+    },
+    "roddyda01": {
+      "appearances": 25,
+      "name": "David Roddy"
+    },
+    "goodwjo01": {
+      "appearances": 25,
+      "name": "Jordan Goodwin"
+    },
+    "sheppbe01": {
+      "appearances": 25,
+      "name": "Ben Sheppard"
+    },
+    "muscami01": {
+      "appearances": 24,
+      "name": "Mike Muscala"
+    },
+    "walkeja02": {
+      "appearances": 24,
+      "name": "Jarace Walker"
+    },
+    "richajo01": {
+      "appearances": 24,
+      "name": "Josh Richardson"
+    },
+    "cissosi01": {
+      "appearances": 24,
+      "name": "Sidy Cissoko"
+    },
+    "wilsoja03": {
+      "appearances": 24,
+      "name": "Jalen Wilson"
+    },
+    "porteot01": {
+      "appearances": 23,
+      "name": "Otto Porter Jr."
+    },
+    "houstca01": {
+      "appearances": 23,
+      "name": "Caleb Houstan"
+    },
+    "walshjo01": {
+      "appearances": 23,
+      "name": "Jordan Walsh"
+    },
+    "hernawi01": {
+      "appearances": 22,
+      "name": "Willy Hernang\u00f3mez"
+    },
+    "willike04": {
+      "appearances": 22,
+      "name": "Kenrich Williams"
+    },
+    "bembrde01": {
+      "appearances": 22,
+      "name": "DeAndre' Bembry"
+    },
+    "korkmfu01": {
+      "appearances": 22,
+      "name": "Furkan Korkmaz"
+    },
+    "jeffrda01": {
+      "appearances": 22,
+      "name": "DaQuan Jeffries"
+    },
+    "harklma01": {
+      "appearances": 22,
+      "name": "Maurice Harkless"
+    },
+    "gallida01": {
+      "appearances": 22,
+      "name": "Danilo Gallinari"
+    },
+    "merrisa01": {
+      "appearances": 22,
+      "name": "Sam Merrill"
+    },
+    "harremo01": {
+      "appearances": 21,
+      "name": "Montrezl Harrell"
+    },
+    "nancela02": {
+      "appearances": 21,
+      "name": "Larry Nance Jr."
+    },
+    "mccontj01": {
+      "appearances": 21,
+      "name": "T.J. McConnell"
+    },
+    "youngth01": {
+      "appearances": 21,
+      "name": "Thaddeus Young"
+    },
+    "luwawti01": {
+      "appearances": 21,
+      "name": "Timoth\u00e9 Luwawu-Cabarrot"
+    },
+    "hardyja02": {
+      "appearances": 21,
+      "name": "Jaden Hardy"
+    },
+    "niangge01": {
+      "appearances": 21,
+      "name": "Georges Niang"
+    },
+    "hawkijo01": {
+      "appearances": 21,
+      "name": "Jordan Hawkins"
+    },
+    "smithde03": {
+      "appearances": 21,
+      "name": "Dennis Smith Jr."
+    },
+    "johnstr03": {
+      "appearances": 21,
+      "name": "Tre Johnson"
+    },
+    "bradlto01": {
+      "appearances": 20,
+      "name": "Tony Bradley"
+    },
+    "ibakase01": {
+      "appearances": 20,
+      "name": "Serge Ibaka"
+    },
+    "knoxke01": {
+      "appearances": 20,
+      "name": "Kevin Knox"
+    },
+    "murraco01": {
+      "appearances": 20,
+      "name": "Collin Murray-Boyles"
+    },
+    "hernaju01": {
+      "appearances": 20,
+      "name": "Juancho Hernang\u00f3mez"
+    },
+    "miltosh01": {
+      "appearances": 20,
+      "name": "Shake Milton"
+    },
+    "jacksgg01": {
+      "appearances": 20,
+      "name": "GG Jackson II"
+    },
+    "simpskj01": {
+      "appearances": 20,
+      "name": "KJ Simpson"
+    },
+    "juzanjo01": {
+      "appearances": 20,
+      "name": "Johnny Juzang"
+    },
+    "sheadja01": {
+      "appearances": 20,
+      "name": "Jamal Shead"
+    },
+    "pickeja02": {
+      "appearances": 20,
+      "name": "Jalen Pickett"
+    },
+    "hillge01": {
+      "appearances": 19,
+      "name": "George Hill"
+    },
+    "butleja02": {
+      "appearances": 19,
+      "name": "Jared Butler"
+    },
+    "azubuud01": {
+      "appearances": 18,
+      "name": "Udoka Azubuike"
+    },
+    "jemistr01": {
+      "appearances": 18,
+      "name": "Trey Jemison"
+    },
+    "primojo01": {
+      "appearances": 18,
+      "name": "Joshua Primo"
+    },
+    "nembhry01": {
+      "appearances": 18,
+      "name": "Ryan Nembhard"
+    },
+    "hamptrj01": {
+      "appearances": 18,
+      "name": "R.J. Hampton"
+    },
+    "jamessi01": {
+      "appearances": 18,
+      "name": "Sion James"
+    },
+    "bouchch01": {
+      "appearances": 17,
+      "name": "Chris Boucher"
+    },
+    "pottemi01": {
+      "appearances": 17,
+      "name": "Micah Potter"
+    },
+    "daviste02": {
+      "appearances": 17,
+      "name": "Terence Davis"
+    },
+    "mayssk01": {
+      "appearances": 17,
+      "name": "Skylar Mays"
+    },
+    "martity01": {
+      "appearances": 17,
+      "name": "Tyrese Martin"
+    },
+    "templga01": {
+      "appearances": 17,
+      "name": "Garrett Temple"
+    },
+    "bantoda01": {
+      "appearances": 17,
+      "name": "Dalano Banton"
+    },
+    "netora01": {
+      "appearances": 17,
+      "name": "Raul Neto"
+    },
+    "knechda01": {
+      "appearances": 17,
+      "name": "Dalton Knecht"
+    },
+    "greenja01": {
+      "appearances": 16,
+      "name": "JaMychal Green"
+    },
+    "whiteha01": {
+      "appearances": 16,
+      "name": "Hassan Whiteside"
+    },
+    "nnajize01": {
+      "appearances": 16,
+      "name": "Zeke Nnaji"
+    },
+    "matkoka01": {
+      "appearances": 16,
+      "name": "Karlo Matkovi\u0107"
+    },
+    "houseda01": {
+      "appearances": 16,
+      "name": "Danuel House Jr."
+    },
+    "gilyaja01": {
+      "appearances": 16,
+      "name": "Jacob Gilyard"
+    },
+    "inglejo01": {
+      "appearances": 16,
+      "name": "Joe Ingles"
+    },
+    "jacksqu01": {
+      "appearances": 16,
+      "name": "Quenton Jackson"
+    },
+    "furphjo01": {
+      "appearances": 16,
+      "name": "Johnny Furphy"
+    },
+    "maledth01": {
+      "appearances": 15,
+      "name": "Th\u00e9o Maledon"
+    },
+    "richawi02": {
+      "appearances": 15,
+      "name": "Will Richard"
+    },
+    "couside01": {
+      "appearances": 14,
+      "name": "DeMarcus Cousins"
+    },
+    "fernabr01": {
+      "appearances": 14,
+      "name": "Bruno Fernando"
+    },
+    "hylanbo01": {
+      "appearances": 14,
+      "name": "Bones Hyland"
+    },
+    "satorto01": {
+      "appearances": 14,
+      "name": "Tom\u00e1\u0161 Satoransk\u00fd"
+    },
+    "sumneed01": {
+      "appearances": 14,
+      "name": "Edmond Sumner"
+    },
+    "mcgruro01": {
+      "appearances": 14,
+      "name": "Rodney McGruder"
+    },
+    "beaucma01": {
+      "appearances": 14,
+      "name": "MarJon Beauchamp"
+    },
+    "toscaju01": {
+      "appearances": 14,
+      "name": "Juan Toscano-Anderson"
+    },
+    "spencca01": {
+      "appearances": 14,
+      "name": "Cam Spencer"
+    },
+    "holmeda01": {
+      "appearances": 13,
+      "name": "DaRon Holmes"
+    },
+    "battlja01": {
+      "appearances": 13,
+      "name": "Jamison Battle"
+    },
+    "thomptr01": {
+      "appearances": 12,
+      "name": "Tristan Thompson"
+    },
+    "garzalu01": {
+      "appearances": 12,
+      "name": "Luka Garza"
+    },
+    "rubiori01": {
+      "appearances": 12,
+      "name": "Ricky Rubio"
+    },
+    "brookar01": {
+      "appearances": 12,
+      "name": "Armoni Brooks"
+    },
+    "sykeske01": {
+      "appearances": 12,
+      "name": "Keifer Sykes"
+    },
+    "leeda03": {
+      "appearances": 12,
+      "name": "Damion Lee"
+    },
+    "bostobr01": {
+      "appearances": 12,
+      "name": "Brandon Boston Jr."
+    },
+    "waterli01": {
+      "appearances": 12,
+      "name": "Lindy Waters III"
+    },
+    "bazemke01": {
+      "appearances": 12,
+      "name": "Kent Bazemore"
+    },
+    "snellto01": {
+      "appearances": 12,
+      "name": "Tony Snell"
+    },
+    "griffaj01": {
+      "appearances": 12,
+      "name": "AJ Griffin"
+    },
+    "taylote01": {
+      "appearances": 11,
+      "name": "Terry Taylor"
+    },
+    "ntilila01": {
+      "appearances": 11,
+      "name": "Frank Ntilikina"
+    },
+    "johnsja01": {
+      "appearances": 11,
+      "name": "James Johnson"
+    },
+    "cancavl01": {
+      "appearances": 11,
+      "name": "Vlatko \u010can\u010dar"
+    },
+    "jeromty01": {
+      "appearances": 11,
+      "name": "Ty Jerome"
+    },
+    "johnsaj01": {
+      "appearances": 11,
+      "name": "AJ Johnson"
+    },
+    "minotjo01": {
+      "appearances": 11,
+      "name": "Josh Minott"
+    },
+    "mitchaj01": {
+      "appearances": 11,
+      "name": "Ajay Mitchell"
+    },
+    "rosede01": {
+      "appearances": 11,
+      "name": "Derrick Rose"
+    },
+    "councri01": {
+      "appearances": 11,
+      "name": "Ricky Council IV"
+    },
+    "joneska01": {
+      "appearances": 10,
+      "name": "Kai Jones"
+    },
+    "hukpoar01": {
+      "appearances": 10,
+      "name": "Ariel Hukporti"
+    },
+    "gillan01": {
+      "appearances": 10,
+      "name": "Anthony Gill"
+    },
+    "forretr01": {
+      "appearances": 10,
+      "name": "Trent Forrest"
+    },
+    "rosste01": {
+      "appearances": 10,
+      "name": "Terrence Ross"
+    },
+    "washidu02": {
+      "appearances": 10,
+      "name": "Duane Washington Jr."
+    },
+    "arizatr01": {
+      "appearances": 10,
+      "name": "Trevor Ariza"
+    },
+    "thorjt01": {
+      "appearances": 10,
+      "name": "JT Thor"
+    },
+    "salauti01": {
+      "appearances": 10,
+      "name": "Tidjane Sala\u00fcn"
+    },
+    "antetth01": {
+      "appearances": 9,
+      "name": "Thanasis Antetokounmpo"
+    },
+    "gabriwe01": {
+      "appearances": 9,
+      "name": "Wenyen Gabriel"
+    },
+    "dragigo01": {
+      "appearances": 9,
+      "name": "Goran Dragi\u0107"
+    },
+    "evbuoto01": {
+      "appearances": 9,
+      "name": "Tosan Evbuomwan"
+    },
+    "sheppre01": {
+      "appearances": 9,
+      "name": "Reed Sheppard"
+    },
+    "sandeko01": {
+      "appearances": 9,
+      "name": "Kobe Sanders"
+    },
+    "ellinwa01": {
+      "appearances": 9,
+      "name": "Wayne Ellington"
+    },
+    "paytoel01": {
+      "appearances": 9,
+      "name": "Elfrid Payton"
+    },
+    "mccaija01": {
+      "appearances": 9,
+      "name": "Jared McCain"
+    },
+    "poweldr01": {
+      "appearances": 9,
+      "name": "Drake Powell"
+    },
+    "diakima01": {
+      "appearances": 8,
+      "name": "Mamadi Diakite"
+    },
+    "omorueu01": {
+      "appearances": 8,
+      "name": "Eugene Omoruyi"
+    },
+    "jacksfr01": {
+      "appearances": 8,
+      "name": "Frank Jackson"
+    },
+    "nixda01": {
+      "appearances": 8,
+      "name": "Daishen Nix"
+    },
+    "phillju01": {
+      "appearances": 8,
+      "name": "Julian Phillips"
+    },
+    "osmande01": {
+      "appearances": 8,
+      "name": "Cedi Osman"
+    },
+    "portecr01": {
+      "appearances": 8,
+      "name": "Craig Porter Jr."
+    },
+    "morrima02": {
+      "appearances": 7,
+      "name": "Markieff Morris"
+    },
+    "castlco01": {
+      "appearances": 7,
+      "name": "Colin Castleton"
+    },
+    "vukcetr01": {
+      "appearances": 7,
+      "name": "Tristan Vukcevic"
+    },
+    "prospol01": {
+      "appearances": 7,
+      "name": "Olivier-Maxence Prosper"
+    },
+    "anderju01": {
+      "appearances": 7,
+      "name": "Justin Anderson"
+    },
+    "browngr01": {
+      "appearances": 7,
+      "name": "Greg Brown III"
+    },
+    "diawamo01": {
+      "appearances": 7,
+      "name": "Mohamed Diawara"
+    },
+    "dukeda01": {
+      "appearances": 7,
+      "name": "David Duke Jr."
+    },
+    "sassema01": {
+      "appearances": 7,
+      "name": "Marcus Sasser"
+    },
+    "wallake01": {
+      "appearances": 7,
+      "name": "Keaton Wallace"
+    },
+    "hollaro01": {
+      "appearances": 7,
+      "name": "Ron Holland"
+    },
+    "jenkida01": {
+      "appearances": 7,
+      "name": "Daniss Jenkins"
+    },
+    "jakucka01": {
+      "appearances": 7,
+      "name": "Kasparas Jaku\u010dionis"
+    },
+    "dienggo01": {
+      "appearances": 6,
+      "name": "Gorgui Dieng"
+    },
+    "garubus01": {
+      "appearances": 6,
+      "name": "Usman Garuba"
+    },
+    "bassech01": {
+      "appearances": 6,
+      "name": "Charles Bassey"
+    },
+    "sarrol01": {
+      "appearances": 6,
+      "name": "Olivier Sarr"
+    },
+    "hoardja01": {
+      "appearances": 6,
+      "name": "Jaylen Hoard"
+    },
+    "chrisjo01": {
+      "appearances": 6,
+      "name": "Josh Christopher"
+    },
+    "smithis01": {
+      "appearances": 6,
+      "name": "Ish Smith"
+    },
+    "reedda01": {
+      "appearances": 6,
+      "name": "Davon Reed"
+    },
+    "flynnma01": {
+      "appearances": 6,
+      "name": "Malachi Flynn"
+    },
+    "mclembe01": {
+      "appearances": 6,
+      "name": "Ben McLemore"
+    },
+    "davisjo06": {
+      "appearances": 6,
+      "name": "Johnny Davis"
+    },
+    "samanlu01": {
+      "appearances": 6,
+      "name": "Luka \u0160amani\u0107"
+    },
+    "terryda01": {
+      "appearances": 6,
+      "name": "Dalen Terry"
+    },
+    "ruperra01": {
+      "appearances": 6,
+      "name": "Rayan Rupert"
+    },
+    "santogu01": {
+      "appearances": 6,
+      "name": "Gui Santos"
+    },
+    "cliffni01": {
+      "appearances": 6,
+      "name": "Nique Clifford"
+    },
+    "davised01": {
+      "appearances": 5,
+      "name": "Ed Davis"
+    },
+    "pascher01": {
+      "appearances": 5,
+      "name": "Eric Paschall"
+    },
+    "timmedr01": {
+      "appearances": 5,
+      "name": "Drew Timme"
+    },
+    "oladivi01": {
+      "appearances": 5,
+      "name": "Victor Oladipo"
+    },
+    "watanyu01": {
+      "appearances": 5,
+      "name": "Yuta Watanabe"
+    },
+    "sprinja01": {
+      "appearances": 5,
+      "name": "Jaden Springer"
+    },
+    "portejo01": {
+      "appearances": 5,
+      "name": "Jontay Porter"
+    },
+    "strawju01": {
+      "appearances": 5,
+      "name": "Julian Strawther"
+    },
+    "brookke02": {
+      "appearances": 5,
+      "name": "Keion Brooks Jr."
+    },
+    "reevean01": {
+      "appearances": 5,
+      "name": "Antonio Reeves"
+    },
+    "scheiba01": {
+      "appearances": 5,
+      "name": "Baylor Scheierman"
+    },
+    "sarafbe01": {
+      "appearances": 5,
+      "name": "Ben Saraf"
+    },
+    "thompet01": {
+      "appearances": 5,
+      "name": "Ethan Thompson"
+    },
+    "wolfda01": {
+      "appearances": 5,
+      "name": "Danny Wolf"
+    },
+    "leoname01": {
+      "appearances": 4,
+      "name": "Meyers Leonard"
+    },
+    "hallpj01": {
+      "appearances": 4,
+      "name": "PJ Hall"
+    },
+    "carlsbr01": {
+      "appearances": 4,
+      "name": "Branden Carlson"
+    },
+    "knighna01": {
+      "appearances": 4,
+      "name": "Nathan Knight"
+    },
+    "zelleco01": {
+      "appearances": 4,
+      "name": "Cody Zeller"
+    },
+    "kelleky01": {
+      "appearances": 4,
+      "name": "Kylor Kelley"
+    },
+    "william01": {
+      "appearances": 4,
+      "name": "Amari Williams"
+    },
+    "isaacjo01": {
+      "appearances": 4,
+      "name": "Jonathan Isaac"
+    },
+    "nwabada01": {
+      "appearances": 4,
+      "name": "David Nwaba"
+    },
+    "campafa01": {
+      "appearances": 4,
+      "name": "Facundo Campazzo"
+    },
+    "hugheel01": {
+      "appearances": 4,
+      "name": "Elijah Hughes"
+    },
+    "nowelja01": {
+      "appearances": 4,
+      "name": "Jaylen Nowell"
+    },
+    "simpsza01": {
+      "appearances": 4,
+      "name": "Zavier Simpson"
+    },
+    "kalaige01": {
+      "appearances": 4,
+      "name": "Georgios Kalaitzakis"
+    },
+    "lamban01": {
+      "appearances": 4,
+      "name": "Anthony Lamb"
+    },
+    "arcidry01": {
+      "appearances": 4,
+      "name": "Ryan Arcidiacono"
+    },
+    "willije02": {
+      "appearances": 4,
+      "name": "Jeenathan Williams"
+    },
+    "whitmca01": {
+      "appearances": 4,
+      "name": "Cam Whitmore"
+    },
+    "freemja01": {
+      "appearances": 4,
+      "name": "Javon Freeman-Liberty"
+    },
+    "clarkja02": {
+      "appearances": 4,
+      "name": "Jaylen Clark"
+    },
+    "tysonhu01": {
+      "appearances": 4,
+      "name": "Hunter Tyson"
+    },
+    "beekmre01": {
+      "appearances": 4,
+      "name": "Reece Beekman"
+    },
+    "baglema02": {
+      "appearances": 4,
+      "name": "Marcus Bagley"
+    },
+    "spencpa01": {
+      "appearances": 4,
+      "name": "Pat Spencer"
+    },
+    "gillefr01": {
+      "appearances": 3,
+      "name": "Freddie Gillespie"
+    },
+    "cissemo01": {
+      "appearances": 3,
+      "name": "Moussa Cisse"
+    },
+    "caulewi01": {
+      "appearances": 3,
+      "name": "Willie Cauley-Stein"
+    },
+    "brownch05": {
+      "appearances": 3,
+      "name": "Chaundee Brown Jr."
+    },
+    "forbebr01": {
+      "appearances": 3,
+      "name": "Bryn Forbes"
+    },
+    "queentr01": {
+      "appearances": 3,
+      "name": "Trevelin Queen"
+    },
+    "dowtije01": {
+      "appearances": 3,
+      "name": "Jeff Dowtin Jr."
+    },
+    "pendano01": {
+      "appearances": 3,
+      "name": "Noah Penda"
+    },
+    "jacksjo02": {
+      "appearances": 3,
+      "name": "Josh Jackson"
+    },
+    "anthoca01": {
+      "appearances": 3,
+      "name": "Carmelo Anthony"
+    },
+    "muldemy01": {
+      "appearances": 3,
+      "name": "Mychal Mulder"
+    },
+    "brownst02": {
+      "appearances": 3,
+      "name": "Sterling Brown"
+    },
+    "graveha01": {
+      "appearances": 3,
+      "name": "Hassani Gravett"
+    },
+    "waltode01": {
+      "appearances": 3,
+      "name": "Derrick Walton"
+    },
+    "mclaujo01": {
+      "appearances": 3,
+      "name": "Jordan McLaughlin"
+    },
+    "watsopa01": {
+      "appearances": 3,
+      "name": "Paul Watson"
+    },
+    "fraziti01": {
+      "appearances": 3,
+      "name": "Tim Frazier"
+    },
+    "pangoke01": {
+      "appearances": 3,
+      "name": "Kevin Pangos"
+    },
+    "tilliki02": {
+      "appearances": 3,
+      "name": "Killian Tillie"
+    },
+    "mckinal01": {
+      "appearances": 3,
+      "name": "Alfonzo McKinnie"
+    },
+    "goodwbr01": {
+      "appearances": 3,
+      "name": "Brandon Goodwin"
+    },
+    "okpalkz01": {
+      "appearances": 3,
+      "name": "KZ Okpala"
+    },
+    "moorewe01": {
+      "appearances": 3,
+      "name": "Wendell Moore Jr."
+    },
+    "smithdr01": {
+      "appearances": 3,
+      "name": "Dru Smith"
+    },
+    "walljo01": {
+      "appearances": 3,
+      "name": "John Wall"
+    },
+    "blackle01": {
+      "appearances": 3,
+      "name": "Leaky Black"
+    },
+    "baldwpa01": {
+      "appearances": 3,
+      "name": "Patrick Baldwin Jr."
+    },
+    "jonesdi01": {
+      "appearances": 3,
+      "name": "Dillon Jones"
+    },
+    "tomlina01": {
+      "appearances": 3,
+      "name": "Nae'Qwan Tomlin"
+    },
+    "careyve01": {
+      "appearances": 2,
+      "name": "Vernon Carey Jr."
+    },
+    "fallta01": {
+      "appearances": 2,
+      "name": "Tacko Fall"
+    },
+    "wilsodj01": {
+      "appearances": 2,
+      "name": "D.J. Wilson"
+    },
+    "perryre01": {
+      "appearances": 2,
+      "name": "Reggie Perry"
+    },
+    "nancepe01": {
+      "appearances": 2,
+      "name": "Pete Nance"
+    },
+    "kanteen01": {
+      "appearances": 2,
+      "name": "Enes Freedom"
+    },
+    "millspa01": {
+      "appearances": 2,
+      "name": "Paul Millsap"
+    },
+    "vonleno01": {
+      "appearances": 2,
+      "name": "Noah Vonleh"
+    },
+    "hasleud01": {
+      "appearances": 2,
+      "name": "Udonis Haslem"
+    },
+    "toddis01": {
+      "appearances": 2,
+      "name": "Isaiah Todd"
+    },
+    "loftoke01": {
+      "appearances": 2,
+      "name": "Kenneth Lofton Jr."
+    },
+    "badjiib01": {
+      "appearances": 2,
+      "name": "Ibou Badji"
+    },
+    "willima11": {
+      "appearances": 2,
+      "name": "Malik Williams"
+    },
+    "freemen01": {
+      "appearances": 2,
+      "name": "Enrique Freeman"
+    },
+    "livinch01": {
+      "appearances": 2,
+      "name": "Chris Livingston"
+    },
+    "yangha01": {
+      "appearances": 2,
+      "name": "Yang Hansen"
+    },
+    "martike03": {
+      "appearances": 2,
+      "name": "Kelan Martin"
+    },
+    "culveja01": {
+      "appearances": 2,
+      "name": "Jarrett Culver"
+    },
+    "lewisma05": {
+      "appearances": 2,
+      "name": "Maxwell Lewis"
+    },
+    "bouyeja01": {
+      "appearances": 2,
+      "name": "Jamaree Bouyea"
+    },
+    "proctty01": {
+      "appearances": 2,
+      "name": "Tyrese Proctor"
+    },
+    "bolmale01": {
+      "appearances": 2,
+      "name": "Leandro Bolmaro"
+    },
+    "augusdj01": {
+      "appearances": 2,
+      "name": "D.J. Augustin"
+    },
+    "wanambr01": {
+      "appearances": 2,
+      "name": "Brad Wanamaker"
+    },
+    "brownch02": {
+      "appearances": 2,
+      "name": "Charlie Brown Jr."
+    },
+    "cookty01": {
+      "appearances": 2,
+      "name": "Tyler Cook"
+    },
+    "nunnke01": {
+      "appearances": 2,
+      "name": "Kendrick Nunn"
+    },
+    "wainris01": {
+      "appearances": 2,
+      "name": "Ish Wainright"
+    },
+    "weslebl01": {
+      "appearances": 2,
+      "name": "Blake Wesley"
+    },
+    "washity02": {
+      "appearances": 2,
+      "name": "TyTy Washington Jr."
+    },
+    "bertada01": {
+      "appearances": 2,
+      "name": "D\u0101vis Bert\u0101ns"
+    },
+    "diengou01": {
+      "appearances": 2,
+      "name": "Ousmane Dieng"
+    },
+    "umudest01": {
+      "appearances": 2,
+      "name": "Stanley Umude"
+    },
+    "lawsoaj01": {
+      "appearances": 2,
+      "name": "A.J. Lawson"
+    },
+    "baughda01": {
+      "appearances": 2,
+      "name": "Damion Baugh"
+    },
+    "rhodeja01": {
+      "appearances": 2,
+      "name": "Jared Rhoden"
+    },
+    "jamesbr02": {
+      "appearances": 2,
+      "name": "Bronny James"
+    },
+    "gonzahu01": {
+      "appearances": 2,
+      "name": "Hugo Gonz\u00e1lez"
+    },
+    "watkija01": {
+      "appearances": 2,
+      "name": "Jamir Watkins"
+    },
+    "hillso01": {
+      "appearances": 1,
+      "name": "Solomon Hill"
+    },
+    "chiozch01": {
+      "appearances": 1,
+      "name": "Chris Chiozza"
+    },
+    "smartja01": {
+      "appearances": 1,
+      "name": "Javonte Smart"
+    },
+    "thomais02": {
+      "appearances": 1,
+      "name": "Isaiah Thomas"
+    },
+    "laymaja01": {
+      "appearances": 1,
+      "name": "Jake Layman"
+    },
+    "schofad01": {
+      "appearances": 1,
+      "name": "Admiral Schofield"
+    },
+    "clarkga01": {
+      "appearances": 1,
+      "name": "Gary Clark"
+    },
+    "iwundwe01": {
+      "appearances": 1,
+      "name": "Wes Iwundu"
+    },
+    "stanlca01": {
+      "appearances": 1,
+      "name": "Cassius Stanley"
+    },
+    "gayru01": {
+      "appearances": 1,
+      "name": "Rudy Gay"
+    },
+    "stephla01": {
+      "appearances": 1,
+      "name": "Lance Stephenson"
+    },
+    "rondora01": {
+      "appearances": 1,
+      "name": "Rajon Rondo"
+    },
+    "blevike01": {
+      "appearances": 1,
+      "name": "Keljin Blevins"
+    },
+    "louzama01": {
+      "appearances": 1,
+      "name": "Didi Louzada"
+    },
+    "wrighmc01": {
+      "appearances": 1,
+      "name": "McKinley Wright IV"
+    },
+    "butlejo01": {
+      "appearances": 1,
+      "name": "John Butler"
+    },
+    "wiggili01": {
+      "appearances": 1,
+      "name": "Lindell Wigginton"
+    },
+    "pinsoth01": {
+      "appearances": 1,
+      "name": "Theo Pinson"
+    },
+    "cooksxa01": {
+      "appearances": 1,
+      "name": "Xavier Cooks"
+    },
+    "leesa01": {
+      "appearances": 1,
+      "name": "Saben Lee"
+    },
+    "ryanma01": {
+      "appearances": 1,
+      "name": "Matt Ryan"
+    },
+    "cainja01": {
+      "appearances": 1,
+      "name": "Jamal Cain"
+    },
+    "haganas01": {
+      "appearances": 1,
+      "name": "Ashton Hagans"
+    },
+    "ramseja01": {
+      "appearances": 1,
+      "name": "Jahmi'us Ramsey"
+    },
+    "dilliro01": {
+      "appearances": 1,
+      "name": "Rob Dillingham"
+    },
+    "shannte01": {
+      "appearances": 1,
+      "name": "Terrence Shannon Jr."
+    },
+    "peterdr01": {
+      "appearances": 1,
+      "name": "Drew Peterson"
+    },
+    "tshieos01": {
+      "appearances": 1,
+      "name": "Oscar Tshiebwe"
+    },
+    "jonesis01": {
+      "appearances": 1,
+      "name": "Isaac Jones"
+    },
+    "cardwdy01": {
+      "appearances": 1,
+      "name": "Dylan Cardwell"
+    },
+    "peavymi01": {
+      "appearances": 1,
+      "name": "Micah Peavy"
+    },
+    "kolekty01": {
+      "appearances": 1,
+      "name": "Tyler Kolek"
+    },
+    "loveca01": {
+      "appearances": 1,
+      "name": "Caleb Love"
+    },
+    "rileywi01": {
+      "appearances": 1,
+      "name": "Will Riley"
+    },
+    "traorno01": {
+      "appearances": 1,
+      "name": "Nolan Traor\u00e9"
+    }
+  },
+  "vocab_size": 715,
+  "special_tokens": {
+    "PAD": 0,
+    "UNK": 1
+  }
+}

@@ -1,7 +1,3 @@
-# NBA Data Libraries
-nba_api>=1.4.1              # Official NBA stats API wrapper - primary data source
-basketball-reference-scraper>=0.4.5  # Alternative/supplementary scraping
-
 # Data Processing
 pandas>=2.0.0
 numpy>=1.24.0
@@ -9,25 +5,13 @@ numpy>=1.24.0
 # ML/Modeling
 scikit-learn>=1.3.0
 xgboost>=2.0.0
-lightgbm>=4.0.0
-optuna>=3.0.0               # Hyperparameter tuning
-
-# Visualization & Analysis
-matplotlib>=3.7.0
-seaborn>=0.12.0
-plotly>=5.15.0              # Interactive charts for UI
 
 # Web UI
-streamlit>=1.28.0           # Quick UI framework
-fastapi>=0.104.0            # If you want a proper API later
-uvicorn>=0.24.0
+streamlit>=1.28.0
 
 # Utilities
 requests>=2.31.0
-tqdm>=4.66.0                # Progress bars
-python-dotenv>=1.0.0        # Environment variables
-joblib>=1.3.0               # Model persistence
+joblib>=1.3.0
 
 # Betting/Optimization
-scipy>=1.11.0               # For Kelly criterion optimization
-pulp>=2.7.0                 # Linear programming for bet optimization
+scipy>=1.11.0

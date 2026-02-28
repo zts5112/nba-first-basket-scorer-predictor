@@ -35,11 +35,19 @@ env/
 
 # Data files (large, regeneratable)
 data/raw/
-data/processed/
 data/player_stats/
+# Exclude most processed data but keep files needed for deployment
+data/processed/*.parquet
+!data/processed/train_v4.parquet
+!data/processed/val_v4.parquet
+!data/processed/test_v4.parquet
 
-# Models (large, regeneratable)
-models/*.joblib
+# Models (keep V6 for deployment, exclude older versions)
+models/*_v[1-5].joblib
+models/player_first_scorer_model.joblib
+models/jump_ball_model.joblib
+models/team_first_scorer_model.joblib
+models/team_first_scorer_model_v2.joblib
 models/*.pkl
 
 # Logs
@@ -62,5 +70,5 @@ Thumbs.db
 .ipynb_checkpoints/
 *.ipynb
 
-# Streamlit
-.streamlit/
+# Streamlit secrets (but keep config)
+.streamlit/secrets.toml
